@@ -17,7 +17,8 @@ Flutter是什么呢?它是Google使用Dart语言开发的移动应用开发框�
 今年（2018年）2月，Flutter推出了第一个Beta版本。这真是个好事。期待正式版早日发布。最近研究了一下Flutter，这个工具从安装到运行经历了九九八十一难，好在终于成功运行起来了。下面看一下官方的Demo在Android模拟器的运行效果图：
 
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/app.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/app.png?raw=true)
+
 
 下面就 **详细的** 讲一下我的安装之路和遇到的一些问题：
 
@@ -94,7 +95,7 @@ linux安装文档请查看：https://flutter.io/setup-linux/
 
 运行过程截图：
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/download-flutter.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/download-flutter.png?raw=true)
 
 ----
 
@@ -110,13 +111,13 @@ linux安装文档请查看：https://flutter.io/setup-linux/
 
 如果想在命令行中使用 flutter 命令，你需要添加flutter的路径到path中去。这个和配置java环境变量是同样的做法，找到flutter安装路径，比如我的是`E:\develop\flutter\bin`，我复制这个路径，右键`我的电脑`-->`属性`-->`高级系统属性`-->`环境变量`-->`找到PATH`，点击编辑-->在最后把刚复制的路径粘贴进来，-->一直`保存`确定就可以了。
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/path1.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/path1.png?raw=true)
 
 接下来，使用`flutter --version` 查看一下版本号，看看环境变量配置好了没有。。如果如下图所示表示OK。
 
 **【大坑】注意：如果只输入flutter  或者输入flutter -version   那么flutter以为是下达了自动更新命令，会自动更新最新版本，这个一定要注意了。**
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/path2.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/path2.png?raw=true)
 
 ----
 
@@ -129,9 +130,9 @@ win + R 快捷键，输入cmd，回车，输入`flutter doctor`，回车。
 安装过程截图：
 
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-dos1.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-dos1.png?raw=true)
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-dos2.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-dos2.png?raw=true)
 
 **注意：**
 [√]这个是安装OK的，[X]是需要安装的，或者是已安装但是没有运行起来的。（具体这里面有标记`[X]`的那些项如何安装后文有详细讲解，这里简单提一下。）
@@ -149,7 +150,7 @@ win + R 快捷键，输入cmd，回车，输入`flutter doctor`，回车。
 
 查看版本号的命令使用截图如下：
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-dos3.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-dos3.png?raw=true)
 
 以下是常用命令：
 
@@ -198,11 +199,11 @@ File --> settings --> Plugins --> Browse repositories，然后输入Flutter就�
 
 * `Flutter`插件安装：
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/plugin-flutter.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/plugin-flutter.png?raw=true)
 
 * `Dart`插件安装：
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/plugin-dart.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/plugin-dart.png?raw=true)
 
 安装好之后重启一下AS就可以使用插件了。
 
@@ -219,26 +220,26 @@ File --> settings --> Plugins --> Browse repositories，然后输入Flutter就�
 
 **注意：**项目名称必须是小写，单词之间用下划线隔开，你看我这样创建就给我提示错误了，报错的如图所示。
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/app2.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/app2.png?raw=true)
 
 > （二）输入包名，点击next，点击finish，等待编译就可以了。如果没配置好，这个时候往往会报错。
 
 **注意：**这里可以支持ios和kotlin，如果需要的话可以勾上。
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/app3.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/app3.png?raw=true)
 
 > （三）首先模拟器，然后选择要运行的项目，注意了，这里有一个`MainActivity` 和 `main.dart`，选择`main.dart`，然后点击`绿色的三角号`图标运行（或者点击菜单栏    `Run`）就可以了。
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/app4.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/app4.png?raw=true)
 
 
 我用的AS3.2，我截个图，菜单栏跟以前版本有点不同，之前的AS版本可以在Build菜单找到编译选项的。
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/app5.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/app5.png?raw=true)
 
 如果代码有更改，可以点击`黄色的闪电图标`
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/app6.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/app6.png?raw=true)
 
 点击它之后就可以进行热加载。
 
@@ -268,9 +269,9 @@ File --> settings --> Plugins --> Browse repositories，然后输入Flutter就�
 
 **注意：由于下载的国外的网站上的资料，需要科学上网！！！**
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits1.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits1.png?raw=true)
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits2.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits2.png?raw=true)
 
 我退出命令行再运行，还是照样出错。
 
@@ -278,36 +279,36 @@ File --> settings --> Plugins --> Browse repositories，然后输入Flutter就�
 
     计算机 --> 右键 “管理” -->  服务和应用程序里面，点击“服务”，然后如下图所示：
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits3.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits3.png?raw=true)
 
 然后选中图中标记的这个，右键点击“属性”，然后改成自动，确定。如下图所示：
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits4.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits4.png?raw=true)
 
 然后我把刚下载的flutter文件夹删掉，重新执行git命令，下载flutter。（下好了之后记得配置环境变量）然后执行`flutter doctor` 命令，这次好一些了，但是命令行更新的很慢，一直停留在命令行，如图所示：
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits5.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits5.png?raw=true)
 
 等了好久，终于出来了。
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits6.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits6.png?raw=true)
 
 然后又是漫长的等待，在下载Material fonts这里出错了,于是我关掉了命令行，重新打开命令行，执行`flutter doctor`命令。
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits7.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits7.png?raw=true)
 
 然后又是失败。。不等了，关闭命令行吧。
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits8.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits8.png?raw=true)
 
 然后重新打开命令行，执行`flutter doctor`命令。经历了几个小时的折腾，终于环境安装好了！
 看到下面那个对勾，表示flutter已经更新完成了。
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits9.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits9.png?raw=true)
 
 然后重新打开命令行，执行`flutter doctor -v`命令，。看看还有什么需要安装的？（目前我安装的flutter最新版是0.4.4）,如下图所示：
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits10.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits10.png?raw=true)
 
 **新版的跟旧版的有区别，这里的每一项里面的小项都很详细的列举了类目，只要是正确安装了IDE，以及配置了jdk,sdk环境的，都会详细列出来。**
 
@@ -328,11 +329,11 @@ File --> settings --> Plugins --> Browse repositories，然后输入Flutter就�
 
 **↓这个 问题的原因：**是sdk环境变量没配置，找到sdk路径，比如我的是E:\debelop\sdk，我复制这个路径，打开环境变量，新建一个变量，取名为`ANDROID_HOME`，然后在path变量里面最后加入`;%ANDROID_HOME\%` 
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits11.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits11.png?raw=true)
 
 **↓这个 问题的原因：**一些android licenses没有同意，按上面的要求在命令行输入`flutter doctor --android-licenses`，回车，然后会出现要你输入y/n 你只要输入y 回车就好了。
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits12.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits12.png?raw=true)
 
 **↓其他问题：基本都是开发工具的配置了，这个就不多说了，大家应该很熟悉了。**
 
@@ -340,19 +341,19 @@ File --> settings --> Plugins --> Browse repositories，然后输入Flutter就�
 
 > （三） Flutter插件不支持当前AS版本。当前的AS是3.2，我的gradle编译的api是27的，可能Flutter目前最高只能支持26，果然我在build.gradle里面的编译版本改成了26，重新编译一下，OK了。
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits13.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits13.png?raw=true)
 
 ----
 
 > （四） 编译一个demo居然安装包是30多M，这个也太坑了吧。。安卓原生的apk包最多就几M。但是这是debug模式下的apk包，签名打包后的release版本的包很小，大概几兆的样子。
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits14.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits14.png?raw=true)
 
 ----
 
 > （五）Flutter有一个Flutter Inspector的工具，主要是检查Widget的，可以用于诊断布局渲染问题，查看app当前的视图树结构。**但是：这个视图树层次太深了，看起来很费劲有木有。。 详细使用描述可以参考官网文档：[http://doc.flutter-dev.cn/inspector/](http://doc.flutter-dev.cn/inspector/)**
 
-![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pic/flutter-pits15.png?raw=true)
+![默认的Demo运行图](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/flutter-pits15.png?raw=true)
 
 ----
 
