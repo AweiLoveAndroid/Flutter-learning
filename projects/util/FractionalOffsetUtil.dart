@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-/// LinearGradient ÏßĞÔ½¥±ä·â×°
-/// Ò»¹²ÓĞ12ÖÖ×éºÏ·½Ê½
-/// ÓÃ·¨£ºÔÚÓĞgradientÊôĞÔµÄµØ·½Ê¹ÓÃ:ÀıÈç£º
-/// Ê×ÏÈÒªµ¼°ü£¬import 'FractionalOffsetUtil.dart';
-/// È»ºóÔÙÈ¥Ê¹ÓÃ
+/// LinearGradient çº¿æ€§æ¸å˜å°è£…
+/// ä¸€å…±æœ‰12ç§ç»„åˆæ–¹å¼
+/// ç”¨æ³•ï¼šåœ¨æœ‰gradientå±æ€§çš„åœ°æ–¹ä½¿ç”¨:ä¾‹å¦‚ï¼š
+/// é¦–å…ˆè¦å¯¼åŒ…ï¼Œimport 'FractionalOffsetUtil.dart';
+/// ç„¶åå†å»ä½¿ç”¨
 /// gradient: setFractionalOffsets(Type.leftBottomToRightTop, null),
-/// ÔÙÀıÈç£º
+/// å†ä¾‹å¦‚ï¼š
 /// gradient: setFractionalOffsets(Type.leftToRight, Direction.firstDirection),
 
 LinearGradient setFractionalOffsets(
@@ -40,12 +40,7 @@ LinearGradient setFractionalOffsets(
 LinearGradient DirectionStyle(
     double startX, double startY, double endX, double endY) {
   var linearGradient = new LinearGradient(
-    //ÏßĞÔ½¥±ä
-    begin: FractionalOffset(startX, startY),
-    end: FractionalOffset(endX, endY),
-    colors: <Color>[Colors.deepOrange, Colors.deepPurple],
-  );
-  return linearGradient;
+  return DirectionStyle2(null, startX, startY, endX, endY, -1, -1, -1, -1);
 }
 
 LinearGradient DirectionStyle2(
@@ -64,7 +59,7 @@ LinearGradient DirectionStyle2(
   direction == Direction.firstDirection ? endY = endY : endY2;
 
   var linearGradient = new LinearGradient(
-    //ÏßĞÔ½¥±ä
+    //çº¿æ€§æ¸å˜
     begin: FractionalOffset(startX, startY),
     end: FractionalOffset(endX, endY),
     colors: <Color>[Colors.deepOrange, Colors.deepPurple],
@@ -72,22 +67,22 @@ LinearGradient DirectionStyle2(
   return linearGradient;
 }
 
-// ÒòÎª´ÓÉÏµ½ÏÂ£¬»òÕß´Ó×óµ½ÓÒ ¶¼ÓĞÁ½ÖÖ¿ÉÄÜ¡£
-// ´ÓÉÏµ½ÏÂ °üÀ¨£º ×óÉÏ -> ×óÏÂ   ÓÒÉÏ -> ÓÒÏÂ
-// ´Ó×óµ½ÓÒ °üÀ¨£º ×óÉÏ -> ÓÒÉÏ   ×óÏÂ -> ÓÒÏÂ
+// å› ä¸ºä»ä¸Šåˆ°ä¸‹ï¼Œæˆ–è€…ä»å·¦åˆ°å³ éƒ½æœ‰ä¸¤ç§å¯èƒ½ã€‚
+// ä»ä¸Šåˆ°ä¸‹ åŒ…æ‹¬ï¼š å·¦ä¸Š -> å·¦ä¸‹   å³ä¸Š -> å³ä¸‹
+// ä»å·¦åˆ°å³ åŒ…æ‹¬ï¼š å·¦ä¸Š -> å³ä¸Š   å·¦ä¸‹ -> å³ä¸‹
 enum Direction {
-  firstDirection,//Èç¹ûÊÇ´ÓÉÏµ½ÏÂ£º ×óÉÏ -> ×óÏÂ£¬Èç¹ûÊÇ´Ó×óµ½ÓÒ£º×óÉÏ -> ÓÒÉÏ
-  lastPointDirection,// Èç¹ûÊÇ´ÓÉÏµ½ÏÂ£º ÓÒÉÏ -> ÓÒÏÂ£¬Èç¹ûÊÇ´Ó×óµ½ÓÒ£º×óÏÂ -> ÓÒÏÂ
+  firstDirection,//å¦‚æœæ˜¯ä»ä¸Šåˆ°ä¸‹ï¼š å·¦ä¸Š -> å·¦ä¸‹ï¼Œå¦‚æœæ˜¯ä»å·¦åˆ°å³ï¼šå·¦ä¸Š -> å³ä¸Š
+  lastPointDirection,// å¦‚æœæ˜¯ä»ä¸Šåˆ°ä¸‹ï¼š å³ä¸Š -> å³ä¸‹ï¼Œå¦‚æœæ˜¯ä»å·¦åˆ°å³ï¼šå·¦ä¸‹ -> å³ä¸‹
 }
 
 enum Type {
-  //8¸ö·½Ïò
-  leftToRight, //¡ú
-  rightToLeft, //¡û
-  topToBottom, //¡ı
-  bottomToTop, //¡ü
-  leftTopToRightBottom, //¨K
-  rightBottomToLeftTop, //¨I
-  rightTopToLeftBottom, //¨L
-  leftBottomToRightTop, //¨J
+  //8ä¸ªæ–¹å‘
+  leftToRight, //â†’
+  rightToLeft, //â†
+  topToBottom, //â†“
+  bottomToTop, //â†‘
+  leftTopToRightBottom, //â†˜
+  rightBottomToLeftTop, //â†–
+  rightTopToLeftBottom, //â†™
+  leftBottomToRightTop, //â†—
 }
