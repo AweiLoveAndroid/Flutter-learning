@@ -39,7 +39,6 @@ LinearGradient setFractionalOffsets(
 
 LinearGradient DirectionStyle(
     double startX, double startY, double endX, double endY) {
-  var linearGradient = new LinearGradient(
   return DirectionStyle2(null, startX, startY, endX, endY, -1, -1, -1, -1);
 }
 
