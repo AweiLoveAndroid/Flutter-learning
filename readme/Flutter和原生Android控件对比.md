@@ -17,4 +17,5 @@ Image|ImageView
 Stack|FrameLayout/RelativeLayout
 Algin|alginParentXXX属性
 resizeToAvoidBottomPadding|android:windowSoftInputMode=”adjustResize属性
-
+SingleChildScrollView|ScrollView
+CustomScrollerView|Recyclerview
