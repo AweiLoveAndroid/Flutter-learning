@@ -28,20 +28,33 @@ Flutter是什么呢?它是Google使用Dart语言开发的移动应用开发框�
 ###  一、Flutter安装：
 
 要安装并运行Flutter，你的开发环境必须满足这些最低要求：
-这里以windows系统为例，
-macos安装文档请查看：https://flutter.io/setup-macos/
-linux安装文档请查看：https://flutter.io/setup-linux/
+
+这里以windows系统为例：windows安装文档请查看：[https://flutter.io/setup-windows/](https://flutter.io/setup-windows/)
+
+macos安装文档请查看：[https://flutter.io/setup-macos/](https://flutter.io/setup-macos/)
+
+linux安装文档请查看：[https://flutter.io/setup-linux/](https://flutter.io/setup-linux/)
 
 
 > （一） 操作系统：Windows 7 SP1或更高版本（64位）
 
+略
+
 > （二） 磁盘空间：400 MB（不包括IDE /工具的磁盘空间）。
+
+略
 
 > （三） 对Android Studio的要求：需要安装3.0 或者更高的版本。
 
+略
+
 > （四） Flutter支持的sdk环境：Android 4.1（API 16）或者更高版本。
 
+略
+
 > （五） 对Android模拟器镜像的要求：推荐使用x86或者x86_64镜像。
+
+略
 
 > （六） 工具：Flutter需要用到以下2个工具：
 
