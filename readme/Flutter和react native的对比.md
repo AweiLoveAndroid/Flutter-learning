@@ -1,0 +1,1 @@
+![Flutter和react native的对比](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/Flutter%E5%92%8Creact%20native%E7%9A%84%E5%AF%B9%E6%AF%94.png?raw=true)
