@@ -1,6 +1,7 @@
 # Android开发者参考
 
 本文档来源于：http://doc.flutter-dev.cn/flutter-for-android/
+
 英文原版请查看：https://flutter.io/flutter-for-android/
 
 由于中文文档都是翻译自英文官网，未必是最新的。建议查看英文原版。
@@ -15,7 +16,7 @@
 
 目录：
 
-## 1、View
+> ## 1、View
 > #### Android 中的 View 在 Flutter 中对应什么？
 > #### 如何更新 Widget ？
 > #### 如果使用 Widget 进行布局？是否需要 XML 布局文件？
@@ -23,51 +24,51 @@
 > #### 在 Android 中可以使用 View.animate() 来让 View 产生动画，在 Flutter 中如何让 Widget 产生动画？
 > #### 如何使用 Canvas 进行绘制？
 > #### 如何构建自定义 Widget ？
-## 2、Intents
+> ## 2、Intents
 > #### Android 中的 Intent 在 Flutter 中对应什么？
 > #### 在 Flutter 中如何处理来自外部的 Intent ？
 > #### startActivityForResult 在 Flutter 中如何实现？
-## 3、UI 中的异步
+> ## 3、UI 中的异步
 > #### runOnUiThread 在 Flutter 中对应什么方法？
 > #### Android 中的 AsyncTask 或 IntentService 在 Flutter 对应什么？
 > #### Android 中的 OkHttp 在 Flutter 中对应什么？
 > #### 在 Flutter 中，当有任务在执行时，如何显示进度？
-## 4、项目结构与资源
+> ## 4、项目结构与资源
 > #### 分辨率相关的图像资源应存储在哪里（HDPI/XXHDPI）？
 > #### 字符串如何存储，如何存储不同语言的字符串？
 > #### Android 中的 Gradle 文件在 Flutter 中对应什么？
-## 5、Activities 和 Fragments
+> ## 5、Activities 和 Fragments
 > #### Android 中的 Activity 和 Fragment 在 Flutter 中对应什么？
 > #### 如何监听 Android Activity 的生命周期？
-## 6、布局
+> ## 6、布局
 > #### Android 中的 LinearLayout 在 Flutter 中对应什么？
 > #### Android 中的 RelativeLayout 在 Flutter 对应什么？
 > #### Android 中的 ScrollView 在 Flutter 中对应什么？
-## 7、手势检测和触摸事件处理
+> ## 7、手势检测和触摸事件处理
 > #### 如何将一个 onClick 监听添加到 Flutter 中的 Widget 中？
 > #### 如何处理 Widget 上的其他手势？
-## 8、Listview 和 Adapter
+> ## 8、Listview 和 Adapter
 > #### Android 中的 ListView 在 Flutter 中对应什么？
 > #### 如何知道 ListView 的子项被点击了？
 > #### 如何动态更新 ListView？
-## 9、文本的使用
+> ## 9、文本的使用
 > #### 如何给 Text 自定义字体？
 > #### 如何自定义 Text 的显示样式？
-## 10、表单
+> ## 10、表单
 > #### Android 中的 hint 在 Flutter 中对应什么？
 > #### 如何显示表单验证错误信息？
-## 11、Flutter 插件
+> ## 11、Flutter 插件
 > #### 如何使用 GPS ？
 > #### 如何使用相机？
 > #### 如果使用 facebook 登录？
 > #### 如果构建自己的插件？
 > #### 如何在 Flutter 中使用 NDK？
-## 12、主题
+> ## 12、主题
 > #### 如何定制 Material 风格的应用？
-## 13、数据库与本地存储
+> ## 13、数据库与本地存储
 > #### 如何在 Flutter 中使用 Shared Preferences？
 > #### 在 Flutter 中如何使用 SQLite ？
-## 14、通知
+> ## 14、通知
 > #### 如何设置并推送通知？
 
 ----
