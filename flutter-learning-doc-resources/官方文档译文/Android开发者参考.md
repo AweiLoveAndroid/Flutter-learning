@@ -1300,6 +1300,7 @@ class SampleApp extends StatelessWidget {
 `onHorizontalDragStart`| 屏幕上某一点开始水平移动的事件。
 `onHorizontalDragUpdate`| 屏幕上某一点水平移动过程中的更新事件。
 `onHorizontalDragEnd`| 屏幕上某一点停止水平移动后的事件。
+
 例如下面这个例子使用 GestureDetector，通过双击 FlutterLogo 来使其旋转：
 
 ```Dart
