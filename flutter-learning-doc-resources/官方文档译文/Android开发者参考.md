@@ -116,7 +116,7 @@ new Text(
 
 代码如下:
 
-```
+```Dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -178,7 +178,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
 
 下面是一个简单的例子用于在屏幕上居中显示一个按钮。
 
-```
+```Dart
 @override
 Widget build(BuildContext context) {
   return new Scaffold(
@@ -204,7 +204,7 @@ Widget build(BuildContext context) {
 
 下面的例子展示了如果通过点按一个按钮来切换不同的子 Widget:
 
-```
+```Dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -278,7 +278,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
 
 下面这个例子展示了如何编写一个带淡入淡出效果的动画：
 
-```
+```Dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -352,7 +352,8 @@ class _MyFadeTest extends State<MyFadeTest> with TickerProviderStateMixin {
 查看下面链接，可以了解到如何使用上面提到的两个类实现一个签名功能：
 https://stackoverflow.com/questions/46241071/create-signature-area-for-mobile-app-in-dart-flutter
 示例代码：
-```
+
+```Dart
 import 'package:flutter/material.dart';
 
 void main() => runApp(new MaterialApp(home: new DemoApp()));
@@ -409,7 +410,7 @@ class SignaturePainter extends CustomPainter {
 
 下面看一下如何构建一个自定义的按钮，它将构造方法传入的文字作为自己按钮的文字进行显示。这里可以看到我们是通过将其两者进行组合来实现，而非继承 RaiseButton 来实现。
 
-```
+```Dart
 class CustomButton extends StatelessWidget {
   final String label;
   CustomButton(this.label);
@@ -439,7 +440,7 @@ class CustomButton extends StatelessWidget {
 
 类似 Android 中可以在 AndroidManifest 中定义 Activity，在 Flutter 中可以将指定 Route 的映射集合添加到 MaterialApp 的根目录。
 
-```
+```Dart
 void main() {
   runApp(new MaterialApp(
     home: new MyAppHome(), // becomes the route named '/'
@@ -454,7 +455,9 @@ void main() {
 
 接着就可以通过如下方式来操作 Route。
 
+```Dart
     Navigator.of(context).pushNamed('/b');
+```
     
 Intent 另外一个比较实用的作用是调用外部组件，如 Camera 或文件选择器，如果要在 Flutter 中实现类似功能，你需要在平台代码中集成现有的库或重新实用。
 
@@ -470,7 +473,7 @@ Flutter 可以和 Android 层进行交互来共享传入的 Intent。
 
 首先在 AndroidManifest.xml 中注册 Intent。
 
-```
+```Dart
 <activity
     android:name=".MainActivity"
     android:launchMode="singleTop"
@@ -499,7 +502,7 @@ Flutter 可以和 Android 层进行交互来共享传入的 Intent。
 
 接着在 MainActivity 中处理接收到的文本信息并保存下来，当 Flutter 层请求文本信息时将其传递给 Flutter 层即可。
 
-```
+```Dart
 package com.yourcompany.shared;
 
 import android.content.Intent;
@@ -550,7 +553,7 @@ public class MainActivity extends FlutterActivity {
 
 最后在 Flutter 层，可以选择在 `initState` 中对文本进行请求。
 
-```
+```Dart
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -610,13 +613,14 @@ class _SampleAppPageState extends State<SampleAppPage> {
 可以通过 Navigator 的 push 方法返回的 Futrue 来获得页面的返回数据。
 
 例如你想启动一个地点选择的界面，然后从中获得用户选择的结果，可以使用如下方法：
-```
+
+```Dart
 Map coordinates = await Navigator.of(context).pushNamed('/location');
 ```
 
 接着在地点选择界面，当用户选择完位置以后，可以调用如下方法把结果传递给上面的 `coordinates`。
 
-```
+```Dart
 Navigator.of(context).pop({"lat":43.821757,"long":-79.226392});
 ```
 
@@ -628,7 +632,7 @@ Dart 是单线程执行模型、支持 Isolate（一种多线程模型）、事�
 
 例如你可以在 UI 线程执行网络请求而不会导致 UI 线程的阻塞：
 
-```
+```Dart
 loadData() async {
   String dataURL = "https://jsonplaceholder.typicode.com/posts";
   http.Response response = await http.get(dataURL);
@@ -642,7 +646,7 @@ loadData() async {
 
 下面是一个完整的获得网络数据并在 ListView 上进行更新的例子：
 
-```
+```Dart
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -719,7 +723,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
 
 需要异步执行的时候只要将方法声明为`异步方法`并在方法中使用 `await` 来等待即可。
 
-```
+```Dart
 loadData() async {
   String dataURL = "https://jsonplaceholder.typicode.com/posts";
   http.Response response = await http.get(dataURL);
@@ -741,7 +745,7 @@ Isolate 是独立的执行线程，和主线程不共享任何内存。这意味
 
 让我们看一个 `Isolate` 的简单例子，学习下 `Isolate 如何与主线程交流并共享数据来更新 UI`：
 
-```
+```Dart
 loadData() async {
     ReceivePort receivePort = new ReceivePort();
     await Isolate.spawn(dataLoader, receivePort.sendPort);
@@ -786,7 +790,7 @@ loadData() async {
 
 可以参考下面完整的例子：
 
-```
+```Dart
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -917,7 +921,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
 
 你也可以在 pubspec.yaml 添加 http 包的依赖来使用它：
 
-```
+```Dart
 dependencies:
   ...
   http: '>=0.11.3+12'
@@ -925,7 +929,7 @@ dependencies:
 
 接着就可以进行网络请求了，如下：
 
-```
+```Dart
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -951,7 +955,7 @@ import 'package:http/http.dart' as http;
 
 在下面这个例子中，我们将 build 方法分解为三个不同的方法。如果 showLoadingDialog 为 true 时显示进度指示器，否则将显示带有数据的 ListView：
 
-```
+```Dart
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -1047,7 +1051,7 @@ Flutter 遵循像 iOS 这样简单的3种分辨率格式：`1x`，`2x` 和 `3x`�
 
 你可以创建一个名为 `images` 的文件夹，并为每个图像文件生成一个 @2x 和 @3x 的图像文件，并将它们放在对应文件夹中，像这样
 
-```
+```yaml
 ../my_icon.png
 ../2.0x/my_icon.png
 ../3.0x/my_icon.png
@@ -1055,28 +1059,33 @@ Flutter 遵循像 iOS 这样简单的3种分辨率格式：`1x`，`2x` 和 `3x`�
 
 接着在 `pubspec.yaml` 中声明这些图像资源。
 
-```
+```yaml
 assets:
  - images/a_dot_burr.jpeg
  - images/a_dot_ham.jpeg
 ```
 
 然后就可以使用 `AssetImage` 来获得这些图形资源。
-```
+
+```Dart
 return new AssetImage("images/a_dot_burr.jpeg");
 ```
 
 > #### 字符串如何存储，如何存储不同语言的字符串？
 
 目前最佳方案就是创建一个 `Strings` 的类，并将字符串以静态字段的形式存储在其中：
-```
+
+```Dart
 class Strings{
   static String welcomeMessage = "Welcome To Flutter";
 }
 ```
+
 接着可以按**如下方式进行访问**：
 
-    new Text(Strings.welcomeMessage)
+```Dart
+new Text(Strings.welcomeMessage)
+```
 
 Flutter 对 Android 资源的可访问性提供了基本的支持，但目前这个功能还在进行中。
 
@@ -1111,7 +1120,7 @@ Flutter 鼓励开发者使用 [intl package](https://pub.dartlang.org/packages/i
 
 示例如下：
 
-```
+```Dart
 import 'package:flutter/widgets.dart';
 
 void main() {
@@ -1163,7 +1172,7 @@ class _LifecycleWatcherState extends State<LifecycleWatcher> with WidgetsBinding
 在 Android 中，使用 `LinearLayout` 使你的部件垂直或水平放置。在 Flutter 中，你可以使用 `Row` 或者 `Column` 来实现相同的效果。
 
 注意到这两个代码示例中“Row”和“Column”结构异常相似。它们的 child 完全一致，可以利用这个特性在相同 child 的情况下开发丰富的布局。
-```
+```Dart
 //使用Row 横向布局
 @override
 Widget build(BuildContext context) {
@@ -1178,7 +1187,7 @@ Widget build(BuildContext context) {
   );
 }
 ```
-```
+```Dart
 //使用Column 纵向布局
 @override
 Widget build(BuildContext context) {
@@ -1210,7 +1219,7 @@ RelativeLayout 用于使你的 Widget 相对于彼此放置。在 Flutter 中，
 
 在 Flutter 中，最简单的方法是使用 `ListView` 。在 Flutter 中，`ListView 既是 ScrollView 又是 Android 中的 ListView`。
 
-```
+```Dart
 @override
 Widget build(BuildContext context) {
   return new ListView(
@@ -1234,7 +1243,7 @@ Widget build(BuildContext context) {
 
 * 如果 Widget 支持事件检测，则可以将一个函数传递给它并进行处理。例如，RaisedButton 有一个 onPressed 参数
 
-```
+```Dart
 @override
 Widget build(BuildContext context) {
   return new RaisedButton(
@@ -1248,7 +1257,7 @@ Widget build(BuildContext context) {
 
 * 如果 Widget 不支持事件检测，则可以将该 Widget 包装到 GestureDetector 中，并将函数传递给 onTap 参数。
 
-```
+```Dart
 class SampleApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -1272,30 +1281,28 @@ class SampleApp extends StatelessWidget {
 
 使用 GestureDetector 我们可以监听广泛的手势，例如
 
-点击
-
-onTapDown 屏幕某一位置的手势按下事件。
-onTapUp 屏幕某一位置的手势抬起事件。
-onTap 屏幕某一位置的手势点击事件
-onTapCancel 只产生 onTapDown 却没有产生 onTapUp 的事件。
-双击
-
-onDoubleTap 用户在同一位置进行两次快速点击。
-长按
-
-onLongPress 长时间点按屏幕某一点时产生的事件。
-垂直拖动
-
-onVerticalDragStart 屏幕上某一点开始垂直移动的事件。
-onVerticalDragUpdate 屏幕上某一点垂直移动过程中的更新事件。
-onVerticalDragEnd 屏幕上某一点停止垂直移动后的事件。
-水平拖动
-
-onHorizontalDragStart 屏幕上某一点开始水平移动的事件。
-onHorizontalDragUpdate 屏幕上某一点水平移动过程中的更新事件。
-onHorizontalDragEnd 屏幕上某一点停止水平移动后的事件。
+名称|效果
+-|-
+**点击 ↓**|
+`onTapDown`| 屏幕某一位置的手势按下事件。
+`onTapUp`| 屏幕某一位置的手势抬起事件。
+`onTap`| 屏幕某一位置的手势点击事件
+`onTapCancel`| 只产生 onTapDown 却没有产生 onTapUp 的事件。
+**双击 ↓**|
+`onDoubleTap`| 用户在同一位置进行两次快速点击。
+**长按 ↓**|
+`onLongPress`| 长时间点按屏幕某一点时产生的事件。
+**垂直拖动 ↓**|
+`onVerticalDragStart`| 屏幕上某一点开始垂直移动的事件。
+`onVerticalDragUpdate`| 屏幕上某一点垂直移动过程中的更新事件。
+`onVerticalDragEnd`| 屏幕上某一点停止垂直移动后的事件。
+**水平拖动 ↓**|
+`onHorizontalDragStart`| 屏幕上某一点开始水平移动的事件。
+`onHorizontalDragUpdate`| 屏幕上某一点水平移动过程中的更新事件。
+`onHorizontalDragEnd`| 屏幕上某一点停止水平移动后的事件。
 例如下面这个例子使用 GestureDetector，通过双击 FlutterLogo 来使其旋转：
 
+```Dart
 AnimationController controller;
 CurvedAnimation curve;
 
@@ -1327,6 +1334,7 @@ class SampleApp extends StatelessWidget {
     ));
   }
 }
+```
 
 ## 8、Listview 和 Adapter
 
@@ -1338,6 +1346,7 @@ class SampleApp extends StatelessWidget {
 
 在 Flutter 中，由于 Flutters Widget 的不可变的特性，只需将一个 Widget 列表传递给 ListView，而 Flutter 将负责确保它们快速平滑地滚动。
 
+```Dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -1384,12 +1393,13 @@ class _SampleAppPageState extends State<SampleAppPage> {
     return widgets;
   }
 }
+```
 
 > #### 如何知道 ListView 的子项被点击了？
 
 在 Android 中，ListView 有`onItemClickListener`方法可以用来监听哪个子项被点击。在 Flutter 中，你只需在传入的 Widget `外套一层 GestureDetector` 即可。
 
-```
+```Dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -1453,7 +1463,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
 
 要更新 ListView 的话，可以在 **`setState` 中创建一个新的 widget 列表，并将所有旧数据复制到新列表中，并添加进新的 `widget`**，这是实现更新的简单方法之一。
 
-```
+```Dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -1521,7 +1531,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
 
 这里强烈推荐使用 `ListView.builder`。当你拥有大量动态数据时，此方法是十分有效率的。 它实际上相当于在 Android 中使用 `RecyclerView`，它会自动重用列表元素：
 
-```
+```Dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -1605,7 +1615,7 @@ ItemBuilder 函数非常类似于 Android Adapter 中的 `getView` 函数，它�
 
 接下来在 `pubspec.yaml` 文件中声明字体
 
-```
+```Dart
 fonts:
    - family: MyCustomFont
      fonts:
@@ -1615,7 +1625,7 @@ fonts:
 
 最后在 Text 中使用该字体
 
-```
+```Dart
 @override
 Widget build(BuildContext context) {
   return new Scaffold(
@@ -1658,8 +1668,7 @@ Text 的样式参数需要指定一个 TextStyle 对象，你可以在其中自�
 > #### Android 中的 hint 在 Flutter 中对应什么？
 在 Flutter 中，可以通过向 TextField 的构造函数 decoration 赋值，来实现 hint 的显示。
 
-```
-
+```Dart
 body: new Center(
   child: new TextField(
     decoration: new InputDecoration(hintText: "This is a hint"),
@@ -1673,7 +1682,7 @@ body: new Center(
 
 但是，你也不会希望一上来就显示错误，通常会在用户输入一些无效数据时才显示该错误。具体可以通过 `setState` 来更新组件并传递一个新的 InputDecoration 对象实现。
 
-```
+```Dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -1780,7 +1789,7 @@ Flutter 自带一套漂亮的 Material 风格组件，它满足了很多对于 M
 
 要自定义 Material 组件的颜色和样式，你可以将 ThemeData 对象传递到 MaterialApp 构造函数中，例如在下面的代码中，可以看到将主色调设置为蓝色，并且所有文本选择颜色都设置为红色。
 
-```
+```Dart
 class SampleApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -1806,7 +1815,7 @@ class SampleApp extends StatelessWidget {
 
 这个插件是通过包装 Shared Preferences 和 NSUserDefaults（与iOS相同）的功能来实现的。
 
-```
+```Dart
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
