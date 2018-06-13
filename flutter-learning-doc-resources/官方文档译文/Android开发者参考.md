@@ -99,7 +99,7 @@ Android 中 View 是可变的，在 Flutter 中的 Widget 是不可变的。这�
 
 接下来看一下如何使用 StatelessWidget。Text 是一个常见的 StatelessWidget。如果查看其源码的话，会发现 Text 是 StatelessWidget 的子类
 
-```
+```Dart
 new Text(
   'I like Flutter!',
   style: new TextStyle(
