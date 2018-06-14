@@ -80,7 +80,7 @@ video_player|0.6.0|https://pub.dartlang.org/packages/video_player|用于在Andro
 video_launcher|0.3.0|https://pub.dartlang.org/packages/video_launcher|视频播放器
 flute_music_player|0.0.6|https://pub.dartlang.org/packages/flute_music_player|基于Flutter的材料设计音乐播放器与音频插件播放本地音乐文件.
 audioplayer|0.5.0|https://pub.dartlang.org/packages/audioplayer|一个播放远程或本地音频文件Flutter音频插件
-audioplayers0.5.2|https://pub.dartlang.org/packages/audioplayers|这是rxlabz的audioplayer的一个分支，不同之处在于它支持同时播放多个音频并显示音量控制。
+audioplayers|0.5.2|https://pub.dartlang.org/packages/audioplayers|这是rxlabz的audioplayer的一个分支，不同之处在于它支持同时播放多个音频并显示音量控制。
 
 
 > rx系列：
