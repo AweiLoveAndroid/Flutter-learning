@@ -60,6 +60,11 @@ fluttertoast|2.0.3|https://pub.dartlang.org/packages/fluttertoast|用于Android�
 image_picker|0.4.5|https://pub.dartlang.org/packages/image_picker|用于从Android和iOS图像库中选择图像，并使用相机拍摄新照片。
 camera|0.2.1|https://pub.dartlang.org/packages/camera|用于在Android和iOS上获取有关和控制相机的信息。支持预览相机馈送和捕捉图像。
 
+> 路由：
+
+库名|版本号|链接|描述
+-|-|-|-
+fluro|1.3.1|https://pub.dartlang.org/packages/fluro|最好用的路由导航框架。功能：简单的路线导航；函数处理程序（映射到函数而不是路径）；通配符参数匹配；查询字符串参数解析；内置常用转换；简单的定制转换创建。
 
 
 > 消息传递通信有关：
