@@ -39,7 +39,7 @@
 
 如果这个库对您有很大帮助，您愿意支持这个项目的进一步开发和这个项目的持续维护。你可以扫描下面的二维码，让我喝一杯咖啡或啤酒。非常感谢您的捐赠。谢谢！
 
-![赞赏](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/pics/donation.png?raw=true)
+![赞赏](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/donation.png?raw=true)
 
 
 ----
