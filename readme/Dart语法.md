@@ -681,7 +681,7 @@ Dart有两个运算符，可以让您精确地评估可能需要if-else语句的
 `[]` |List访问| 引用List中指定索引处的值
 `.` |成员访问| 指表达的财产; 例如：foo.bar从表达式foo中选择属性栏
 `?.` |条件成员访问| 像`.`一样，但最左边的操作数可以为空; 例如：`foo?.bar`从表达式foo中选择属性`bar`，除非foo为空（当foo为空时，foo?.bar的值为空）
-`..`|级联符号|级联符号`..`允许您在同一个对象上进行一系列操作。 除了函数调用之外，还可以访问同一对象上的字段。其实相当于java的链式调用。（这个在后面讲类和成员的时候会具体讲解。）
+`..`|级联符号|级联符号`..`允许您在同一个对象上进行一系列操作。 除了函数调用之外，还可以访问同一对象上的字段。其实相当于java的链式调用。（这个在后面讲`函数`的时候会具体讲解。）
 
 ### （九）类型测试操作符：
 
@@ -745,11 +745,57 @@ void main() {
 
 【注意：】上述代码中的`..`语法称为级联。通过级联，可以对单个对象的成员执行多个操作。
 
+级联符号`..`允许您在同一个对象上进行一系列操作。除了函数调用之外，还可以访问同一对象上的字段。这通常会为您节省创建临时变量的步骤，并允许您编写更流畅的代码。
+
+请看下面的代码：
+
+```Dart
+querySelector('#confirm') // Get an object.
+  ..text = 'Confirm' // Use its members.
+  ..classes.add('important')
+  ..onClick.listen((e) => window.alert('Confirmed!'));
+```
+
+第一个方法调用querySelector()返回一个选择器对象。遵循级联表示法的代码对该选择器对象进行操作，忽略可能返回的任何后续值。
+
+**上述例子相当于：**
+
+```Dart
+var button = querySelector('#confirm');
+button.text = 'Confirm';
+button.classes.add('important');
+button.onClick.listen((e) => window.alert('Confirmed!'));
+```
+
+**级联符号也可以嵌套使用。** 例如：
+
+```Dart
+final addressBook = (AddressBookBuilder()
+      ..name = 'jenny'
+      ..email = 'jenny@example.com'
+      ..phone = (PhoneNumberBuilder()
+            ..number = '415-555-0100'
+            ..label = 'home')
+          .build())
+    .build();
+```
+
+**当返回值是`void`时不能构建级联。** 例如，以下代码失败：
+
+```Dart
+var sb = StringBuffer();
+sb.write('foo')
+  ..write('bar'); // 这里会报错
+```
+上例中的`sb.write()`调用返回的是`void`，当返回值是`void`时不能构建级联。
+
+【注意：】 严格地说，级联的`..`符号不是操作符。它只是Dart语法的一部分。
+
 
 
 ### （二）可选参数
 
-> 可选的命名参数
+> **可选的命名参数**
 
 定义函数时，使用{param1, param2, …}，用于指定命名参数。例如：
 
@@ -766,7 +812,7 @@ void enableFlags({bool bold, bool hidden}) {
 enableFlags(bold: true, hidden: false);
 ```
 
-> 可选的位置参数
+> **可选的位置参数**
 
 包装一组函数参数，用[]它们标记为可选的位置参数：
 
@@ -792,7 +838,7 @@ say('Bob', 'Howdy'); //结果是： Bob says Howdy
 say('Bob', 'Howdy', 'smoke signal'); //结果是：Bob says Howdy with a smoke signal
 ```
 
-> 默认参数的值
+> **默认参数的值**
 
 函数可以使用`=`为命名参数和位置参数定义默认值。默认值必须是`编译时常量`。如果没有提供默认值，则默认值为`null`。
 
@@ -812,7 +858,20 @@ enableFlags2(bold: true);
 下一个示例显示如何为位置参数设置默认值：
 
 ```Dart
+String say(String from, String msg,
+    [String device = 'carrier pigeon', String mood]) {
+  var result = '$from says $msg';
+  if (device != null) {
+    result = '$result with a $device';
+  }
+  if (mood != null) {
+    result = '$result (in a $mood mood)';
+  }
+  return result;
+}
 
+//调用方式：
+say('Bob', 'Howdy'); //结果为：Bob says Howdy with a carrier pigeon;
 ```
 
 您还可以将list或map作为默认值传递。下面的示例定义一个函数`doStuff()`，该函数指定列表参数的默认`list`和`gifts`参数的默认map。
@@ -833,14 +892,178 @@ void doStuff(
 
 
 
-### （三）作为首个类对象的函数
+### （三）作为一个类对象的功能
+
+**您可以将一个函数作为参数传递给另一个函数。** 
+
+例1：
+
+```Dart
+void printElement(int element) {
+  print(element);
+}
+
+var list = [1, 2, 3];
+
+// 把 printElement函数作为一个参数传递进来
+list.forEach(printElement);
+```
+
+**您也可以将一个函数分配给一个变量。** 
+
+例2：
+
+```Dart
+var loudify = (msg) => '!!! ${msg.toUpperCase()} !!!';
+assert(loudify('hello') == '!!! HELLO !!!');
+```
+
+上面例2使用了一个匿名函数。更多关于下一节中的内容:
+
+
 ### （四）匿名函数
+
+大多数函数都能被命名为匿名函数，如`main()`或`printElement()`。
+您还可以创建一个名为`匿名函数`的**无名函数**，有时也可以创建**lambda**或**闭包**。
+您可以**为变量分配一个匿名函数**，例如，您可以从集合中添加或删除它。
+
+一个匿名函数看起来类似于一个命名函数 - 0或更多的参数，在括号之间用逗号和可选类型标注分隔。
+
+下面的代码块包含函数的主体:
+
+例1:
+
+```Dart
+([[Type] param1[, …]]) { 
+  codeBlock; 
+}; 
+```
+
+下面的示例定义了一个具有无类型参数的匿名函数`item`。
+该函数被list中的每个item调用，输出一个字符串，该字符串包含指定索引处的值。
+
+例2:
+
+```Dart
+var list = ['apples', 'bananas', 'oranges'];
+list.forEach((item) {
+  print('${list.indexOf(item)}: $item');
+});
+```
+
+
+如果函数只包含一条语句，可以使用箭头符号`=>`来缩短它。
+
+比如上面的例2可以简写成：
+
+例3:
+
+```Dart
+list.forEach(
+    (item) => print('${list.indexOf(item)}: $item'));
+```
+
 ### _~~（五）语法作用域~~_
+
+Dart是一种具有语法范围的语言，这意味着变量的范围是静态确定的，只需通过代码布局来确定。
+您可以`跟随花括号向外`以查看变量是否在范围内。
+
+这里有一个嵌套函数的例子，`每个作用域级别上都有变量`:
+
+```Dart
+bool topLevel = true;
+
+void main() {
+  var insideMain = true;
+
+  void myFunction() {
+    var insideFunction = true;
+
+    void nestedFunction() {
+      var insideNestedFunction = true;
+
+      assert(topLevel);
+      assert(insideMain);
+      assert(insideFunction);
+      assert(insideNestedFunction);
+    }
+  }
+}
+```
+
+请注意`nestedFunction()`方法中，从每个级别的变量直到顶级，是如何使用的。
+
 ### _~~（六）语法闭包~~_
+
+
+闭包是一个函数对象，它可以访问其语法范围内的变量，即使函数在其原始范围之外使用。
+
+函数可以关闭周围作用域中定义的变量。
+
+在下面的示例中，makeAdder()捕获变量addBy。无论返回的函数到哪里，它都会记住addBy。
+
+```Dart
+///向函数参数添加[addBy]，并返回该函数。
+Function makeAdder(num addBy) {
+  return (num i) => addBy + i;
+}
+
+void main() {
+  var add2 = makeAdder(2);
+
+  var add4 = makeAdder(4);
+
+  assert(add2(3) == 5);
+  assert(add4(3) == 7);
+}
+```
+
 ### （七）测试等式函数
+
+下面是一个测试顶级函数、静态方法和相等实例方法的示例:
+
+```Dart
+void foo() {} // 一个顶级函数
+
+class A {
+  static void bar() {} //一个静态方法
+  void baz() {} //实例方法
+}
+
+void main() {
+  var x;
+
+  // 比较顶级的函数
+  x = foo;
+  assert(foo == x);
+
+  // 比较静态方法
+  x = A.bar;
+  assert(A.bar == x);
+
+  // 比较实例方法
+  var v = A(); // A类的实例1
+  var w = A(); // A类的实例2
+  var y = w;
+  x = w.baz;
+
+  //这些闭包指向同一个实例(#2)，所以它们相等。
+  assert(y.baz == x);
+
+  //这些闭包是指不同的实例，所以他们不平等。
+  assert(v.baz != w.baz);
+}
+```
+
 ### （八）返回值
 
+所有函数都返回一个值。如果没有指定返回值，则语句return null;隐式地附加到函数体。
 
+```Dart
+foo() {}
+
+assert(foo() == null);
+```
 
 # 六、控制流程语句 Control flow statements
 
