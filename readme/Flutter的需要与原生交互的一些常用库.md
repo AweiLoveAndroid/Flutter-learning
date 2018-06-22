@@ -15,6 +15,10 @@ http|0.11.3+16|https://pub.dartlang.org/packages/http|该软件包包含一组�
 dio|0.0.14|https://pub.dartlang.org/packages/dio|Dart的一个强大的Http客户端，支持拦截器、全局配置、FormData、请求取消、文件下载、超时等。
 http_multi_server|2.0.5|https://pub.dartlang.org/packages/http_multi_server|dart:io HttpServer包装器，用于处理来自多个服务器的请求
 
+> 类型编解码的库：
+库名|版本号|链接|描述
+-|-|-|-
+html_unescape|1.0.0|https://pub.dartlang.org/packages/html_unescape|用于解决HTML编码字符串的Dart库。支持所有命名字符引用（如`&nbsp;`），小数字符引用（如`&#225;`）和十六进制字符引用（如`&#xE3;`）。
 
 > 序列化和json解析
 
@@ -59,6 +63,12 @@ cupertino_icons|0.1.2|https://pub.dartlang.org/packages/cupertino_icons|Cupertin
 fluttertoast|2.0.3|https://pub.dartlang.org/packages/fluttertoast|用于Android和ios的toast库。
 image_picker|0.4.5|https://pub.dartlang.org/packages/image_picker|用于从Android和iOS图像库中选择图像，并使用相机拍摄新照片。
 camera|0.2.1|https://pub.dartlang.org/packages/camera|用于在Android和iOS上获取有关和控制相机的信息。支持预览相机馈送和捕捉图像。
+**富文本 ↓**|||
+flutter_html_view|0.5.2|https://pub.dartlang.org/packages/flutter_html_view|Flutter没有默认的支持来显示html，所以需要三方的包来显示。这个包可以将html呈现给原生的Widget。（目前支持的标签比较少）
+flutter_html_textview|0.2.6|https://pub.dartlang.org/packages/flutter_html_textview|将html呈现为一个Widget,在textview中呈现html。
+**MarkDown ↓**|||
+markdown|2.0.0|https://pub.dartlang.org/packages/markdown|用Dart编写的便携式Markdown库。它可以在客户端和服务器上将Markdown解析为HTML。
+html2md|0.1.7|https://pub.dartlang.org/packages/html2md|将html转换为Dart中的MarkDown.
 
 > 路由：
 
