@@ -25,8 +25,7 @@
 
 * #### [Dart语法详解相关示例代码](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/projects/dart_demo/test)
 
-* #### [自己封装的一个工具类FractionalOffsetUtil.dart](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/projects/util/FractionalOffsetUtil.dart)
-
+* #### [自己封装的一个线性渐变工具类FractionalOffsetUtil.dart](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/projects/flutter-demo/util/FractionalOffsetUtil.dart)
 
 ## 三、Flutter相关学习文档
 
