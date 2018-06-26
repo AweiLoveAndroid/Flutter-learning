@@ -21,11 +21,11 @@ http_multi_server|2.0.5|https://pub.dartlang.org/packages/http_multi_server|dart
 -|-|-|-
 html_unescape|1.0.0|https://pub.dartlang.org/packages/html_unescape|用于解决HTML编码字符串的Dart库。支持所有命名字符引用（如`&nbsp;`），小数字符引用（如`&#225;`）和十六进制字符引用（如`&#xE3;`）。
 
-> 序列化和json解析
+> 序列化
 
 * 手动序列化：
 
-使用在 dart:convert 中的内置解码器。包括传入 JSON 原始字符串给 JSON.decode() 方法，然后从 Map<String, dynamic> 中查询你需要的数据。
+使用 `dart:convert` 的内置解码器。包括传入 JSON 原始字符串给 JSON.decode() 方法，然后从 Map<String, dynamic> 中查询你需要的数据。
 
 * 自动序列化：
 
@@ -35,6 +35,33 @@ json_serializable|0.5.7|https://pub.dartlang.org/packages/json_serializable|
 built_value|5.5.1|https://pub.dartlang.org/packages/built_value|runtime依赖项
 built_value_generator|5.5.1|https://pub.dartlang.org/packages/built_value_generator|dev依赖项
 built_value_test|5.5.1|https://pub.dartlang.org/packages/built_value_test|test依赖项
+
+
+> json解析
+
+* https://github.com/javiercbk/json_to_dart  根据json生成Dart实体类
+* https://github.com/debuggerx01/JSONFormat4Flutter   这是一个AS的辅助插件，将JSONObject格式的String解析成Dart的实体类
+
+* Dson 0.13.2 下载地址 https://pub.dartlang.org/packages/dson  
+描述：Dson的github地址 https://github.com/drails-dart/dson
+DSON是一个将Dart对象转换为JSON的库。(用于web)这个库是Dartson的一个分支，但又有不同。
+* Dartson是一个Dart库，可用于将Dart对象转换为JSON字符串。
+https://github.com/eredo/dartson  （用于web）
+
+* **几个Json库的比较：[https://github.com/drails-dart/dart-serialise](https://github.com/drails-dart/dart-serialise)**
+
+|方式|	大小 (js)	|序列化 (dart)	|反序列化 (dart)	|序列化 (js)	|反序列化 (js)|
+|----|----|----|----|----|----|
+|json_serializable|	80 KB	|9.09 ms	|6.61 ms	|8.23 ms	|8.12 ms|
+|Serializable	|79 KB	|6.1 ms	|6.92 ms	|4.37 ms|	|8.38 ms|
+|DSON	|94 KB|12.72 ms	|11.15 ms	|16.64 ms	|17.94 ms|
+|Dartson	|86 KB	|9.61 ms	|6.81 ms	|8.58 ms	|7.01 ms|
+|Manual|	86 KB	|8.29 ms|	5.78 ms	|10.7 ms	|7.9 ms|
+|Interop	|70 KB	|61.55 ms	|14.96 ms	|2.49 ms	|2.93 ms|
+|Jaguar_serializer|	88 KB	|8.57 ms	|6.58 ms	|10.31 ms	|8.59 ms|
+|Jackson (Groovy)	||	496 ms|	252 ms	|n/a|	n/a|
+
+
 
 > 国际化和本地化：
 
@@ -50,11 +77,13 @@ intl|0.15.6|https://pub.dartlang.org/packages/intl|这个包提供国际化和�
 -|-|-|-
 cached_network_image|0.4.1+1|https://pub.dartlang.org/packages/cached_network_image|Flutter库来加载和缓存网络图像。也可以与占位符和错误小部件一起使用。
 
-> 数据库
+> 数据存储、缓存有关的库
+
 
 库名|版本号|链接|描述
 -|-|-|-
 sqflite|sqflite0.10.0|https://pub.dartlang.org/packages/sqflite|SQLite的Flutter插件，一个自包含的高可靠性嵌入式SQL数据库引擎。
+file_cache|0.0.1|https://pub.dartlang.org/packages/file_cache|为flutter package项目缓存Json,Buffer,FileCacheImage。
 
 > UI库：
 
