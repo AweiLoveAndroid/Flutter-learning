@@ -12,6 +12,8 @@ dependencies:
   log: ^0.0.6
   # 读取与写入文件
   path_provider: ^0.2.1+1
+  # 图片处理
+  image: ^2.0.4
 
 dev_dependencies:
   flutter_test:
