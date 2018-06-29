@@ -90,6 +90,7 @@ file_cache|0.0.1|https://pub.dartlang.org/packages/file_cache|为flutter package
 库名|版本号|链接|描述
 -|-|-|-
 cupertino_icons|0.1.2|https://pub.dartlang.org/packages/cupertino_icons|Cupertino的图标组件库
+font_awesome_flutter|7.0.0|https://pub.dartlang.org/packages/font_awesome_flutter|图标字体的一个库
 fluttertoast|2.0.3|https://pub.dartlang.org/packages/fluttertoast|用于Android和ios的toast库。
 image_picker|0.4.5|https://pub.dartlang.org/packages/image_picker|用于从Android和iOS图像库中选择图像，并使用相机拍摄新照片。
 camera|0.2.1|https://pub.dartlang.org/packages/camera|用于在Android和iOS上获取有关和控制相机的信息。支持预览相机馈送和捕捉图像。
@@ -151,6 +152,7 @@ connectivity|0.3.1|https://pub.dartlang.org/packages/connectivity|用于发现An
 device_info|0.2.1|https://pub.dartlang.org/packages/device_info|提供有关设备（品牌，型号等）的详细信息，以及应用程序正在运行的Android或iOS版本。
 **蓝牙**|||
 flutter_blue|0.3.3|https://pub.dartlang.org/packages/flutter_blue|这是跨平台的蓝牙sdk.
+flutter_ble_lib|1.0.0|https://pub.dartlang.org/packages/flutter_ble_lib|这是一个支持蓝牙连接的flutter库。它里面使用RxAndroidBle和RxBluetoothKit作为本地库。
 
 ----
 
@@ -167,12 +169,6 @@ map_view|0.0.12|https://pub.dartlang.org/packages/map_view|一个用于在iOS和
 flutter_map|0.0.10|https://pub.dartlang.org/packages/flutter_map|基于leaflet的Flutter地图包 
 location|1.3.4|https://pub.dartlang.org/packages/location|这个插件 处理Android和iOS上的位置。它还提供位置更改时的回调。 
 latlong|0.5.3|https://pub.dartlang.org/packages/latlong|LatLong是一个计算通用的纬度和经度的轻量级库。
-
-> 分享
-
-库名|版本号|链接|描述
--|-|-|-
-share|0.5.1|https://pub.dartlang.org/packages/share|支持分享的flutter插件
 
 
 > 二维码
@@ -202,13 +198,39 @@ flutter_circular_chart|0.0.3|https://pub.dartlang.org/packages/flutter_circular_
 库名|版本号|链接|描述
 -|-|-|-
 simple_permissions|0.1.5|https://pub.dartlang.org/packages/simple_permissions|用于android和ios的请求权限的库
-flutter_simple_permissions|0.0.1|https://pub.dartlang.org/packages/flutter_simple_permissions|
+flutter_simple_permissions|0.0.1|https://pub.dartlang.org/packages/flutter_simple_permissions|权限申请的库
+
+
+> 分享
+
+库名|版本号|链接|描述
+-|-|-|-
+share|0.5.1|https://pub.dartlang.org/packages/share|支持分享的flutter插件
+
+
+> 统计
+
+库名|版本号|链接|描述
+-|-|-|-
+flutter_umeng_analytics|0.0.1|https://pub.dartlang.org/packages/flutter_umeng_analytics|这个库集成了友盟统计sdk
+
+> 登陆
+
+库名|版本号|链接|描述
+-|-|-|-
+flutter_qq|0.0.1|https://pub.dartlang.org/packages/flutter_qq|这个库集成了QQ登录、QQ分享、QQ空间分享。
+flutter_wechat|0.1.2|https://pub.dartlang.org/packages/flutter_wechat|这个库集成了微信，支持微信登录、分享、支付。
+
+> 支付
+
+库名|版本号|链接|描述
+-|-|-|-
+flutter_alipay|0.1.0|https://pub.dartlang.org/packages/flutter_alipay|这个库继承了支付宝，兼容android和ios
+
 
 **以下几个暂未找到相关的三方库**
 
-* 支付
-* 登陆
-* 统计
+
 * 语音
 * 推送
 
