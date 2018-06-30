@@ -20,7 +20,7 @@ http_multi_server|2.0.5|https://pub.dartlang.org/packages/http_multi_server|dart
 库名|版本号|链接|描述
 -|-|-|-
 html_unescape|1.0.0|https://pub.dartlang.org/packages/html_unescape|用于解决HTML编码字符串的Dart库。支持所有命名字符引用（如`&nbsp;`），小数字符引用（如`&#225;`）和十六进制字符引用（如`&#xE3;`）。
-gbk2utf8||https://github.com/jzoom/gbk2utf8||官方的http还不能支持中文gbk的解析，这个项目就是为了解决gbk转成utf-8编码的。
+gbk2utf8||https://github.com/jzoom/gbk2utf8|官方的http还不能支持中文gbk的解析，这个项目就是为了解决gbk转成utf-8编码的。
 
 
 > 序列化
