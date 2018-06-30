@@ -15,6 +15,8 @@ http|0.11.3+16|https://pub.dartlang.org/packages/http|该软件包包含一组�
 dio|0.0.14|https://pub.dartlang.org/packages/dio|Dart的一个强大的Http客户端，支持拦截器、全局配置、FormData、请求取消、文件下载、超时等。
 http_multi_server|2.0.5|https://pub.dartlang.org/packages/http_multi_server|dart:io HttpServer包装器，用于处理来自多个服务器的请求
 
+----
+
 > 类型编解码的库：
 
 库名|版本号|链接|描述
@@ -22,6 +24,8 @@ http_multi_server|2.0.5|https://pub.dartlang.org/packages/http_multi_server|dart
 html_unescape|1.0.0|https://pub.dartlang.org/packages/html_unescape|用于解决HTML编码字符串的Dart库。支持所有命名字符引用（如`&nbsp;`），小数字符引用（如`&#225;`）和十六进制字符引用（如`&#xE3;`）。
 gbk2utf8||https://github.com/jzoom/gbk2utf8|官方的http还不能支持中文gbk的解析，这个项目就是为了解决gbk转成utf-8编码的。
 
+
+----
 
 > 序列化
 
@@ -38,6 +42,8 @@ built_value|5.5.1|https://pub.dartlang.org/packages/built_value|runtime依赖项
 built_value_generator|5.5.1|https://pub.dartlang.org/packages/built_value_generator|dev依赖项
 built_value_test|5.5.1|https://pub.dartlang.org/packages/built_value_test|test依赖项
 
+
+----
 
 > json解析
 
@@ -65,11 +71,15 @@ https://github.com/eredo/dartson  （用于web）
 
 
 
+----
+
 > 国际化和本地化：
 
 库名|版本号|链接|描述
 -|-|-|-
 intl|0.15.6|https://pub.dartlang.org/packages/intl|这个包提供国际化和本地化功能，包括消息翻译、复数和性别、日期/数字格式和解析以及双向文本。
+
+----
 
 > 图片加载
 
@@ -79,6 +89,8 @@ intl|0.15.6|https://pub.dartlang.org/packages/intl|这个包提供国际化和�
 -|-|-|-
 cached_network_image|0.4.1+1|https://pub.dartlang.org/packages/cached_network_image|Flutter库来加载和缓存网络图像。也可以与占位符和错误小部件一起使用。
 
+----
+
 > 数据存储、缓存有关的库
 
 
@@ -86,6 +98,8 @@ cached_network_image|0.4.1+1|https://pub.dartlang.org/packages/cached_network_im
 -|-|-|-
 sqflite|sqflite0.10.0|https://pub.dartlang.org/packages/sqflite|SQLite的Flutter插件，一个自包含的高可靠性嵌入式SQL数据库引擎。
 file_cache|0.0.1|https://pub.dartlang.org/packages/file_cache|为flutter package项目缓存Json,Buffer,FileCacheImage。
+
+----
 
 > UI库：
 
@@ -103,12 +117,16 @@ flutter_html_textview|0.2.6|https://pub.dartlang.org/packages/flutter_html_textv
 markdown|2.0.0|https://pub.dartlang.org/packages/markdown|用Dart编写的便携式Markdown库。它可以在客户端和服务器上将Markdown解析为HTML。
 html2md|0.1.7|https://pub.dartlang.org/packages/html2md|将html转换为Dart中的MarkDown.
 
+----
+
 > 路由：
 
 库名|版本号|链接|描述
 -|-|-|-
 fluro|1.3.1|https://pub.dartlang.org/packages/fluro|最好用的路由导航框架。功能：简单的路线导航；函数处理程序（映射到函数而不是路径）；通配符参数匹配；查询字符串参数解析；内置常用转换；简单的定制转换创建。
 
+
+----
 
 > 消息传递通信有关：
 
@@ -119,6 +137,8 @@ local_notifications|0.0.6|https://pub.dartlang.org/packages/local_notifications|
 url_launcher|3.0.2|https://pub.dartlang.org/packages/url_launcher|用于在Android和iOS上启动URL。支持网络，电话，短信和电子邮件方案。
 firebase_messaging|1.0.2|https://pub.dartlang.org/packages/firebase_messaging|一款跨平台的消息传递解决方案，可让您在Android和iOS上可靠地传递消息。
 event_bus|0.4.1|https://pub.dartlang.org/packages/event_bus|一个使用Dart流进行解耦应用程序的简单事件总线的库。
+
+----
 
 > 视频 & 音频：
 
@@ -131,6 +151,8 @@ audioplayer|0.5.0|https://pub.dartlang.org/packages/audioplayer|一个播放远�
 audioplayers|0.5.2|https://pub.dartlang.org/packages/audioplayers|这是rxlabz的audioplayer的一个分支，不同之处在于它支持同时播放多个音频并显示音量控制。
 
 
+----
+
 > rx系列：
 
 库名|版本号|链接|描述
@@ -139,6 +161,8 @@ rxdart|0.17.0|https://pub.dartlang.org/packages/rxdart|RxDart是一种基于Reac
 rx_widgets|1.0.3|https://pub.dartlang.org/packages/rx_widgets|rx_widgets是一个包含基于流的Flutter Widgets和Widget帮助程序/便利类的程序包，它们有助于反应式编程风格，特别是与RxDart和RxCommands结合使用。
 rx_command|2.0.0|https://pub.dartlang.org/packages/rx_command|RxCommand是针对事件处理程序的基于Reactive Extensions（Rx）的抽象。它基于ReactiveUI框架的ReactiveCommand。它大量使用了RxDart包。
 
+
+----
 
 > 系统平台有关的库：
 
@@ -173,6 +197,8 @@ location|1.3.4|https://pub.dartlang.org/packages/location|这个插件 处理And
 latlong|0.5.3|https://pub.dartlang.org/packages/latlong|LatLong是一个计算通用的纬度和经度的轻量级库。
 
 
+----
+
 > 二维码
 
 库名|版本号|链接|描述
@@ -180,11 +206,15 @@ latlong|0.5.3|https://pub.dartlang.org/packages/latlong|LatLong是一个计算�
 barcode_scan|0.0.4|https://pub.dartlang.org/packages/barcode_scan|用于扫描2D条形码和QRCodes的Flutter插件。
 qrcode_reader|0.3.3|https://pub.dartlang.org/packages/qrcode_reader|使用相机读取二维码的Flutter插件。
 
+----
+
 > WebView
 
 库名|版本号|链接|描述
 -|-|-|-
 flutter_webview_plugin|0.1.6|https://pub.dartlang.org/packages/flutter_webview_plugin|允许Flutter与原生Webview进行通信的插件。 
+
+----
 
 > 图表库
 
@@ -195,6 +225,8 @@ charts-flutter|0.3.0|https://pub.dartlang.org/packages/charts_common|通用的�
 flutter_circular_chart|0.0.3|https://pub.dartlang.org/packages/flutter_circular_chart|一个让你使用flutter轻松创建的动画圆形图控件的库。
 
 
+----
+
 > 权限库
 
 库名|版本号|链接|描述
@@ -203,6 +235,8 @@ simple_permissions|0.1.5|https://pub.dartlang.org/packages/simple_permissions|�
 flutter_simple_permissions|0.0.1|https://pub.dartlang.org/packages/flutter_simple_permissions|权限申请的库
 
 
+----
+
 > 分享
 
 库名|版本号|链接|描述
@@ -210,11 +244,15 @@ flutter_simple_permissions|0.0.1|https://pub.dartlang.org/packages/flutter_simpl
 share|0.5.1|https://pub.dartlang.org/packages/share|支持分享的flutter插件
 
 
+----
+
 > 统计
 
 库名|版本号|链接|描述
 -|-|-|-
 flutter_umeng_analytics|0.0.1|https://pub.dartlang.org/packages/flutter_umeng_analytics|这个库集成了友盟统计sdk
+
+----
 
 > 登陆
 
@@ -230,11 +268,15 @@ flutter_wechat|0.1.2|https://pub.dartlang.org/packages/flutter_wechat|这个库�
 flutter_alipay|0.1.0|https://pub.dartlang.org/packages/flutter_alipay|这个库继承了支付宝，兼容android和ios
 
 
+----
+
 **以下几个暂未找到相关的三方库**
 
 
 * 语音
 * 推送
+
+**另外加密解密有关的库也是需要去花点时间找找。。**
 
 ----
 
