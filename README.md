@@ -56,7 +56,7 @@
 
 ##### :arrow_right: [Dart语言官方主页 https://www.dartlang.org/](https://www.dartlang.org/)  官方主页，英文版。
 
-##### :arrow_right: [国内最大的Dart语言中文社区   http://www.cndartlang.com/](http://www.cndartlang.com/)   这个网站有Flutter和Dart的学习资料，很全面，不知道最近怎么打不开了。
+##### :arrow_right: [国内最大的Dart语言中文社区   http://www.cndartlang.com/](http://www.cndartlang.com/)   这个网站有Flutter和Dart的学习资料，很全面。
 
 ##### :arrow_right: [Dart中文主页 https://www.dart-china.org/](https://www.dart-china.org/)    Dart语言中文社区。  
 
