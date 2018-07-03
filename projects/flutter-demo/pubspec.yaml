@@ -14,8 +14,15 @@ dependencies:
   path_provider: ^0.2.1+1
   # 图片处理
   image: ^2.0.4
+  cached_network_image: ^0.4.1+1
+  transparent_image: ^0.1.0
+  shared_preferences: ^0.4.2
+  path_provider: ^0.4.1
+  sqflite: ^0.9.0
+  http: ^0.11.3+16
+  dio: ^0.0.14
   # 弹吐司
-  fluttertoast ^2.0.3
+  fluttertoast: ^2.0.3
 
 
 dev_dependencies:
