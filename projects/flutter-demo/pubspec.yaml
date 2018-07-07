@@ -11,13 +11,12 @@ dependencies:
   flutter_logger:  ^0.0.1
   log: ^0.0.6
   # 读取与写入文件
-  path_provider: ^0.2.1+1
+  path_provider: ^0.4.1
   # 图片处理
   image: ^2.0.4
   cached_network_image: ^0.4.1+1
   transparent_image: ^0.1.0
   shared_preferences: ^0.4.2
-  path_provider: ^0.4.1
   sqflite: ^0.9.0
   http: ^0.11.3+16
   dio: ^0.0.14
