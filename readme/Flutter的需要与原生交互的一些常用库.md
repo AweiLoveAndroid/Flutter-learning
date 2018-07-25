@@ -4,6 +4,21 @@
 
 ----
 
+## 谷歌官方的针对Dart语言的一些实用性的功能以及扩展的库 -- Quiver
+
+Quiver是一组针对Dart的实用程序库，它使使用许多Dart库变得更容易、更方便，或者增加了额外的功能。
+
+github地址  https://github.com/google/quiver-dart
+
+使用方式：
+
+```yaml
+dependencies:
+  quiver: '>=2.0.0 <3.0.0'
+```
+
+----
+
 ## 常用开源包：
 
 
@@ -116,6 +131,28 @@ flutter_html_textview|0.2.6|https://pub.dartlang.org/packages/flutter_html_textv
 **MarkDown ↓**|||
 markdown|2.0.0|https://pub.dartlang.org/packages/markdown|用Dart编写的便携式Markdown库。它可以在客户端和服务器上将Markdown解析为HTML。
 html2md|0.1.7|https://pub.dartlang.org/packages/html2md|将html转换为Dart中的MarkDown.
+**动画 ↓**|||
+flutter_villains|1.0.1|https://pub.dartlang.org/packages/flutter_villains|页面切换动画的一个库，简化动画操作，你只需要管理好UI就可以了。
+**针对Android和ios平台的UI适配库 ↓**|||
+platform_aware|0.4.0|https://pub.dartlang.org/packages/platform_aware|为自动适应当前平台而包装的Flutter组件，不需要对iOS和Android进行代码更改。所有小部件都依赖于Theme.of(context).platform来确定当前活动平台的平台。你可以使用Flutter Inspector动态地更改平台。
+native_widgets |0.0.3| https://pub.dartlang.org/packages/native_widgets|为避免重复代码，只编写一次代码就可以支持两个平台并自动根据平台自动使用对应风格组件，Android将使用材料设计，iOS将使用Cupertino风格的小部件。
+**日期，时间，日期时间，icon，自定义数据的选择器（很全面） ↓**|||
+flutter_picker |0.0.3 |https://pub.dartlang.org/packages/flutter_picker |一个日期，时间，日期时间，icon，自定义数据的选择器，可以居中弹窗，也可以在底部弹出。（目前来看是最全面的一个选择器控件。该插件支持ios和android平台，使用的是ios的风格的UI效果。）
+
+**图片选择的库 ↓**|||
+image_picker |0.4.5 | https://pub.dartlang.org/packages/image_picker   |适用于iOS和Android的Flutter插件，用于从图像库中拾取图像，并使用相机拍摄新照片。（功能正在完善中）
+flutter_multiple_image_picker |0.0.1 |  https://pub.dartlang.org/packages/flutter_multiple_image_picker|一个新的Flutter插件，用于从图库中选择多个图像。
+**联系人选择的库 ↓**|||
+contact_picker 0.0.2 https://pub.dartlang.org/packages/contact_picker
+使用此插件，Flutter应用程序可以地址簿中选择联系人，并将联系人信息返回给应用程序，并且不需要用户的任何特殊权限。目前该插件仅支持选择电话号码。
+
+**颜色选择的库 ↓**|||
+flutter_color_picker |0.0.1   | https://pub.dartlang.org/packages/flutter_color_picker|  一个简单的颜色选择器，类似于安卓的selector的功能，可以在点击控件时，给控件设置选择器效果。
+material_color_picker| 0.0.1|  https://pub.dartlang.org/packages/material_color_picker（这个是旧版本）|这个是Flutter的颜色选择器，基于Google Docs颜色选择器。这个用于选择颜色，你想用哪一个颜色，可以弹窗自由选择。
+material_pickers| 0.0.2| https://pub.dartlang.org/packages/material_pickers（这个是新版本）|这个是Flutter的颜色选择器，基于Google Docs颜色选择器。这个用于选择颜色，你想用哪一个颜色，可以弹窗自由选择。
+flutter_colorpicker| 0.0.5|  https://pub.dartlang.org/packages/flutter_colorpicker|这是一个HSV的颜色选择器
+
+
 
 ----
 
