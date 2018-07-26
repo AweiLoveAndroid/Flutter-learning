@@ -2,6 +2,7 @@
 
 【说明】由于这些库一直在更新，请自己选择合适的稳定版本下载。
 
+
 ----
 
 ## 谷歌官方的针对Dart语言的一些实用性的功能以及扩展的库 -- Quiver
@@ -15,6 +16,23 @@ github地址  https://github.com/google/quiver-dart
 ```yaml
 dependencies:
   quiver: '>=2.0.0 <3.0.0'
+```
+
+----
+
+## 根据pubspec.yaml中设置的目录模板自动向其中添加文件记录的脚本 `asset_generator`
+
+好多人都说
+
+ **这个脚本的作用：利用`asset_generator`脚本生成r.dart 资源文件,方便在代码中引用资源。**
+
+github地址： https://github.com/flutter-dev/asset_generator
+
+使用方式：
+
+```
+1.下载 asset_generator.dart 脚本文件。
+2.找到自己Flutter的安装目录，将脚本放在Flutter的根目录下。
 ```
 
 ----
