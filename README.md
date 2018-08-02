@@ -28,7 +28,7 @@
 
 ## 二、相关示例代码和项目实战
 
-* #### [Flutter相关demo示例代码](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/projects/flutter-demo/lib)
+* #### [Flutter相关demo示例代码](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/projects/flutter-demo)
 
 
 * #### [Dart语法详解相关示例代码](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/projects/dart_demo/test)
