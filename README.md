@@ -26,6 +26,8 @@
 
 * #### [我模仿Flutter中文官网写的一个本地的html页面，同时将官网的一些**未翻译的英文**页面**翻译**成了中文。](https://github.com/AweiLoveAndroid/FlutterWebsiteCN_Mine)
 
+* #### :+1: [Flutter代码模板插件，适用于AS以及IDEA]()
+
 ## 二、相关示例代码和项目实战
 
 * #### [Flutter相关demo示例代码](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/projects/flutter-demo)
