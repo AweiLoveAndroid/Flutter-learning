@@ -385,9 +385,7 @@ flutter_wechat|0.1.2|https://pub.dartlang.org/packages/flutter_wechat|这个库�
 flutter_alipay|0.1.0|https://pub.dartlang.org/packages/flutter_alipay|这个库继承了支付宝，兼容android和ios
 
 
-
-
-* 视频播放（本地视频、网上视频、或者rtmp源格式）
+> 视频播放（本地视频、网上视频、或者rtmp源格式）
 
 https://github.com/hyz1992/my_aliplayer    集成了阿里云播放器，可以用来播放视频，也可以播放rtmp格式。
 
