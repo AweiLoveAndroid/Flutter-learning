@@ -115,7 +115,10 @@ https://github.com/eredo/dartson  （用于web）
 ----
 
 **编解码、加密解密有关的库**
-ninja |1.0.0|https://pub.dartlang.org/packages/ninja|D在art的Converter和Codec接口上完善的AES以及RSA加密解密算法的库。
+
+库名|版本号|链接|描述
+-|-|-|-
+ninja |1.0.0|https://pub.dartlang.org/packages/ninja|在Dart的Converter和Codec接口上完善的AES以及RSA加密解密算法的库。
 archive |2.0.0|https://pub.dartlang.org/packages/archive|为各种存档和压缩格式提供编码器和解码器，如zip，tar，bzip2，gzip和zlib。（不知道移动端能否用得到，文档说服务端和web端可以用。）
 
 
@@ -179,41 +182,60 @@ fluttertoast|2.0.3|https://pub.dartlang.org/packages/fluttertoast|用于Android�
 image_picker|0.4.5|https://pub.dartlang.org/packages/image_picker|用于从Android和iOS图像库中选择图像，并使用相机拍摄新照片。
 camera|0.2.1|https://pub.dartlang.org/packages/camera|用于在Android和iOS上获取有关和控制相机的信息。支持预览相机馈送和捕捉图像。
 
-**富文本 ↓**|||
+**富文本 ↓**
+库名|版本号|链接|描述
+-|-|-|-
 flutter_html_view|0.5.2|https://pub.dartlang.org/packages/flutter_html_view|Flutter没有默认的支持来显示html，所以需要三方的包来显示。这个包可以将html呈现给原生的Widget。（目前支持的标签比较少）
 flutter_html_textview|0.2.6|https://pub.dartlang.org/packages/flutter_html_textview|将html呈现为一个Widget,在textview中呈现html。
-**MarkDown ↓**|||
+**MarkDown ↓**
+库名|版本号|链接|描述
+-|-|-|-
 markdown|2.0.0|https://pub.dartlang.org/packages/markdown|用Dart编写的便携式Markdown库。它可以在客户端和服务器上将Markdown解析为HTML。
 html2md|0.1.7|https://pub.dartlang.org/packages/html2md|将html转换为Dart中的MarkDown.
 
-**动画 ↓**|||
+**动画 ↓**
+库名|版本号|链接|描述
+-|-|-|-
 flutter_villains|1.0.1|https://pub.dartlang.org/packages/flutter_villains|页面切换动画的一个库，简化动画操作，你只需要管理好UI就可以了。
-**针对Android和ios平台的UI适配库 ↓**|||
+
+**针对Android和ios平台的UI适配库 ↓**
+库名|版本号|链接|描述
+-|-|-|-
 platform_aware|0.4.0|https://pub.dartlang.org/packages/platform_aware|为自动适应当前平台而包装的Flutter组件，不需要对iOS和Android进行代码更改。所有小部件都依赖于Theme.of(context).platform来确定当前活动平台的平台。你可以使用Flutter Inspector动态地更改平台。
 native_widgets |0.0.3| https://pub.dartlang.org/packages/native_widgets|为避免重复代码，只编写一次代码就可以支持两个平台并自动根据平台自动使用对应风格组件，Android将使用材料设计，iOS将使用Cupertino风格的小部件。
 
-**日期，时间，日期时间，icon，自定义数据的选择器（很全面） ↓**|||
+**日期，时间，日期时间，icon，自定义数据的选择器（很全面） ↓**
+库名|版本号|链接|描述
+-|-|-|-
 flutter_picker |0.0.3 |https://pub.dartlang.org/packages/flutter_picker |一个日期，时间，日期时间，icon，自定义数据的选择器，可以居中弹窗，也可以在底部弹出。（目前来看是最全面的一个选择器控件。该插件支持ios和android平台，使用的是ios的风格的UI效果。）
 
 **图片选择的库 ↓**|||
 image_picker |0.4.5 | https://pub.dartlang.org/packages/image_picker   |适用于iOS和Android的Flutter插件，用于从图像库中拾取图像，并使用相机拍摄新照片。（功能正在完善中）
 flutter_multiple_image_picker |0.0.1 |  https://pub.dartlang.org/packages/flutter_multiple_image_picker|一个新的Flutter插件，用于从图库中选择多个图像。
 
-**联系人选择的库 ↓**|||
+**联系人选择的库 ↓**
+库名|版本号|链接|描述
+-|-|-|-
 contact_picker |0.0.2| https://pub.dartlang.org/packages/contact_picker|使用此插件，Flutter应用程序可以地址簿中选择联系人，并将联系人信息返回给应用程序，并且不需要用户的任何特殊权限。目前该插件仅支持选择电话号码。
 
-**颜色选择的库 ↓**|||
+**颜色选择的库 ↓**
+库名|版本号|链接|描述
+-|-|-|-
 flutter_color_picker |0.0.1   | https://pub.dartlang.org/packages/flutter_color_picker|  一个简单的颜色选择器，类似于安卓的selector的功能，可以在点击控件时，给控件设置选择器效果。
 material_color_picker| 0.0.1|  https://pub.dartlang.org/packages/material_color_picker（这个是旧版本）|这个是Flutter的颜色选择器，基于Google Docs颜色选择器。这个用于选择颜色，你想用哪一个颜色，可以弹窗自由选择。
 material_pickers| 0.0.2| https://pub.dartlang.org/packages/material_pickers（这个是新版本）|这个是Flutter的颜色选择器，基于Google Docs颜色选择器。这个用于选择颜色，你想用哪一个颜色，可以弹窗自由选择。
 flutter_colorpicker| 0.0.5|  https://pub.dartlang.org/packages/flutter_colorpicker|这是一个HSV的颜色选择器
 
-**轮播图有关的库(以及Tab PagerView有关的库) ↓**|||
+**轮播图有关的库(以及Tab PagerView有关的库) ↓**
+库名|版本号|链接|描述
+-|-|-|-
 infinity_page_view |1.0.0|https://pub.dartlang.org/packages/infinity_page_view|Flutter无限页面视图。
 carousel|0.1.0|https://pub.dartlang.org/packages/carousel|一个简单的轮播组件(待完善)。
 page_transformer |0.0.1|https://pub.dartlang.org/packages/page_transformer|用于在Flutter中创建漂亮的PageView视差效果的示例项目。
 
-**列表有关的库 ↓**|||
+**列表有关的库 ↓**
+库名|版本号|链接|描述
+-|-|-|-
 flutter_pagewise |0.2.0|https://pub.dartlang.org/packages/flutter_pagewise|一次加载一页（或批处理）内容（也称为延迟加载）
 lazy_load_scrollview |0.0.2|https://pub.dartlang.org/packages/lazy_load_scrollview|ScrollView的包装器，可以启用延迟加载，当到达页面底部时将触发回调。
 
@@ -370,3 +392,4 @@ https://github.com/hyz1992/my_aliplayer    集成了阿里云播放器，可以�
 库名|版本号|链接|描述
 -|-|-|-
 pwa|0.1.10|https://pub.dartlang.org/packages/pwa|基于Dart的PWA应用程序的库
+
