@@ -36,7 +36,7 @@ github地址： https://github.com/flutter-dev/asset_generator
 2.找到自己Flutter的安装目录，将脚本放在Flutter的根目录下。
 ```
 
-#### 另外关于pubspec.yaml文件，它很严格，很多人会写错，多一个或者少一个空格都会报错。刚好我找到了一个在线监测工具https://www.bejson.com/validators/yaml/   把你的yaml文件复制进去 就可以自动帮你找出错误了。
+#### :point_right:  另外关于pubspec.yaml文件，它很严格，很多人会写错，多一个或者少一个空格都会报错。刚好我找到了一个在线监测工具https://www.bejson.com/validators/yaml/   把你的yaml文件复制进去 就可以自动帮你找出错误了。
 
 ----
 
@@ -176,11 +176,19 @@ file_cache|0.0.1|https://pub.dartlang.org/packages/file_cache|为flutter package
 
 库名|版本号|链接|描述
 -|-|-|-
-cupertino_icons|0.1.2|https://pub.dartlang.org/packages/cupertino_icons|Cupertino的图标组件库
 font_awesome_flutter|7.0.0|https://pub.dartlang.org/packages/font_awesome_flutter|图标字体的一个库
 fluttertoast|2.0.3|https://pub.dartlang.org/packages/fluttertoast|用于Android和ios的toast库。
 image_picker|0.4.5|https://pub.dartlang.org/packages/image_picker|用于从Android和iOS图像库中选择图像，并使用相机拍摄新照片。
 camera|0.2.1|https://pub.dartlang.org/packages/camera|用于在Android和iOS上获取有关和控制相机的信息。支持预览相机馈送和捕捉图像。
+
+
+**图标有关的开源库 ↓**
+
+库名|版本号|链接|描述
+-|-|-|-
+cupertino_icons|0.1.2|https://pub.dartlang.org/packages/cupertino_icons|Cupertino的图标组件库
+flutter_launcher_icons |0.6.0|https://pub.dartlang.org/packages/flutter_launcher_icons  或者github地址https://github.com/fluttercommunity/flutter_launcher_icons|一个命令行工具，简化了更新Flutter应用程序启动图标的任务。 完全灵活，您可以选择要更新启动图标的平台，如果需要，可以选择保留旧的启动图标，以防将来某个时候还原旧图标。
+
 
 **富文本 ↓**
 
