@@ -254,6 +254,16 @@ infinity_page_view |1.0.0|https://pub.dartlang.org/packages/infinity_page_view|F
 carousel|0.1.0|https://pub.dartlang.org/packages/carousel|一个简单的轮播组件(待完善)。
 page_transformer |0.0.1|https://pub.dartlang.org/packages/page_transformer|用于在Flutter中创建漂亮的PageView视差效果的示例项目。
 
+
+**导航栏有关的库(库) ↓**
+
+库名|版本号|链接|描述
+-|-|-|-
+navigation_bar| 0.0.1|https://pub.dartlang.org/packages/navigation_bar|一个简易的底部导航栏。
+
+
+
+
 **列表有关的库 ↓**
 
 库名|版本号|链接|描述
