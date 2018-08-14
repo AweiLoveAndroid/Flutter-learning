@@ -249,6 +249,7 @@ flutter_colorpicker| 0.0.5|  https://pub.dartlang.org/packages/flutter_colorpick
 
 库名|版本号|链接|描述
 -|-|-|-
+flutter_swiper |1.0.4|https://pub.dartlang.org/packages/flutter_swiper 对应的github地址https://github.com/best-flutter/flutter_swiper |Flutter最强大的siwiper, 多种布局方式，无限轮播，Android和IOS双端适配.
 infinity_page_view |1.0.0|https://pub.dartlang.org/packages/infinity_page_view|Flutter无限页面视图。
 carousel|0.1.0|https://pub.dartlang.org/packages/carousel|一个简单的轮播组件(待完善)。
 page_transformer |0.0.1|https://pub.dartlang.org/packages/page_transformer|用于在Flutter中创建漂亮的PageView视差效果的示例项目。
