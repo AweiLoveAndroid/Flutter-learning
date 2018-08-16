@@ -217,6 +217,15 @@ flutter_villains|1.0.1|https://pub.dartlang.org/packages/flutter_villains|页面
 platform_aware|0.4.0|https://pub.dartlang.org/packages/platform_aware|为自动适应当前平台而包装的Flutter组件，不需要对iOS和Android进行代码更改。所有小部件都依赖于Theme.of(context).platform来确定当前活动平台的平台。你可以使用Flutter Inspector动态地更改平台。
 native_widgets |0.0.3| https://pub.dartlang.org/packages/native_widgets|为避免重复代码，只编写一次代码就可以支持两个平台并自动根据平台自动使用对应风格组件，Android将使用材料设计，iOS将使用Cupertino风格的小部件。
 
+**日历库（主要是用于显示和操作日历）**
+
+库名|版本号|链接|描述
+-|-|-|-
+flutter_calendar |0.0.4|https://pub.dartlang.org/packages/flutter_calendar|适用于Flutter的日历小组件。
+calendarro| 0.0.1|https://pub.dartlang.org/packages/calendarro|Flutter的日历组件库。 这个库提供了多种自定义组件的方法。
+
+
+
 **日期，时间，日期时间，icon，自定义数据的选择器（很全面） ↓**
 
 库名|版本号|链接|描述
