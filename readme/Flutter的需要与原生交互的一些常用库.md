@@ -201,6 +201,7 @@ flutter_html_textview|0.2.6|https://pub.dartlang.org/packages/flutter_html_textv
 
 库名|版本号|链接|描述
 -|-|-|-
+flutter_markdown|0.1.3|https://github.com/flutter/flutter_markdown|官方的MarkDown库，它支持原始MarkDown格式，但没有内联Html格式。
 markdown|2.0.0|https://pub.dartlang.org/packages/markdown|用Dart编写的便携式Markdown库。它可以在客户端和服务器上将Markdown解析为HTML。
 html2md|0.1.7|https://pub.dartlang.org/packages/html2md|将html转换为Dart中的MarkDown.
 
