@@ -90,6 +90,17 @@
 
 ----
 
+# 联系我
+
+> 欢迎关注我的微信：`wei_xing_tian_xia`
+
+> 我的微信公众号也开通了，欢迎大家关注：`Flutter那些事`，扫码就可以关注了。
+
+![我的微信公众号](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg?raw=true)
+
+
+----
+
 # Licence
 
 ```
