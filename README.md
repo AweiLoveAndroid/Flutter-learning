@@ -1,103 +1,119 @@
 # Flutter-learning
 
-# 介绍
+README [English](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/README.md)|[中文版请点击这里](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/README-CN.md)
 
-> 这个库主要是一些Flutter学习资料，个人总结，项目示例代码。如果你想快速学习Flutter，欢迎查看这个库，对你很有帮助的。喜欢的话就给个`Star`，谢谢。欢迎大家多提意见，帮忙完善这个库。如果有问题，欢迎提issue
+[logo](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/logo.png?raw=true)
+
+# Introductions
+
+> This library is a collection of Flutter learning resources , summaries, and  sample codes. If you want to learn Flutter quickly, check out this library, because this library is very helpful for you. If you like, you can give a `star`.Thank you! Welcome to comment and help improve this library. If you have any questions, please pull issue.
+
+![](https://img.shields.io/badge/platform-android-lightgreen.svg)![](https://img.shields.io/badge/platform-ios-lightgreen.svg)
 
 ----
 
-# 目录结构：
+# Catalog
 
-## 一、自己总结的Flutter有关资料
+## 1、Flutter Resources
 
-* #### [Flutter基础全面详解](https://www.jianshu.com/p/2c9867e737a1)
+* #### [Flutter basis](https://www.jianshu.com/p/2c9867e737a1)
 
-* #### [Flutter从配置安装到填坑指南详解](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E4%BB%8E%E9%85%8D%E7%BD%AE%E5%AE%89%E8%A3%85%E5%88%B0%E5%A1%AB%E5%9D%91%E6%8C%87%E5%8D%97%E8%AF%A6%E8%A7%A3.md)
+* #### [Flutter tools,install and wtf problems](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E4%BB%8E%E9%85%8D%E7%BD%AE%E5%AE%89%E8%A3%85%E5%88%B0%E5%A1%AB%E5%9D%91%E6%8C%87%E5%8D%97%E8%AF%A6%E8%A7%A3.md)
 
-* #### [Flutter和原生Android控件对比](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E5%92%8C%E5%8E%9F%E7%94%9FAndroid%E6%8E%A7%E4%BB%B6%E5%AF%B9%E6%AF%94.md)
+* #### [Flutter widgets VS Android widgets](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E5%92%8C%E5%8E%9F%E7%94%9FAndroid%E6%8E%A7%E4%BB%B6%E5%AF%B9%E6%AF%94.md)
 
-* #### [Dart语法](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Dart%E8%AF%AD%E6%B3%95.md)
+* #### [Dart languages](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Dart%E8%AF%AD%E6%B3%95.md)
 
-* #### [Flutter的需要与原生交互的一些常用库](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E7%9A%84%E9%9C%80%E8%A6%81%E4%B8%8E%E5%8E%9F%E7%94%9F%E4%BA%A4%E4%BA%92%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%BA%93.md)
+* #### [Widely used libraries in Flutter](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E7%9A%84%E9%9C%80%E8%A6%81%E4%B8%8E%E5%8E%9F%E7%94%9F%E4%BA%A4%E4%BA%92%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%BA%93.md)
 
-* #### [Flutter和react native的对比](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E5%92%8Creact%20native%E7%9A%84%E5%AF%B9%E6%AF%94.md)
+* #### [Flutter widgets VS react native widgets](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E5%92%8Creact%20native%E7%9A%84%E5%AF%B9%E6%AF%94.md)
 
-* #### [yarn，nodejs，npm，Flutter有关命令](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/yarn%EF%BC%8Cnodejs%EF%BC%8Cnpm%EF%BC%8CFlutter%E6%9C%89%E5%85%B3%E5%91%BD%E4%BB%A4.md)
+* #### [Commands of yarn，nodejs，npm & Flutter](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/yarn%EF%BC%8Cnodejs%EF%BC%8Cnpm%EF%BC%8CFlutter%E6%9C%89%E5%85%B3%E5%91%BD%E4%BB%A4.md)
 
-* #### [我模仿Flutter中文官网写的一个本地的html页面，同时将官网的一些**未翻译的英文**页面**翻译**成了中文。](https://github.com/AweiLoveAndroid/FlutterWebsiteCN_Mine)
+* #### [Flutter Chinese Website, written by me(Imitate flutter.io)](https://github.com/AweiLoveAndroid/FlutterWebsiteCN_Mine)
 
-* #### :+1: [Flutter代码模板插件，适用于AS以及IDEA](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/code_plugins)
+* #### :+1: [Flutter code template plugin for Android Studio, IDEA & VSCode](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/code_plugins)
 
-## 二、相关示例代码和项目实战
+## 2、Sample codes and projects
 
-* #### [Flutter相关demo示例代码](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/projects/flutter-demo)
+* #### [Flutter demo codes](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/projects/flutter-demo)
 
 
-* #### [Dart语法详解相关示例代码](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/projects/dart_demo/test)
+* #### [Dart grammar codes](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/projects/dart_demo/test)
 
-* #### [自己封装的一个线性渐变工具类FractionalOffsetUtil.dart](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/projects/flutter-demo/util/FractionalOffsetUtil.dart)
+* #### [FractionalOffsetUtil.dart](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/projects/flutter-demo/util/FractionalOffsetUtil.dart)
 
-## 三、Flutter相关学习文档
+## 3、Flutter documents
 
-* #### [Flutter相关译文](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/Flutter%E7%9B%B8%E5%85%B3%E8%AF%91%E6%96%87.md)
+* #### [Flutter translations](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/Flutter%E7%9B%B8%E5%85%B3%E8%AF%91%E6%96%87.md)
 
-* #### [Flutter有关博客详解](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/Flutter%E6%9C%89%E5%85%B3%E5%8D%9A%E5%AE%A2%E8%AE%B2%E8%A7%A3.md)
+* #### [Flutter blogs](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/Flutter%E6%9C%89%E5%85%B3%E5%8D%9A%E5%AE%A2%E8%AE%B2%E8%A7%A3.md)
 
-* #### Flutter和其他平台的对比
+* #### Comparison of Flutter and other platforms
 
-  * ##### [Android开发者快速上手Flutter参考知识点](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E8%AF%91%E6%96%87/Android%E5%BC%80%E5%8F%91%E8%80%85%E5%8F%82%E8%80%83.md)
+  * ##### [Flutter for Android developers](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E8%AF%91%E6%96%87/Android%E5%BC%80%E5%8F%91%E8%80%85%E5%8F%82%E8%80%83.md)
   
-  * ##### [Flutter和web开发的对比]()
+  * ##### [Flutter for Android developers]()
   
-  * ##### [Flutter和React Native的对比]()
+  * ##### [Flutter for React Native developers]()
 
-## 四、Flutter、Dart有关网站
+## 4、Websites for Flutter & Dart
 
-#### ★ Flutter有关网站
+#### ★ About Flutter Websites
 
-##### :arrow_right: [Flutter官方文档 https://flutter.io/docs/](https://flutter.io/docs/)   官方主页，英文版。
+##### :arrow_right: [Flutter Website     https://flutter.io/docs/](https://flutter.io/docs/)   
+Official website,English language.
 
-##### :arrow_right: [Flutter中文版 http://doc.flutter-dev.cn/](http://doc.flutter-dev.cn/)  网友自制的中文网，翻译更新的比较快，基本跟官网同步，但是翻译的只有一部分。
+##### :arrow_right: [Flutter Chinese official website      https://flutter-io.cn/](https://flutter-io.cn/)  
+It's new, you can find videos,blogs,docs & codelabs in it.It is very comprehensive.
 
-##### :arrow_right: [Flutter中文网 https://flutterchina.club/](https://flutterchina.club/)  网友自制的中文网，内容翻译的比较多，但是内容还比较老，还没来得及更新最新内容。
+##### :arrow_right: [Flutter Website for China     http://doc.flutter-dev.cn/](http://doc.flutter-dev.cn/) 
+Chinese websites made by Chinese developers. This website is updated faster, and almost sync with the official website, But the translation is rarely.
 
-##### :arrow_right: [Flutter中文官网  https://flutter-io.cn/](https://flutter-io.cn/)  官方的中文网，最新出来的，资料齐全，视频、博客、文档、最新咨询都有。
+##### :arrow_right: [Flutter Website for China     https://flutterchina.club/](https://flutterchina.club/)  
+Chinese websites made by Chinese developers. This website is updated more slowly, but the translation is very comprehensive.
 
-##### :arrow_right: [Flutter Github地址 https://github.com/flutter/flutter](https://github.com/flutter/flutter)
 
-#### ★ Dart有关网站
+##### :arrow_right: [Flutter Github    https://github.com/flutter/flutter(https://github.com/flutter/flutter)
+Flutter open source code,you can find sources and samples form github.
 
-##### :arrow_right: [开源代码下载库 https://pub.dartlang.org/](https://pub.dartlang.org/)    三方库都可以在这里下载。
+#### ★ About Dart Websites
 
-##### :arrow_right: [Dart语言官方主页 https://www.dartlang.org/](https://www.dartlang.org/)  官方主页，英文版。
+##### :arrow_right: [Dart Open source code libraries     https://pub.dartlang.org/](https://pub.dartlang.org/)    
+You can download Dart libraries here.Also You can upload open source library to `https://pub.dartlang.org`.
 
-##### :arrow_right: [国内最大的Dart语言中文社区   http://www.cndartlang.com/](http://www.cndartlang.com/)   这个网站有Flutter和Dart的学习资料，很全面。
+##### :arrow_right: [Dart website     https://www.dartlang.org/](https://www.dartlang.org/)  
+Official website,English language.
 
-##### :arrow_right: [Dart中文主页 https://www.dart-china.org/](https://www.dart-china.org/)    Dart语言中文社区。  
+##### :arrow_right: [The largest Dart language Chinese community in China       http://www.cndartlang.com/](http://www.cndartlang.com/)   
+The website contains a lot of learning materials for Flutter and Dart.
 
-##### :arrow_right: [dart-pad Github地址 https://github.com/dart-lang/dart-pad](https://github.com/dart-lang/dart-pad)    Dart语言的在线编辑器的源码。
+##### :arrow_right: [Dart website for China     https://www.dart-china.org/](https://www.dart-china.org/)    
+Dart language Chinese community.,it's another website for dart.
 
-##### :arrow_right: [DartPad在线编辑器 https://dartpad.dartlang.org/](https://dartpad.dartlang.org/)    Dart语言的在线编辑器
+##### :arrow_right: [dart-pad Github     https://github.com/dart-lang/dart-pad](https://github.com/dart-lang/dart-pad)    
+Source code for the online editor for the Dart language.
+
+##### :arrow_right: [DartPad online editor     https://dartpad.dartlang.org/](https://dartpad.dartlang.org/)    
+Dart language online editor
 
 ----
 
-# 赞赏
+# Donation
 
-如果这个库对您有很大帮助，您愿意支持这个项目的进一步开发和这个项目的持续维护。你可以扫描下面的二维码，让我喝一杯咖啡或啤酒。非常感谢您的捐赠。谢谢！
+> If this library is very helpful to you, you are willing to support the further development of this project and the continuous maintenance of this project. You can scan the following QR code, let me have a cup of coffee or beer. Thank you very much for your donation. Thank you!
 
-![赞赏](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/donation.png?raw=true)
-
+![donation](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/donation.png?raw=true)
 
 ----
 
-# 联系我
+# About me
 
-> 欢迎关注我的微信：`wei_xing_tian_xia`
+> Wechat：`wei_xing_tian_xia`
 
-> 我的微信公众号也开通了，欢迎大家关注：`Flutter那些事`，扫码就可以关注了。
+> Wechat public account ：`Flutter那些事` , For further information, please scan the QR code below to follow us.
 
-![我的微信公众号](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg?raw=true)
-
+![Wechat public account](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg?raw=true)
 
 ----
 
