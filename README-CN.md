@@ -1,5 +1,10 @@
 # Flutter-learning
 
+#### README    [English](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/README.md)|[中文版请点击这里](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/README-CN.md)
+
+![logo](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/logo.png?raw=true)
+
+
 # 介绍
 
 > 这个库主要是一些Flutter学习资料，个人总结，项目示例代码。如果你想快速学习Flutter，欢迎查看这个库，对你很有帮助的。喜欢的话就给个`Star`，谢谢。欢迎大家多提意见，帮忙完善这个库。如果有问题，欢迎提issue
@@ -28,6 +33,8 @@
 
 * #### :+1: [Flutter代码模板插件，适用于AS以及IDEA](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/code_plugins)
 
+----
+
 ## 二、相关示例代码和项目实战
 
 * #### [Flutter相关demo示例代码](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/projects/flutter-demo)
@@ -36,6 +43,8 @@
 * #### [Dart语法详解相关示例代码](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/projects/dart_demo/test)
 
 * #### [自己封装的一个线性渐变工具类FractionalOffsetUtil.dart](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/projects/flutter-demo/util/FractionalOffsetUtil.dart)
+
+----
 
 ## 三、Flutter相关学习文档
 
@@ -51,33 +60,46 @@
   
   * ##### [Flutter和React Native的对比]()
 
+----
+
 ## 四、Flutter、Dart有关网站
 
-#### ★ Flutter有关网站
+###  ★   Flutter有关网站
 
-##### :arrow_right: [Flutter官方文档 https://flutter.io/docs/](https://flutter.io/docs/)   官方主页，英文版。
+##### :arrow_right: [Flutter官方文档 https://flutter.io/docs/](https://flutter.io/docs/)   
+官方主页，英文版。
 
-##### :arrow_right: [Flutter中文版 http://doc.flutter-dev.cn/](http://doc.flutter-dev.cn/)  网友自制的中文网，翻译更新的比较快，基本跟官网同步，但是翻译的只有一部分。
+##### :arrow_right: [Flutter中文官网  https://flutter-io.cn/](https://flutter-io.cn/)  
+官方的中文网，最新出来的，资料齐全，视频、博客、文档、最新咨询都有。
 
-##### :arrow_right: [Flutter中文网 https://flutterchina.club/](https://flutterchina.club/)  网友自制的中文网，内容翻译的比较多，但是内容还比较老，还没来得及更新最新内容。
+##### :arrow_right: [Flutter中文版 http://doc.flutter-dev.cn/](http://doc.flutter-dev.cn/) 
+网友自制的中文网，翻译更新的比较快，基本跟官网同步，但是翻译的只有一部分。
 
-##### :arrow_right: [Flutter中文官网  https://flutter-io.cn/](https://flutter-io.cn/)  官方的中文网，最新出来的，资料齐全，视频、博客、文档、最新咨询都有。
+##### :arrow_right: [Flutter中文网 https://flutterchina.club/](https://flutterchina.club/)  
+网友自制的中文网，内容翻译的比较多，但是内容还比较老，还没来得及更新最新内容。
 
-##### :arrow_right: [Flutter Github地址 https://github.com/flutter/flutter](https://github.com/flutter/flutter)
+##### :arrow_right: [Flutter Github地址 https://github.com/flutter/flutter](https://github.com/flutter/flutter)  
+Flutter开源库，上面有源码和示例项目。
 
-#### ★ Dart有关网站
+###  ★   Dart有关网站
 
-##### :arrow_right: [开源代码下载库 https://pub.dartlang.org/](https://pub.dartlang.org/)    三方库都可以在这里下载。
+##### :arrow_right: [开源代码下载库 https://pub.dartlang.org/](https://pub.dartlang.org/)    
+三方库都可以在这里下载。
 
-##### :arrow_right: [Dart语言官方主页 https://www.dartlang.org/](https://www.dartlang.org/)  官方主页，英文版。
+##### :arrow_right: [Dart语言官方主页 https://www.dartlang.org/](https://www.dartlang.org/)  
+官方主页，英文版。
 
-##### :arrow_right: [国内最大的Dart语言中文社区   http://www.cndartlang.com/](http://www.cndartlang.com/)   这个网站有Flutter和Dart的学习资料，很全面。
+##### :arrow_right: [国内最大的Dart语言中文社区   http://www.cndartlang.com/](http://www.cndartlang.com/)   
+这个网站有Flutter和Dart的学习资料，很全面。
 
-##### :arrow_right: [Dart中文主页 https://www.dart-china.org/](https://www.dart-china.org/)    Dart语言中文社区。  
+##### :arrow_right: [Dart中文主页 https://www.dart-china.org/](https://www.dart-china.org/)    
+Dart语言中文社区。  
 
-##### :arrow_right: [dart-pad Github地址 https://github.com/dart-lang/dart-pad](https://github.com/dart-lang/dart-pad)    Dart语言的在线编辑器的源码。
+##### :arrow_right: [dart-pad Github地址 https://github.com/dart-lang/dart-pad](https://github.com/dart-lang/dart-pad)    
+Dart语言的在线编辑器的源码。
 
-##### :arrow_right: [DartPad在线编辑器 https://dartpad.dartlang.org/](https://dartpad.dartlang.org/)    Dart语言的在线编辑器
+##### :arrow_right: [DartPad在线编辑器 https://dartpad.dartlang.org/](https://dartpad.dartlang.org/)    
+Dart语言的在线编辑器
 
 ----
 
@@ -86,7 +108,6 @@
 如果这个库对您有很大帮助，您愿意支持这个项目的进一步开发和这个项目的持续维护。你可以扫描下面的二维码，让我喝一杯咖啡或啤酒。非常感谢您的捐赠。谢谢！
 
 ![赞赏](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/donation.png?raw=true)
-
 
 ----
 
@@ -97,7 +118,6 @@
 > 我的微信公众号也开通了，欢迎大家关注：`Flutter那些事`，扫码就可以关注了。
 
 ![我的微信公众号](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg?raw=true)
-
 
 ----
 
