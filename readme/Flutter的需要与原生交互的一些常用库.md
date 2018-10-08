@@ -308,7 +308,7 @@ event_bus|0.4.1|https://pub.dartlang.org/packages/event_bus|一个使用Dart流�
 
 库名|版本号|链接|描述
 -|-|-|-
-video_player|0.6.0|https://pub.dartlang.org/packages/video_player|用于在Android和iOS上与其他Flutter窗口小部件一起显示内嵌视频。
+video_player|0.6.5|https://pub.dartlang.org/packages/video_player|Flutter官方的视频库（也可以用于直播），用于在Android和iOS上与其他Flutter窗口小部件一起显示内嵌视频。**支持主流直播流**。该库底层使用的ExoPlayer播放器。更多关于ExoPlayer播放器支持的视频格式资料请看官方文档[ExoPlayer播放器支持的视频格式](https://google.github.io/ExoPlayer/supported-formats.html)
 video_launcher|0.3.0|https://pub.dartlang.org/packages/video_launcher|视频播放器
 flute_music_player|0.0.6|https://pub.dartlang.org/packages/flute_music_player|基于Flutter的材料设计音乐播放器与音频插件播放本地音乐文件.
 audioplayer|0.5.0|https://pub.dartlang.org/packages/audioplayer|一个播放远程或本地音频文件Flutter音频插件
