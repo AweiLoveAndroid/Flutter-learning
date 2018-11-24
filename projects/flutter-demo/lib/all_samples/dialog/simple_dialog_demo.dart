@@ -18,49 +18,32 @@ class _SimpleDialogDemoState extends State<SimpleDialogDemo> {
       ),
       body: new ListView(
         children: <Widget>[
-          setBuilders(context, 'SimpleDialogDemo1', 1, 'SimpleDialogDemo1'),
-          setBuilders(context, 'SimpleDialogDemo2', 2, 'SimpleDialogDemo2'),
-          setBuilders(context, 'SimpleDialogDemo3', 3, 'SimpleDialogDemo3'),
+          buildContents(context, 'SimpleDialog Demo1', 'SimpleDialog Demo1', 1),
+          buildContents(context, 'SimpleDialog Demo2', 'SimpleDialog Demo2', 2),
+          buildContents(context, 'SimpleDialog Demo3', 'SimpleDialog Demo3', 3),
         ],
       ),
     );
   }
 }
 
-Widget setBuilders(
-    BuildContext context, String contents, int type, String clickMsg) {
-  // new Builder不能去掉
-  return new Builder(builder: (BuildContext context) {
-    // 必须加上return 不加就报错
-    return buildClicks(
-        buildContents(contents: contents), context, type, clickMsg);
-  });
-}
-
-Widget buildClicks(
-    Widget child, BuildContext context, int type, String clickMsg) {
+// 主体内容
+Widget buildContents(
+    BuildContext context, String contents, String title, int type) {
   return new InkWell(
-    child: child,
-//    onTapDown: (details) {
-//      Fluttertoast.showToast(
-//          msg: '点击了 $clickMsg',
-//          toastLength: Toast.LENGTH_SHORT,
-//          gravity: ToastGravity.BOTTOM);
-//      // 创建SimpleDialog
-//      buildDialogs(context, type);
-//    },
+    // 给每一个item一个点击事件
+    child: _buildListItemContent(contents: contents),
     onTap: () {
-      Fluttertoast.showToast(
-          msg: '点击了 $clickMsg',
-          toastLength: Toast.LENGTH_SHORT,
-          gravity: ToastGravity.CENTER);
-//      创建SimpleDialog
-      buildDialogs(context, type);
+      print("onTap");
+      _showToast('onTap');
+      // 点击了item 就会打开 SimpleDialog
+      buildDialogs(context, title, type);
     },
   );
 }
 
-Widget buildContents({var contents, Color bgColor}) {
+// ListView的 Item布局内容
+Widget _buildListItemContent({var contents, Color bgColor}) {
   return new Container(
     margin: new EdgeInsets.all(5.0),
     padding: new EdgeInsets.all(5.0),
@@ -86,11 +69,11 @@ Widget buildContents({var contents, Color bgColor}) {
         ),
       ],
     ),
-    child: buildButton(contents),
+    child: _buildButton(contents),
   );
 }
 
-Widget buildButton(var contents) {
+Widget _buildButton(var contents) {
   return new Text(
     contents,
     style: new TextStyle(
@@ -100,153 +83,144 @@ Widget buildButton(var contents) {
   );
 }
 
-// 创建SimpleDialog
+// 创建 SimpleDialog
 // 这个不能直接写，正确的使用方式：showDialog<Null>(builder: (BuildContext context) {});
 // 在builder里面去声明dialog对象
-// 这里封装的type是类型，如果是第一种 就显示默认的风格
-void buildDialogs(BuildContext context, int type) {
+void buildDialogs(BuildContext context, String title, int type) {
   showDialog<Null>(
     context: context,
     builder: (BuildContext context) {
-      if (type == 1) {
-        return _showSimpleDialog1(context, type);
-      } else if (type == 2) {
-        return _showSimpleDialog2(context, type);
-      } else if (type == 3) {
-        return _showSimpleDialog3(context, type);
-      }
+      return showSimpleDialog(context, title, type);
     },
   );
 }
 
-SimpleDialog _showSimpleDialog1(BuildContext context, int type) {
+// 创建 SimpleDialog
+// title是SimpleDialog的标题  type是dialog item创建不同的内容
+SimpleDialog showSimpleDialog(BuildContext context, String title, int type) {
+  Text text = new Text(
+    title,
+    style: type == 1
+        ? (new TextStyle(color: Theme.of(context).primaryColor))
+        : (new TextStyle(color: Colors.deepOrange)),
+  );
   SimpleDialog simpleDialog = new SimpleDialog(
-    // 标题内容
-    title: new Text('SimpleDialog示例1'),
-    // children里面是dialog的内容 可以自定义
-    children: <Widget>[
-      buildClicks(new Text('item1'), context, type, 'item1'),
-      buildClicks(new Text('item2'), context, type, 'item2'),
-      buildClicks(new Text('item3'), context, type, 'item3'),
-      buildClicks(new Text('item4'), context, type, 'item4'),
-      buildClicks(new Text('item5'), context, type, 'item5'),
-    ],
+    title: text,
+    children: buildDialogItems(type, context),
   );
   return simpleDialog;
 }
 
-SimpleDialog _showSimpleDialog2(BuildContext context, int type) {
-  SimpleDialog simpleDialog = new SimpleDialog(
-    title: new Text(
-      'SimpleDialog示例2',
-      // 标题颜色使用主题色
-      style: new TextStyle(color: Theme.of(context).primaryColor),
-    ),
-//        titlePadding: EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 20.0),
-//        contentPadding: EdgeInsets.fromLTRB(5.0, 5.0, 5.0, 5.0),
-    // 路由的名字 当点击dialog和其他页面交互的时候，就可以使用
-//        semanticLabel: '/routers_name',
-    // children里面是dialog的内容 可以自定义
-    children: <Widget>[
-      buildClicks(buildContents(contents: 'item1'), context, type, 'item1'),
-      buildClicks(buildContents(contents: 'item2'), context, type, 'item2'),
-      buildClicks(buildContents(contents: 'item3'), context, type, 'item3'),
-      buildClicks(buildContents(contents: 'item4'), context, type, 'item4'),
-      buildClicks(buildContents(contents: 'item5'), context, type, 'item5'),
-    ],
+// 3种不同的内容，所以这里定义了3种类型
+List<Widget> buildDialogItems(int type, BuildContext context) {
+  List<Widget> list = null;
+  // 第一种类型 简单的ListView
+  if (type == 1) {
+    list = <Widget>[
+      showDialogItemsClick(new Text('item1'), 'item1', context),
+      showDialogItemsClick(new Text('item2'), 'item2', context),
+      showDialogItemsClick(new Text('item3'), 'item3', context),
+      showDialogItemsClick(new Text('item4'), 'item4', context),
+      showDialogItemsClick(new Text('item5'), 'item5', context),
+    ];
+  } else if (type == 2) {
+    list = <Widget>[
+      showDialogItemsClick(
+          _buildListItemContent(contents: 'item1'), 'item1', context),
+      showDialogItemsClick(
+          _buildListItemContent(contents: 'item2'), 'item2', context),
+      showDialogItemsClick(
+          _buildListItemContent(contents: 'item3'), 'item3', context),
+      showDialogItemsClick(
+          _buildListItemContent(contents: 'item4'), 'item4', context),
+      showDialogItemsClick(
+          _buildListItemContent(contents: 'item5'), 'item5', context),
+    ];
+  } else if (type == 3) {
+    list = <Widget>[
+      showDialogItemsClick(
+          new ListTile(
+            leading: new Icon(
+              Icons.photo_album,
+              color: Colors.redAccent,
+            ),
+            title: new Text(
+              '相册',
+              style: new TextStyle(color: Colors.deepOrangeAccent),
+            ),
+          ),
+          '相册',
+          context),
+      showDialogItemsClick(
+          new ListTile(
+            leading: new Icon(
+              Icons.add,
+              color: Colors.redAccent,
+            ),
+            title: new Text(
+              '添加',
+              style: new TextStyle(color: Colors.deepOrangeAccent),
+            ),
+          ),
+          '添加',
+          context),
+      showDialogItemsClick(
+          new ListTile(
+            leading: new Icon(
+              Icons.mic,
+              color: Colors.redAccent,
+            ),
+            title: new Text(
+              '录音',
+              style: new TextStyle(color: Colors.deepOrangeAccent),
+            ),
+          ),
+          '录音',
+          context),
+      showDialogItemsClick(
+          new ListTile(
+            leading: new Icon(
+              Icons.mail,
+              color: Colors.redAccent,
+            ),
+            title: new Text(
+              '邮件',
+              style: new TextStyle(color: Colors.deepOrangeAccent),
+            ),
+          ),
+          '邮件',
+          context),
+      showDialogItemsClick(
+          new ListTile(
+            leading: new Icon(
+              Icons.search,
+              color: Colors.redAccent,
+            ),
+            title: new Text(
+              '搜索',
+              style: new TextStyle(color: Colors.deepOrangeAccent),
+            ),
+          ),
+          '搜索',
+          context),
+    ];
+  }
+  return list;
+}
+
+// 点击弹窗里面的每一个item时的事件
+// 参数1：要点击的item  参数2：toast的内容
+Widget showDialogItemsClick(Widget child, String msg, BuildContext context) {
+  return new InkWell(
+    child: child,
+    onTap: () {
+      Navigator.pop(context);
+      _showToast("关闭了Dialog" + msg);
+    },
   );
-  return simpleDialog;
 }
 
-SimpleDialog _showSimpleDialog3(BuildContext context, int type) {
-  SimpleDialog simpleDialog = new SimpleDialog(
-      title: new Text(
-        'SimpleDialog示例3',
-        style: new TextStyle(color: Colors.deepOrange),
-      ),
-      titlePadding: EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 20.0),
-      contentPadding: EdgeInsets.fromLTRB(5.0, 5.0, 5.0, 5.0),
-      // 路由的名字 当点击dialog和其他页面交互的时候，就可以使用
-//        semanticLabel: /routers_name',
-      // children里面是dialog的内容 可以自定义
-      children: <Widget>[
-        buildClicks(
-            new ListTile(
-              leading: new Icon(
-                Icons.photo_album,
-                color: Colors.redAccent,
-              ),
-              title: new Text(
-                '相册',
-                style: new TextStyle(color: Colors.deepOrangeAccent),
-              ),
-            ),
-            context,
-            type,
-            '相册'),
-        buildClicks(
-            new ListTile(
-              leading: new Icon(
-                Icons.add,
-                color: Colors.redAccent,
-              ),
-              title: new Text(
-                '添加',
-                style: new TextStyle(color: Colors.deepOrangeAccent),
-              ),
-            ),
-            context,
-            type,
-            '添加'),
-        buildClicks(
-            new ListTile(
-              leading: new Icon(
-                Icons.mic,
-                color: Colors.redAccent,
-              ),
-              title: new Text(
-                '录音',
-                style: new TextStyle(color: Colors.deepOrangeAccent),
-              ),
-            ),
-            context,
-            type,
-            '录音'),
-        buildClicks(
-            new ListTile(
-              leading: new Icon(
-                Icons.mail,
-                color: Colors.redAccent,
-              ),
-              title: new Text(
-                '邮件',
-                style: new TextStyle(color: Colors.deepOrangeAccent),
-              ),
-            ),
-            context,
-            type,
-            '邮件'),
-        buildClicks(
-            new ListTile(
-              leading: new Icon(
-                Icons.search,
-                color: Colors.redAccent,
-              ),
-              title: new Text(
-                '搜索',
-                style: new TextStyle(color: Colors.deepOrangeAccent),
-              ),
-            ),
-            context,
-            type,
-            '搜索'),
-      ]);
-  return simpleDialog;
-}
-
-void showToast(String msg) {
+void _showToast(String msg) {
   Fluttertoast.showToast(
-      msg: '点击了 $msg',
-      toastLength: Toast.LENGTH_SHORT,
-      gravity: ToastGravity.BOTTOM);
+      msg: msg, toastLength: Toast.LENGTH_SHORT, gravity: ToastGravity.BOTTOM);
 }
