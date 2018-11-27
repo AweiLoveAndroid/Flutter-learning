@@ -1,6 +1,6 @@
 # Flutter-learning
 
-#### README    [English](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/README.md)|[中文版请点击这里](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/README-CN.md)
+#### README    [English](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/README-EN.md)|[中文版请点击这里](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/README.md)
 
 
 ![logo](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/logo.png?raw=true)
