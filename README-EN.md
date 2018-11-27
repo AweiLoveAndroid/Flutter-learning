@@ -75,11 +75,11 @@
 ##### :arrow_right: [Flutter Chinese official website      https://flutter-io.cn/](https://flutter-io.cn/)  
     It's new, you can find videos,blogs,docs & codelabs in it.It is very comprehensive.
 
-##### :arrow_right: [Flutter Website for China     http://doc.flutter-dev.cn/](http://doc.flutter-dev.cn/) 
-    Chinese websites made by Chinese developers. This website is updated faster, and almost sync with the official website, But the translation is rarely.
+##### :arrow_right: [Flutter Website for China     https://www.flutter123.com/](https://www.flutter123.com/) 
+    Chinese websites made by me. This website is updated faster, and almost sync with the official website.
 
-##### :arrow_right: [Flutter Website for China     https://flutterchina.club/](https://flutterchina.club/)  
-    Chinese websites made by Chinese developers. This website is updated more slowly, but the translation is very comprehensive.
+##### :arrow_right: [Flutter Website for China     https://www.flutter123.cn](https://www.flutter123.cn/)  
+    Chinese websites made by me. This website is updated faster, and almost sync with the official website.
 
 
 ##### :arrow_right: [Flutter Github    https://github.com/flutter/flutter(https://github.com/flutter/flutter)
@@ -92,12 +92,6 @@
 
 ##### :arrow_right: [Dart website     https://www.dartlang.org/](https://www.dartlang.org/)  
     Official website,English language.
-
-##### :arrow_right: [The largest Dart language Chinese community in China       http://www.cndartlang.com/](http://www.cndartlang.com/)   
-    The website contains a lot of learning materials for Flutter and Dart.
-
-##### :arrow_right: [Dart website for China     https://www.dart-china.org/](https://www.dart-china.org/)    
-    Dart language Chinese community.,it's another website for dart.
 
 ##### :arrow_right: [dart-pad Github     https://github.com/dart-lang/dart-pad](https://github.com/dart-lang/dart-pad)    
     Source code for the online editor for the Dart language.
