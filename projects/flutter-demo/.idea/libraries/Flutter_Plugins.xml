@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
+    <CLASSES>
+      <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.flutter-io.cn/shared_preferences-0.4.3" />
+      <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.flutter-io.cn/path_provider-0.4.1" />
+      <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.flutter-io.cn/fluttertoast-2.1.1" />
+      <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.flutter-io.cn/sqflite-0.12.2+1" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -21,7 +21,7 @@ abstract class Shape {
 class Circle implements Shape {
   final num radius;
   Circle(this.radius);
-  num get area => PI * pow(radius, 2);
+  num get area => pi * pow(radius, 2);
 }
 
 /// 添加一个扩展Circle类的CircleMock类.

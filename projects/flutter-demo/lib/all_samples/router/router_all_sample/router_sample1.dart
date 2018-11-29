@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// 这是路由的完整使用示例
 // 使用Navigator.push实现发送路由，Navigator.pop返回上一个页面。
 void main() {
   runApp(

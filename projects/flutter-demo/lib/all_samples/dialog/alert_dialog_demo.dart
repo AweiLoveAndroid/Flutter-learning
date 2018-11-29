@@ -5,19 +5,7 @@ import 'alert_dialog_demo.dart';
 import 'simple_dialog_demo.dart';
 import 'snackbar_demo.dart';
 
-void main() {
-  runApp(
-    new MaterialApp(
-      title: 'AlertDialogDemo',
-      theme: new ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: new DialogWidgetsDemo(),
-    ),
-  );
-}
-
-class DialogWidgetsDemo extends StatelessWidget {
+class AlertDialogDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<Widget> widgets = <Widget>[

@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Dart SDK">
+    <CLASSES>
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/async" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/cli" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/collection" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/convert" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/core" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/developer" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/html" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/indexed_db" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/io" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/isolate" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/js" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/js_util" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/math" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/mirrors" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/svg" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/typed_data" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/web_audio" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/web_gl" />
+      <root url="file://E:/develop/flutter/bin/cache/dart-sdk/lib/web_sql" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_demo/all_samples/router/router_easy_sample/router_demo.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 import 'list/list_demo.dart';
 import 'normal_page.dart';
-import 'router/router_demo.dart';
 
 void main() {
   runApp(new MaterialApp(

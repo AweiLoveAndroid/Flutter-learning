@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 //import 'package:flutter_simple_permissions/flutter_simple_permissions.dart';
-import 'package:simple_permissions/simple_permissions.dart';
+//import 'package:simple_permissions/simple_permissions.dart';
 
 /// flutter_simple_permissions这个库的使用
+/// 暂且不做测试这个功能  目前有bug 以后再看。。
 void main() {
   runApp(new MaterialApp(
     title: 'PermissionsDemo',

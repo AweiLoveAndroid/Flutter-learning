@@ -1,17 +1,16 @@
-import 'dart:convert';
-import 'package:http/http.dart' as http;
 import 'dart:async' show Future;
+import 'dart:convert';
+
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_logger/flutter_logger.dart';
+import 'package:http/http.dart' as http;
 //import 'package:log/log.dart';
 
 /// 加载网络json和本地json
-void main(){
+void main() {
 //  _networkLoading();
   _loadJson();
 }
-
-
 
 /// 通过网络加载json并解析层对象
 void _networkLoading() {
@@ -25,9 +24,9 @@ void _networkLoading() {
     // JsonDecoder类解析JSON字符串并构建相应的对象
     JsonDecoder decoder = new JsonDecoder();
     // 将给定的JSON字符串输入转换为其对应的对象
-    Map<String,dynamic> json = decoder.convert(netdata);
+    Map<String, dynamic> json = decoder.convert(netdata);
     // 输出给定的JSON数据
-    new Log('networkLoading',formatTags: false).i(json);
+    new Log('networkLoading').d(json.toString());
   });
 }
 
@@ -39,7 +38,7 @@ Future<String> loadAsset() async {
 void _loadJson() {
   loadAsset().then((value) {
     JsonDecoder decoder = new JsonDecoder();
-    Map<String,dynamic> json = decoder.convert(value);
-    new Log('_loadJson',formatTags: false).i(json);
+    Map<String, dynamic> json = decoder.convert(value);
+    new Log('_loadJson').d(json.toString());
   });
 }
