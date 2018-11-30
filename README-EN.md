@@ -51,9 +51,9 @@
 
 ## 3、Flutter documents
 
-* #### [Flutter translations](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/Flutter%E7%9B%B8%E5%85%B3%E8%AF%91%E6%96%87.md)
+* #### [Flutter相关译文](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E8%AF%91%E6%96%87/Android%E5%BC%80%E5%8F%91%E8%80%85%E5%8F%82%E8%80%83.md)
 
-* #### [Flutter blogs](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/Flutter%E6%9C%89%E5%85%B3%E5%8D%9A%E5%AE%A2%E8%AE%B2%E8%A7%A3.md)
+* #### [Flutter有关博客详解](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/Flutter%E6%9C%89%E5%85%B3%E5%8D%9A%E5%AE%A2%E8%AE%B2%E8%A7%A3.md)
 
 * #### Comparison of Flutter and other platforms
 
