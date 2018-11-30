@@ -52,8 +52,6 @@
 
 ## 三、Flutter相关学习文档
 
-* #### [Flutter相关译文](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/Flutter%E7%9B%B8%E5%85%B3%E8%AF%91%E6%96%87.md)
-
 * #### [Flutter有关博客详解](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/Flutter%E6%9C%89%E5%85%B3%E5%8D%9A%E5%AE%A2%E8%AE%B2%E8%A7%A3.md)
 
 * #### Flutter和其他平台的对比
