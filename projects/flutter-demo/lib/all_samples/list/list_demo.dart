@@ -13,6 +13,7 @@ import 'listview_radio_listtitle.dart';
 import 'listview_simple.dart';
 import 'listview_sliver.dart';
 import 'sliver_vs_grid.dart';
+import 'vertical_list_nested_horizontal_list.dart';
 
 class ListViewDemos extends StatelessWidget {
   @override
@@ -42,6 +43,8 @@ class ListViewDemos extends StatelessWidget {
           buildContents('多级列表Demo'), context, new ListViewMultiLevelDemo()),
       buildClicks(buildContents(' SliverGrid 和 GridView 的对比'), context,
           new SliverGridVSGridView()),
+      buildClicks(buildContents('垂直listview嵌套水平的listview'), context,
+          new ListViewNestedDemo()),
       new Text(''),
     ];
 
