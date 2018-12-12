@@ -8,7 +8,14 @@
 
 ![Dart编辑模板字段](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/Dart%E7%BC%96%E8%BE%91%E6%A8%A1%E6%9D%BF%E5%AD%97%E6%AE%B5.png?raw=true)
 
-# 使用说明
+----
+
+# 简单的使用说明
+
+
+#### ▶【提示：】更多详细的使用步骤，请看我的博客：[Flutter代码模板，解放双手，提高开发效率必备](https://www.jianshu.com/p/4184745d6983)
+
+----
 
 ### 一、对于AS或者IDEA用户来说，只需要下载settings.jar就可以了。
 
@@ -22,9 +29,11 @@
         点击菜单栏File --> Settings --> Editor --> General --> Code Completion --> 
         在 Case sensitive completion 后面的选项改成NONE:进行模糊匹配。(First Letter：根据首字母进行匹配)
 ```
+----]
 
 ### 二、对于VSCode用户来说，请下载`dart.json`文件，然后复制到`C:\Users\Administrator\AppData\Roaming\Code\User\snippets`目录里面即可，如已经存在，请替换就OK。
 
+----
 
 ### 三、关于mac用户导入setting.jar出现的问题：
 
