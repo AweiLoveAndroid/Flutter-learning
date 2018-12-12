@@ -21,11 +21,20 @@ class ListViewNested extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: new AppBar(
+      appBar: new AppBar(        
+        leading: new IconButton(
+            icon: new Icon(Icons.keyboard_arrow_left),
+            onPressed: () {
+              // 返回上一个页面
+              Navigator.of(context).pop();
+            }),
         title: new Text(
           '垂直listview嵌套水平的listview Demo',
-          style: new TextStyle(fontSize: 15.0),
+          style: new TextStyle(fontSize: 17.0),
         ),
+      ),
+        
+        
       ),
 //      body: buildListView(),
       body: buildListView2(),
