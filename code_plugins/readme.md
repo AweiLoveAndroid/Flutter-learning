@@ -19,7 +19,7 @@
 ```
 ----
 
-### 二、对于VSCode用户来说，请下载`dart.json`文件，然后复制到`C:\Users\Administrator\AppData\Roaming\Code\User\snippets`目录里面即可，如已经存在，请替换就OK。Mac用户，请复制到`/Library/Application Support/Code/User/snippets/`目录里面。
+### 二、对于VSCode用户来说，请下载`dart.json`文件，然后复制到`C:\Users\Administrator\AppData\Roaming\Code\User\snippets`目录里面即可，如已经存在，请替换就OK。  Mac用户，请复制到`/Library/Application Support/Code/User/snippets/`目录里面。
 
 
 ----
