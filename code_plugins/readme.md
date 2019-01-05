@@ -1,15 +1,3 @@
-# 关于AS里面Dart模板的一些说明：
-
-> Dart模板基本组成部分
-
-![Dart模板设置](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/Dart%E7%9A%84%E6%A8%A1%E6%9D%BF%E8%AE%BE%E7%BD%AE.png?raw=true)
-
-> Dart编辑模板字段
-
-![Dart编辑模板字段](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/Dart%E7%BC%96%E8%BE%91%E6%A8%A1%E6%9D%BF%E5%AD%97%E6%AE%B5.png?raw=true)
-
-----
-
 # 简单的使用说明
 
 
