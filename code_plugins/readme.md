@@ -1,11 +1,11 @@
 # 简单的使用说明
 
 
-#### ▶【提示：】更多详细的使用步骤，请看我的博客：[Flutter代码模板，解放双手，提高开发效率必备](https://www.jianshu.com/p/4184745d6983)
+## ▶【提示：】更多详细的图文使用详细讲解，请看我的博客：[Flutter代码模板，解放双手，提高开发效率必备](https://www.jianshu.com/p/4184745d6983)
 
 ----
 
-### 一、对于AS或者IDEA用户来说，只需要下载settings.jar就可以了。
+### 一、对于AS或者IDEA用户来说，只需要下载settings.jar就可以了。点击`File`--> `Import Settings`，选择`settings.jar`导入。
 
 > **注意事项：**
 
@@ -17,15 +17,10 @@
         点击菜单栏File --> Settings --> Editor --> General --> Code Completion --> 
         在 Case sensitive completion 后面的选项改成NONE:进行模糊匹配。(First Letter：根据首字母进行匹配)
 ```
-----]
-
-### 二、对于VSCode用户来说，请下载`dart.json`文件，然后复制到`C:\Users\Administrator\AppData\Roaming\Code\User\snippets`目录里面即可，如已经存在，请替换就OK。
-
 ----
 
-### 三、关于mac用户导入setting.jar出现的问题：
+### 二、对于VSCode用户来说，请下载`dart.json`文件，然后复制到`C:\Users\Administrator\AppData\Roaming\Code\User\snippets`目录里面即可，如已经存在，请替换就OK。Mac用户，请复制到`/Library/Application Support/Code/User/snippets/`目录里面。
 
-**欢迎使用mac的朋友们都来帮忙完善**
 
 ----
 
