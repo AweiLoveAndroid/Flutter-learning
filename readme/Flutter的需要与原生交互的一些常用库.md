@@ -349,9 +349,9 @@ latlong|0.5.3|https://pub.dartlang.org/packages/latlong|LatLong是一个计算�
 
 库名|版本号|链接|描述
 -|-|-|-
-qr_flutter|1.1.3|https://pub.dartlang.org/packages/qr_flutter|QR.Flutter是一个Flutter库，可通过Widget或自定义Paint进行简单快速的QR码渲染。
-barcode_scan|0.0.4|https://pub.dartlang.org/packages/barcode_scan|用于扫描2D条形码和QRCodes的Flutter插件。
-qrcode_reader|0.3.3|https://pub.dartlang.org/packages/qrcode_reader|使用相机读取二维码的Flutter插件。
+qr_flutter|1.1.5|https://pub.dartlang.org/packages/qr_flutter|QR.Flutter是一个Flutter库，基于QR-Dart,可通过Widget或自定义Paint进行简单快速的QR码渲染。可配置的输出大小、填充、背景和前景颜色。可以导出图像数据。不需要Internet连接。
+barcode_scan|0.0.8|https://pub.dartlang.org/packages/barcode_scan|用于扫描2D条形码和QRCodes的Flutter插件。
+qrcode_reader|0.4.4|https://pub.dartlang.org/packages/qrcode_reader|使用相机读取二维码的Flutter插件。
 
 ----
 
