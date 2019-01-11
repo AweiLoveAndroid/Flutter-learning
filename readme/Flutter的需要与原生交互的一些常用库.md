@@ -179,7 +179,7 @@ file_cache|0.0.1|https://pub.dartlang.org/packages/file_cache|为flutter package
 font_awesome_flutter|7.0.0|https://pub.dartlang.org/packages/font_awesome_flutter|图标字体的一个库
 fluttertoast|2.0.3|https://pub.dartlang.org/packages/fluttertoast|用于Android和ios的toast库。
 image_picker|0.4.5|https://pub.dartlang.org/packages/image_picker|用于从Android和iOS图像库中选择图像，并使用相机拍摄新照片。
-camera|0.2.1|https://pub.dartlang.org/packages/camera|用于在Android和iOS上获取有关和控制相机的信息。支持预览相机馈送和捕捉图像。
+camera|0.2.9+1|https://pub.dartlang.org/packages/camera|谷歌官方的相机库。用于在Android和iOS上获取有关和控制相机的信息。支持预览相机馈送和捕捉图像，可以用来视频录制，新增对拍照的方向的处理。
 
 
 **图标有关的开源库 ↓**
