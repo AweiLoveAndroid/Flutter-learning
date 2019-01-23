@@ -50,6 +50,8 @@ github地址： https://github.com/flutter-dev/asset_generator
 http|0.11.3+16|https://pub.dartlang.org/packages/http|该软件包包含一组高级函数和类，可以轻松使用HTTP资源。它与平台无关，可以在命令行和浏览器上使用。
 dio|0.0.14|https://pub.dartlang.org/packages/dio|Dart的一个强大的Http客户端，支持拦截器、全局配置、FormData、请求取消、文件下载、超时等。
 http_multi_server|2.0.5|https://pub.dartlang.org/packages/http_multi_server|dart:io HttpServer包装器，用于处理来自多个服务器的请求
+jaguar_retrofit|2.8.6|https://pub.dartlang.org/packages/jaguar_retrofit|Dart版本的Retrofit库，用于实现一个HTTP客户端API生成器。（我给它点评：666！思想都是想通的。）
+
 
 ----
 
