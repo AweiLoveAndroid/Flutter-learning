@@ -1,6 +1,6 @@
 # Flutter从配置安装到填坑指南详解
 
-##### 本文同步发布在简书博客，更详细的请查看 [Flutter从配置安装到填坑指南详解](https://www.jianshu.com/p/399c01657920)
+#### 本文同步发布在简书博客，更详细的请查看 [Flutter从配置安装到填坑指南详解](https://www.jianshu.com/p/399c01657920)
 
 在 Google I/O ’17 上，Google 向我们介绍了 Flutter —— 一款新的用于创建移动应用的开源库。
 
@@ -375,10 +375,7 @@ File --> settings --> Plugins --> Browse repositories，然后输入Flutter就�
 
 > * Flutter源码github链接 [https://github.com/flutter/flutter](https://github.com/flutter/flutter)
 > * Flutter官方文档 [https://flutter.io/docs/](https://flutter.io/docs/)
-> * Flutter中文文档 [http://doc.flutter-dev.cn/](http://doc.flutter-dev.cn/)
 > * Dart语言官方主页 [https://www.dartlang.org/](https://www.dartlang.org/)
-> * Dart语言中文社区 [http://www.cndartlang.com/](http://www.cndartlang.com/)
-> * Dart中文官网 [https://www.dart-china.org/](https://www.dart-china.org/)
 
 另外可以推荐下载nodejs和 yarn，以后使用yarn下载更新包很方便。（这个不是重点，了解就可以了）
 > * yarn官网  https://yarnpkg.com/zh-Hans/
