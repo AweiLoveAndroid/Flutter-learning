@@ -48,7 +48,7 @@ For VSCode users, download the [https://github.com/AweiLoveAndroid/Flutter-learn
 
 ---
 
-### 4.Supported shortcuts
+4.Supported shortcuts
 
 Short keys|Description
 ----|----
@@ -88,7 +88,7 @@ te|	Create normal Text
 
 ---
 
-### 5.Some shortcuts usage
+5.Some shortcuts usage
 
 mainstf：
 
