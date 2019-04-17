@@ -3,7 +3,6 @@
 **【说明】由于这些库一直在更新，请自己选择合适的稳定版本下载。**
 **另外如果发现有问题或者你有更好的库，欢迎留言告诉我。**
 
-
 ----
 
 ## 谷歌官方的针对Dart语言的一些实用性的功能以及扩展的库 -- Quiver
@@ -50,8 +49,7 @@ github地址： https://github.com/flutter-dev/asset_generator
 http|0.11.3+16|https://pub.dartlang.org/packages/http|该软件包包含一组高级函数和类，可以轻松使用HTTP资源。它与平台无关，可以在命令行和浏览器上使用。
 dio|0.0.14|https://pub.dartlang.org/packages/dio|Dart的一个强大的Http客户端，支持拦截器、全局配置、FormData、请求取消、文件下载、超时等。
 http_multi_server|2.0.5|https://pub.dartlang.org/packages/http_multi_server|dart:io HttpServer包装器，用于处理来自多个服务器的请求
-jaguar_retrofit|2.8.6|https://pub.dartlang.org/packages/jaguar_retrofit|Dart版本的Retrofit库，用于实现一个HTTP客户端API生成器。（我给它点评：666！思想都是想通的。）
-
+jaguar_retrofit|2.8.6|https://pub.dartlang.org/packages/jaguar_retrofit|Dart版本的Retrofit库，用于实现一个HTTP客户端API生成器。（我给它点评：666！思想都是相通的。）
 
 ----
 
@@ -61,7 +59,6 @@ jaguar_retrofit|2.8.6|https://pub.dartlang.org/packages/jaguar_retrofit|Dart版�
 -|-|-|-
 html_unescape|1.0.0|https://pub.dartlang.org/packages/html_unescape|用于解决HTML编码字符串的Dart库。支持所有命名字符引用（如`&nbsp;`），小数字符引用（如`&#225;`）和十六进制字符引用（如`&#xE3;`）。
 gbk2utf8||https://github.com/jzoom/gbk2utf8|官方的http还不能支持中文gbk的解析，这个项目就是为了解决gbk转成utf-8编码的。
-
 
 ----
 
@@ -79,7 +76,6 @@ json_serializable|0.5.7|https://pub.dartlang.org/packages/json_serializable|
 built_value|5.5.1|https://pub.dartlang.org/packages/built_value|runtime依赖项
 built_value_generator|5.5.1|https://pub.dartlang.org/packages/built_value_generator|dev依赖项
 built_value_test|5.5.1|https://pub.dartlang.org/packages/built_value_test|test依赖项
-
 
 ----
 
@@ -113,7 +109,6 @@ https://github.com/eredo/dartson  （用于web）
 |Jaguar_serializer|	88 KB	|8.57 ms	|6.58 ms	|10.31 ms	|8.59 ms|
 |Jackson (Groovy)	||	496 ms|	252 ms	|n/a|	n/a|
 
-
 ----
 
 **编解码、加密解密有关的库**
@@ -122,7 +117,6 @@ https://github.com/eredo/dartson  （用于web）
 -|-|-|-
 ninja |1.0.0|https://pub.dartlang.org/packages/ninja|在Dart的Converter和Codec接口上完善的AES以及RSA加密解密算法的库。
 archive |2.0.0|https://pub.dartlang.org/packages/archive|为各种存档和压缩格式提供编码器和解码器，如zip，tar，bzip2，gzip和zlib。（不知道移动端能否用得到，文档说服务端和web端可以用。）
-
 
 ----
 
@@ -291,7 +285,6 @@ lazy_load_scrollview |0.0.2|https://pub.dartlang.org/packages/lazy_load_scrollvi
 -|-|-|-
 fluro|1.3.1|https://pub.dartlang.org/packages/fluro|最好用的路由导航框架。功能：简单的路线导航；函数处理程序（映射到函数而不是路径）；通配符参数匹配；查询字符串参数解析；内置常用转换；简单的定制转换创建。
 
-
 ----
 
 > 消息传递通信有关：
@@ -316,7 +309,6 @@ flute_music_player|0.0.6|https://pub.dartlang.org/packages/flute_music_player|�
 audioplayer|0.5.0|https://pub.dartlang.org/packages/audioplayer|一个播放远程或本地音频文件Flutter音频插件
 audioplayers|0.5.2|https://pub.dartlang.org/packages/audioplayers|这是rxlabz的audioplayer的一个分支，不同之处在于它支持同时播放多个音频并显示音量控制。
 
-
 ----
 
 > rx系列：
@@ -326,7 +318,6 @@ audioplayers|0.5.2|https://pub.dartlang.org/packages/audioplayers|这是rxlabz�
 rxdart|0.17.0|https://pub.dartlang.org/packages/rxdart|RxDart是一种基于ReactiveX的谷歌Dart反应性函数编程库。谷歌Dart自带了一个非常不错的流API;RxDart没有尝试提供这个API的替代方案，而是在它上面添加了一些功能。
 rx_widgets|1.0.3|https://pub.dartlang.org/packages/rx_widgets|rx_widgets是一个包含基于流的Flutter Widgets和Widget帮助程序/便利类的程序包，它们有助于反应式编程风格，特别是与RxDart和RxCommands结合使用。
 rx_command|2.0.0|https://pub.dartlang.org/packages/rx_command|RxCommand是针对事件处理程序的基于Reactive Extensions（Rx）的抽象。它基于ReactiveUI框架的ReactiveCommand。它大量使用了RxDart包。
-
 
 ----
 
@@ -343,7 +334,6 @@ map_view|0.0.12|https://pub.dartlang.org/packages/map_view|一个用于在iOS和
 flutter_map|0.0.10|https://pub.dartlang.org/packages/flutter_map|基于leaflet的Flutter地图包 
 location|1.3.4|https://pub.dartlang.org/packages/location|这个插件 处理Android和iOS上的位置。它还提供位置更改时的回调。 
 latlong|0.5.3|https://pub.dartlang.org/packages/latlong|LatLong是一个计算通用的纬度和经度的轻量级库。
-
 
 ----
 
@@ -373,7 +363,6 @@ charts-common|0.3.0|https://pub.dartlang.org/packages/charts_flutter|Material De
 charts-flutter|0.3.0|https://pub.dartlang.org/packages/charts_common|通用的图表库组件
 flutter_circular_chart|0.0.3|https://pub.dartlang.org/packages/flutter_circular_chart|一个让你使用flutter轻松创建的动画圆形图控件的库。
 
-
 ----
 
 > 权限库
@@ -383,7 +372,6 @@ flutter_circular_chart|0.0.3|https://pub.dartlang.org/packages/flutter_circular_
 simple_permissions|0.1.5|https://pub.dartlang.org/packages/simple_permissions|用于android和ios的请求权限的库
 flutter_simple_permissions|0.0.1|https://pub.dartlang.org/packages/flutter_simple_permissions|权限申请的库
 
-
 ----
 
 > 分享
@@ -391,7 +379,6 @@ flutter_simple_permissions|0.0.1|https://pub.dartlang.org/packages/flutter_simpl
 库名|版本号|链接|描述
 -|-|-|-
 share|0.5.1|https://pub.dartlang.org/packages/share|支持分享的flutter插件
-
 
 ----
 
@@ -426,7 +413,6 @@ https://github.com/hyz1992/my_aliplayer    集成了阿里云播放器，可以�
 **以下几个暂未找到相关的三方库**
 
 * 推送
-
 
 ----
 
