@@ -3,7 +3,6 @@
 **【说明】由于这些库一直在更新，请自己选择合适的稳定版本下载。**
 **另外如果发现有问题或者你有更好的库，欢迎留言告诉我。**
 
-
 ----
 
 ## 谷歌官方的针对Dart语言的一些实用性的功能以及扩展的库 -- Quiver
@@ -45,23 +44,21 @@ github地址： https://github.com/flutter-dev/asset_generator
 
 > 网络请求
 
-库名|版本号|链接|描述
--|-|-|-
-http|0.11.3+16|https://pub.dartlang.org/packages/http|该软件包包含一组高级函数和类，可以轻松使用HTTP资源。它与平台无关，可以在命令行和浏览器上使用。
-dio|0.0.14|https://pub.dartlang.org/packages/dio|Dart的一个强大的Http客户端，支持拦截器、全局配置、FormData、请求取消、文件下载、超时等。
-http_multi_server|2.0.5|https://pub.dartlang.org/packages/http_multi_server|dart:io HttpServer包装器，用于处理来自多个服务器的请求
-jaguar_retrofit|2.8.6|https://pub.dartlang.org/packages/jaguar_retrofit|Dart版本的Retrofit库，用于实现一个HTTP客户端API生成器。（我给它点评：666！思想都是想通的。）
-
+| 库名              | 版本号    | 链接                                                | 描述                                                         |
+| ----------------- | --------- | --------------------------------------------------- | ------------------------------------------------------------ |
+| http              | 0.11.3+16 | https://pub.dartlang.org/packages/http              | 该软件包包含一组高级函数和类，可以轻松使用HTTP资源。它与平台无关，可以在命令行和浏览器上使用。 |
+| dio               | 0.0.14    | https://pub.dartlang.org/packages/dio               | Dart的一个强大的Http客户端，支持拦截器、全局配置、FormData、请求取消、文件下载、超时等。 |
+| http_multi_server | 2.0.5     | https://pub.dartlang.org/packages/http_multi_server | dart:io HttpServer包装器，用于处理来自多个服务器的请求       |
+| jaguar_retrofit   | 2.8.6     | https://pub.dartlang.org/packages/jaguar_retrofit   | Dart版本的Retrofit库，用于实现一个HTTP客户端API生成器。（我给它点评：666！思想都是想通的。） |
 
 ----
 
 > 类型编解码的库：
 
-库名|版本号|链接|描述
--|-|-|-
-html_unescape|1.0.0|https://pub.dartlang.org/packages/html_unescape|用于解决HTML编码字符串的Dart库。支持所有命名字符引用（如`&nbsp;`），小数字符引用（如`&#225;`）和十六进制字符引用（如`&#xE3;`）。
-gbk2utf8||https://github.com/jzoom/gbk2utf8|官方的http还不能支持中文gbk的解析，这个项目就是为了解决gbk转成utf-8编码的。
-
+| 库名          | 版本号 | 链接                                            | 描述                                                         |
+| ------------- | ------ | ----------------------------------------------- | ------------------------------------------------------------ |
+| html_unescape | 1.0.0  | https://pub.dartlang.org/packages/html_unescape | 用于解决HTML编码字符串的Dart库。支持所有命名字符引用（如`&nbsp;`），小数字符引用（如`&#225;`）和十六进制字符引用（如`&#xE3;`）。 |
+| gbk2utf8      |        | https://github.com/jzoom/gbk2utf8               | 官方的http还不能支持中文gbk的解析，这个项目就是为了解决gbk转成utf-8编码的。 |
 
 ----
 
@@ -73,21 +70,20 @@ gbk2utf8||https://github.com/jzoom/gbk2utf8|官方的http还不能支持中文gb
 
 * 自动序列化：
 
-库名|版本号|链接|描述
--|-|-|-
-json_serializable|0.5.7|https://pub.dartlang.org/packages/json_serializable|
-built_value|5.5.1|https://pub.dartlang.org/packages/built_value|runtime依赖项
-built_value_generator|5.5.1|https://pub.dartlang.org/packages/built_value_generator|dev依赖项
-built_value_test|5.5.1|https://pub.dartlang.org/packages/built_value_test|test依赖项
-
+| 库名                  | 版本号 | 链接                                                    | 描述          |
+| --------------------- | ------ | ------------------------------------------------------- | ------------- |
+| json_serializable     | 0.5.7  | https://pub.dartlang.org/packages/json_serializable     |               |
+| built_value           | 5.5.1  | https://pub.dartlang.org/packages/built_value           | runtime依赖项 |
+| built_value_generator | 5.5.1  | https://pub.dartlang.org/packages/built_value_generator | dev依赖项     |
+| built_value_test      | 5.5.1  | https://pub.dartlang.org/packages/built_value_test      | test依赖项    |
 
 ----
 
 > json解析
 
-库名|版本号|链接|描述
--|-|-|-
-codable |1.0.0-beta.2|https://pub.dartlang.org/packages/codable|用于将动态结构化数据（JSON，YAML）转换为Dart类型的库。
+| 库名    | 版本号       | 链接                                      | 描述                                                   |
+| ------- | ------------ | ----------------------------------------- | ------------------------------------------------------ |
+| codable | 1.0.0-beta.2 | https://pub.dartlang.org/packages/codable | 用于将动态结构化数据（JSON，YAML）转换为Dart类型的库。 |
 
 * https://github.com/javiercbk/json_to_dart  根据json生成Dart实体类
 * https://github.com/debuggerx01/JSONFormat4Flutter   这是一个AS的辅助插件，将JSONObject格式的String解析成Dart的实体类
@@ -95,62 +91,60 @@ codable |1.0.0-beta.2|https://pub.dartlang.org/packages/codable|用于将动态�
 
 
 * Dson 0.13.2 下载地址 https://pub.dartlang.org/packages/dson  
-描述：Dson的github地址 https://github.com/drails-dart/dson
-DSON是一个将Dart对象转换为JSON的库。(用于web)这个库是Dartson的一个分支，但又有不同。
+  描述：Dson的github地址 https://github.com/drails-dart/dson
+  DSON是一个将Dart对象转换为JSON的库。(用于web)这个库是Dartson的一个分支，但又有不同。
 * Dartson是一个Dart库，可用于将Dart对象转换为JSON字符串。
-https://github.com/eredo/dartson  （用于web）
+  https://github.com/eredo/dartson  （用于web）
 
 * **几个Json库的比较：[https://github.com/drails-dart/dart-serialise](https://github.com/drails-dart/dart-serialise)**
 
-|方式|	大小 (js)	|序列化 (dart)	|反序列化 (dart)	|序列化 (js)	|反序列化 (js)|
-|----|----|----|----|----|----|
-|json_serializable|	80 KB	|9.09 ms	|6.61 ms	|8.23 ms	|8.12 ms|
-|Serializable	|79 KB	|6.1 ms	|6.92 ms	|4.37 ms|	|8.38 ms|
-|DSON	|94 KB|12.72 ms	|11.15 ms	|16.64 ms	|17.94 ms|
-|Dartson	|86 KB	|9.61 ms	|6.81 ms	|8.58 ms	|7.01 ms|
-|Manual|	86 KB	|8.29 ms|	5.78 ms	|10.7 ms	|7.9 ms|
-|Interop	|70 KB	|61.55 ms	|14.96 ms	|2.49 ms	|2.93 ms|
-|Jaguar_serializer|	88 KB	|8.57 ms	|6.58 ms	|10.31 ms	|8.59 ms|
-|Jackson (Groovy)	||	496 ms|	252 ms	|n/a|	n/a|
-
+| 方式              | 大小 (js) | 序列化 (dart) | 反序列化 (dart) | 序列化 (js) | 反序列化 (js) |
+| ----------------- | --------- | ------------- | --------------- | ----------- | ------------- |
+| json_serializable | 80 KB     | 9.09 ms       | 6.61 ms         | 8.23 ms     | 8.12 ms       |
+| Serializable      | 79 KB     | 6.1 ms        | 6.92 ms         | 4.37 ms     |               |
+| DSON              | 94 KB     | 12.72 ms      | 11.15 ms        | 16.64 ms    | 17.94 ms      |
+| Dartson           | 86 KB     | 9.61 ms       | 6.81 ms         | 8.58 ms     | 7.01 ms       |
+| Manual            | 86 KB     | 8.29 ms       | 5.78 ms         | 10.7 ms     | 7.9 ms        |
+| Interop           | 70 KB     | 61.55 ms      | 14.96 ms        | 2.49 ms     | 2.93 ms       |
+| Jaguar_serializer | 88 KB     | 8.57 ms       | 6.58 ms         | 10.31 ms    | 8.59 ms       |
+| Jackson (Groovy)  |           | 496 ms        | 252 ms          | n/a         | n/a           |
 
 ----
 
 **编解码、加密解密有关的库**
 
-库名|版本号|链接|描述
--|-|-|-
-ninja |1.0.0|https://pub.dartlang.org/packages/ninja|在Dart的Converter和Codec接口上完善的AES以及RSA加密解密算法的库。
-archive |2.0.0|https://pub.dartlang.org/packages/archive|为各种存档和压缩格式提供编码器和解码器，如zip，tar，bzip2，gzip和zlib。（不知道移动端能否用得到，文档说服务端和web端可以用。）
-
+| 库名    | 版本号 | 链接                                      | 描述                                                         |
+| ------- | ------ | ----------------------------------------- | ------------------------------------------------------------ |
+| ninja   | 1.0.0  | https://pub.dartlang.org/packages/ninja   | 在Dart的Converter和Codec接口上完善的AES以及RSA加密解密算法的库。 |
+| archive | 2.0.0  | https://pub.dartlang.org/packages/archive | 为各种存档和压缩格式提供编码器和解码器，如zip，tar，bzip2，gzip和zlib。（不知道移动端能否用得到，文档说服务端和web端可以用。） |
 
 ----
 
 > 系统平台有关的库：
 
-库名|版本号|链接|描述
--|-|-|-
-**分享（官方的库）**|||
-share |0.5.2|https://pub.dartlang.org/packages/share|用于通过平台共享UI共享内容，使用Android上的ACTION_SEND意图和iOS上的UIActivityViewController。
-**获取本地文件**|||
-path_provider|0.4.1|https://pub.dartlang.org/packages/path_provider|用于获取Android和iOS文件系统上的常用位置，例如temp和app数据目录。
-**读写sp文件**|||
-shared_preferences|0.4.2|https://pub.dartlang.org/packages/shared_preferences|用于读写简单键值对的Flutter插件。包装iOS上的NSUserDefaults和Android上的SharedPreferences。
-**网络状态有关**|||
-connectivity|0.3.1|https://pub.dartlang.org/packages/connectivity|用于发现Android和iOS上的网络状态（WiFi和移动/蜂窝）连接。
-**设备信息**|||
-device_info|0.2.1|https://pub.dartlang.org/packages/device_info|提供有关设备（品牌，型号等）的详细信息，以及应用程序正在运行的Android或iOS版本。
-**蓝牙**|||
-flutter_blue|0.3.3|https://pub.dartlang.org/packages/flutter_blue|这是跨平台的蓝牙sdk.
-flutter_ble_lib|1.0.0|https://pub.dartlang.org/packages/flutter_ble_lib|这是一个支持蓝牙连接的flutter库。它里面使用RxAndroidBle和RxBluetoothKit作为本地库。
+| 库名                 | 版本号 | 链接                                                 | 描述                                                         |
+| -------------------- | ------ | ---------------------------------------------------- | ------------------------------------------------------------ |
+| **分享（官方的库）** |        |                                                      |                                                              |
+| share                | 0.5.2  | https://pub.dartlang.org/packages/share              | 用于通过平台共享UI共享内容，使用Android上的ACTION_SEND意图和iOS上的UIActivityViewController。 |
+| **获取本地文件**     |        |                                                      |                                                              |
+| path_provider        | 0.4.1  | https://pub.dartlang.org/packages/path_provider      | 用于获取Android和iOS文件系统上的常用位置，例如temp和app数据目录。 |
+| **读写sp文件**       |        |                                                      |                                                              |
+| shared_preferences   | 0.4.2  | https://pub.dartlang.org/packages/shared_preferences | 用于读写简单键值对的Flutter插件。包装iOS上的NSUserDefaults和Android上的SharedPreferences。 |
+| **网络状态有关**     |        |                                                      |                                                              |
+| connectivity         | 0.3.1  | https://pub.dartlang.org/packages/connectivity       | 用于发现Android和iOS上的网络状态（WiFi和移动/蜂窝）连接。    |
+| **设备信息**         |        |                                                      |                                                              |
+| device_info          | 0.2.1  | https://pub.dartlang.org/packages/device_info        | 提供有关设备（品牌，型号等）的详细信息，以及应用程序正在运行的Android或iOS版本。 |
+| **蓝牙**             |        |                                                      |                                                              |
+| flutter_blue         | 0.3.3  | https://pub.dartlang.org/packages/flutter_blue       | 这是跨平台的蓝牙sdk.                                         |
+| flutter_ble_lib      | 1.0.0  | https://pub.dartlang.org/packages/flutter_ble_lib    | 这是一个支持蓝牙连接的flutter库。它里面使用RxAndroidBle和RxBluetoothKit作为本地库。 |
 
 ----
 
 > 国际化和本地化：
 
-库名|版本号|链接|描述
--|-|-|-
-intl|0.15.6|https://pub.dartlang.org/packages/intl|这个包提供国际化和本地化功能，包括消息翻译、复数和性别、日期/数字格式和解析以及双向文本。
+| 库名 | 版本号 | 链接                                   | 描述                                                         |
+| ---- | ------ | -------------------------------------- | ------------------------------------------------------------ |
+| intl | 0.15.6 | https://pub.dartlang.org/packages/intl | 这个包提供国际化和本地化功能，包括消息翻译、复数和性别、日期/数字格式和解析以及双向文本。 |
 
 ----
 
@@ -158,175 +152,172 @@ intl|0.15.6|https://pub.dartlang.org/packages/intl|这个包提供国际化和�
 
 使用`Image.network`，或者使用下面这个库：
 
-库名|版本号|链接|描述
--|-|-|-
-cached_network_image|0.4.1+1|https://pub.dartlang.org/packages/cached_network_image|Flutter库来加载和缓存网络图像。也可以与占位符和错误小部件一起使用。
+| 库名                 | 版本号  | 链接                                                   | 描述                                                         |
+| -------------------- | ------- | ------------------------------------------------------ | ------------------------------------------------------------ |
+| cached_network_image | 0.4.1+1 | https://pub.dartlang.org/packages/cached_network_image | Flutter库来加载和缓存网络图像。也可以与占位符和错误小部件一起使用。 |
 
 ----
 
 > 数据存储、缓存有关的库
 
 
-库名|版本号|链接|描述
--|-|-|-
-sqflite|sqflite0.10.0|https://pub.dartlang.org/packages/sqflite|SQLite的Flutter插件，一个自包含的高可靠性嵌入式SQL数据库引擎。
-file_cache|0.0.1|https://pub.dartlang.org/packages/file_cache|为flutter package项目缓存Json,Buffer,FileCacheImage。
+| 库名       | 版本号        | 链接                                         | 描述                                                         |
+| ---------- | ------------- | -------------------------------------------- | ------------------------------------------------------------ |
+| sqflite    | sqflite0.10.0 | https://pub.dartlang.org/packages/sqflite    | SQLite的Flutter插件，一个自包含的高可靠性嵌入式SQL数据库引擎。 |
+| file_cache | 0.0.1         | https://pub.dartlang.org/packages/file_cache | 为flutter package项目缓存Json,Buffer,FileCacheImage。        |
 
 ----
 
 > UI库：
 
-库名|版本号|链接|描述
--|-|-|-
-font_awesome_flutter|7.0.0|https://pub.dartlang.org/packages/font_awesome_flutter|图标字体的一个库
-fluttertoast|2.0.3|https://pub.dartlang.org/packages/fluttertoast|用于Android和ios的toast库。
-image_picker|0.4.5|https://pub.dartlang.org/packages/image_picker|用于从Android和iOS图像库中选择图像，并使用相机拍摄新照片。
-camera|0.2.9+1|https://pub.dartlang.org/packages/camera|谷歌官方的相机库。用于在Android和iOS上获取有关和控制相机的信息。支持预览相机馈送和捕捉图像，可以用来视频录制，新增对拍照的方向的处理。
+| 库名                 | 版本号  | 链接                                                   | 描述                                                         |
+| -------------------- | ------- | ------------------------------------------------------ | ------------------------------------------------------------ |
+| font_awesome_flutter | 7.0.0   | https://pub.dartlang.org/packages/font_awesome_flutter | 图标字体的一个库                                             |
+| fluttertoast         | 2.0.3   | https://pub.dartlang.org/packages/fluttertoast         | 用于Android和ios的toast库。                                  |
+| image_picker         | 0.4.5   | https://pub.dartlang.org/packages/image_picker         | 用于从Android和iOS图像库中选择图像，并使用相机拍摄新照片。   |
+| camera               | 0.2.9+1 | https://pub.dartlang.org/packages/camera               | 谷歌官方的相机库。用于在Android和iOS上获取有关和控制相机的信息。支持预览相机馈送和捕捉图像，可以用来视频录制，新增对拍照的方向的处理。 |
 
 
 **图标有关的开源库 ↓**
 
-库名|版本号|链接|描述
--|-|-|-
-cupertino_icons|0.1.2|https://pub.dartlang.org/packages/cupertino_icons|Cupertino的图标组件库
-flutter_launcher_icons |0.6.0|https://pub.dartlang.org/packages/flutter_launcher_icons  或者github地址https://github.com/fluttercommunity/flutter_launcher_icons|一个命令行工具，简化了更新Flutter应用程序启动图标的任务。 完全灵活，您可以选择要更新启动图标的平台，如果需要，可以选择保留旧的启动图标，以防将来某个时候还原旧图标。
+| 库名                   | 版本号 | 链接                                                         | 描述                                                         |
+| ---------------------- | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| cupertino_icons        | 0.1.2  | https://pub.dartlang.org/packages/cupertino_icons            | Cupertino的图标组件库                                        |
+| flutter_launcher_icons | 0.6.0  | https://pub.dartlang.org/packages/flutter_launcher_icons  或者github地址https://github.com/fluttercommunity/flutter_launcher_icons | 一个命令行工具，简化了更新Flutter应用程序启动图标的任务。 完全灵活，您可以选择要更新启动图标的平台，如果需要，可以选择保留旧的启动图标，以防将来某个时候还原旧图标。 |
 
 
 **富文本 ↓**
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_html_view|0.5.2|https://pub.dartlang.org/packages/flutter_html_view|Flutter没有默认的支持来显示html，所以需要三方的包来显示。这个包可以将html呈现给原生的Widget。（目前支持的标签比较少）
-flutter_html_textview|0.2.6|https://pub.dartlang.org/packages/flutter_html_textview|将html呈现为一个Widget,在textview中呈现html。
+| 库名                  | 版本号 | 链接                                                    | 描述                                                         |
+| --------------------- | ------ | ------------------------------------------------------- | ------------------------------------------------------------ |
+| flutter_html_view     | 0.5.2  | https://pub.dartlang.org/packages/flutter_html_view     | Flutter没有默认的支持来显示html，所以需要三方的包来显示。这个包可以将html呈现给原生的Widget。（目前支持的标签比较少） |
+| flutter_html_textview | 0.2.6  | https://pub.dartlang.org/packages/flutter_html_textview | 将html呈现为一个Widget,在textview中呈现html。                |
 
 **MarkDown ↓**
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_markdown|0.1.3|https://github.com/flutter/flutter_markdown|官方的MarkDown库，它支持原始MarkDown格式，但没有内联Html格式。
-markdown|2.0.0|https://pub.dartlang.org/packages/markdown|用Dart编写的便携式Markdown库。它可以在客户端和服务器上将Markdown解析为HTML。
-html2md|0.1.7|https://pub.dartlang.org/packages/html2md|将html转换为Dart中的MarkDown.
+| 库名             | 版本号 | 链接                                        | 描述                                                         |
+| ---------------- | ------ | ------------------------------------------- | ------------------------------------------------------------ |
+| flutter_markdown | 0.1.3  | https://github.com/flutter/flutter_markdown | 官方的MarkDown库，它支持原始MarkDown格式，但没有内联Html格式。 |
+| markdown         | 2.0.0  | https://pub.dartlang.org/packages/markdown  | 用Dart编写的便携式Markdown库。它可以在客户端和服务器上将Markdown解析为HTML。 |
+| html2md          | 0.1.7  | https://pub.dartlang.org/packages/html2md   | 将html转换为Dart中的MarkDown.                                |
 
 **动画 ↓**
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_villains|1.0.1|https://pub.dartlang.org/packages/flutter_villains|页面切换动画的一个库，简化动画操作，你只需要管理好UI就可以了。
+| 库名             | 版本号 | 链接                                               | 描述                                                         |
+| ---------------- | ------ | -------------------------------------------------- | ------------------------------------------------------------ |
+| flutter_villains | 1.0.1  | https://pub.dartlang.org/packages/flutter_villains | 页面切换动画的一个库，简化动画操作，你只需要管理好UI就可以了。 |
 
 **针对Android和ios平台的UI适配库 ↓**
 
-库名|版本号|链接|描述
--|-|-|-
-platform_aware|0.4.0|https://pub.dartlang.org/packages/platform_aware|为自动适应当前平台而包装的Flutter组件，不需要对iOS和Android进行代码更改。所有小部件都依赖于Theme.of(context).platform来确定当前活动平台的平台。你可以使用Flutter Inspector动态地更改平台。
-native_widgets |0.0.3| https://pub.dartlang.org/packages/native_widgets|为避免重复代码，只编写一次代码就可以支持两个平台并自动根据平台自动使用对应风格组件，Android将使用材料设计，iOS将使用Cupertino风格的小部件。
+| 库名           | 版本号 | 链接                                             | 描述                                                         |
+| -------------- | ------ | ------------------------------------------------ | ------------------------------------------------------------ |
+| platform_aware | 0.4.0  | https://pub.dartlang.org/packages/platform_aware | 为自动适应当前平台而包装的Flutter组件，不需要对iOS和Android进行代码更改。所有小部件都依赖于Theme.of(context).platform来确定当前活动平台的平台。你可以使用Flutter Inspector动态地更改平台。 |
+| native_widgets | 0.0.3  | https://pub.dartlang.org/packages/native_widgets | 为避免重复代码，只编写一次代码就可以支持两个平台并自动根据平台自动使用对应风格组件，Android将使用材料设计，iOS将使用Cupertino风格的小部件。 |
 
 **日历库（主要是用于显示和操作日历）**
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_calendar |0.0.4|https://pub.dartlang.org/packages/flutter_calendar|适用于Flutter的日历小组件。
-calendarro| 0.0.1|https://pub.dartlang.org/packages/calendarro|Flutter的日历组件库。 这个库提供了多种自定义组件的方法。
+| 库名             | 版本号 | 链接                                               | 描述                                                     |
+| ---------------- | ------ | -------------------------------------------------- | -------------------------------------------------------- |
+| flutter_calendar | 0.0.4  | https://pub.dartlang.org/packages/flutter_calendar | 适用于Flutter的日历小组件。                              |
+| calendarro       | 0.0.1  | https://pub.dartlang.org/packages/calendarro       | Flutter的日历组件库。 这个库提供了多种自定义组件的方法。 |
 
 
 
 **日期，时间，日期时间，icon，自定义数据的选择器（很全面） ↓**
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_picker |0.0.3 |https://pub.dartlang.org/packages/flutter_picker |一个日期，时间，日期时间，icon，自定义数据的选择器，可以居中弹窗，也可以在底部弹出。（目前来看是最全面的一个选择器控件。该插件支持ios和android平台，使用的是ios的风格的UI效果。）
+| 库名           | 版本号 | 链接                                             | 描述                                                         |
+| -------------- | ------ | ------------------------------------------------ | ------------------------------------------------------------ |
+| flutter_picker | 0.0.3  | https://pub.dartlang.org/packages/flutter_picker | 一个日期，时间，日期时间，icon，自定义数据的选择器，可以居中弹窗，也可以在底部弹出。（目前来看是最全面的一个选择器控件。该插件支持ios和android平台，使用的是ios的风格的UI效果。） |
 
 **图片选择的库 ↓**
 
-库名|版本号|链接|描述
--|-|-|-
-image_picker |0.4.5 | https://pub.dartlang.org/packages/image_picker   |适用于iOS和Android的Flutter插件，用于从图像库中拾取图像，并使用相机拍摄新照片。（功能正在完善中）
-flutter_multiple_image_picker |0.0.1 |  https://pub.dartlang.org/packages/flutter_multiple_image_picker|一个新的Flutter插件，用于从图库中选择多个图像。
+| 库名                          | 版本号 | 链接                                                         | 描述                                                         |
+| ----------------------------- | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| image_picker                  | 0.4.5  | https://pub.dartlang.org/packages/image_picker               | 适用于iOS和Android的Flutter插件，用于从图像库中拾取图像，并使用相机拍摄新照片。（功能正在完善中） |
+| flutter_multiple_image_picker | 0.0.1  | https://pub.dartlang.org/packages/flutter_multiple_image_picker | 一个新的Flutter插件，用于从图库中选择多个图像。              |
 
 **联系人选择的库 ↓**
 
-库名|版本号|链接|描述
--|-|-|-
-contact_picker |0.0.2| https://pub.dartlang.org/packages/contact_picker|使用此插件，Flutter应用程序可以地址簿中选择联系人，并将联系人信息返回给应用程序，并且不需要用户的任何特殊权限。目前该插件仅支持选择电话号码。
+| 库名           | 版本号 | 链接                                             | 描述                                                         |
+| -------------- | ------ | ------------------------------------------------ | ------------------------------------------------------------ |
+| contact_picker | 0.0.2  | https://pub.dartlang.org/packages/contact_picker | 使用此插件，Flutter应用程序可以地址簿中选择联系人，并将联系人信息返回给应用程序，并且不需要用户的任何特殊权限。目前该插件仅支持选择电话号码。 |
 
 **颜色选择的库 ↓**
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_color_picker |0.0.1   | https://pub.dartlang.org/packages/flutter_color_picker|  一个简单的颜色选择器，类似于安卓的selector的功能，可以在点击控件时，给控件设置选择器效果。
-material_color_picker| 0.0.1|  https://pub.dartlang.org/packages/material_color_picker（这个是旧版本）|这个是Flutter的颜色选择器，基于Google Docs颜色选择器。这个用于选择颜色，你想用哪一个颜色，可以弹窗自由选择。
-material_pickers| 0.0.2| https://pub.dartlang.org/packages/material_pickers（这个是新版本）|这个是Flutter的颜色选择器，基于Google Docs颜色选择器。这个用于选择颜色，你想用哪一个颜色，可以弹窗自由选择。
-flutter_colorpicker| 0.0.5|  https://pub.dartlang.org/packages/flutter_colorpicker|这是一个HSV的颜色选择器
+| 库名                  | 版本号 | 链接                                                         | 描述                                                         |
+| --------------------- | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| flutter_color_picker  | 0.0.1  | https://pub.dartlang.org/packages/flutter_color_picker       | 一个简单的颜色选择器，类似于安卓的selector的功能，可以在点击控件时，给控件设置选择器效果。 |
+| material_color_picker | 0.0.1  | https://pub.dartlang.org/packages/material_color_picker（这个是旧版本） | 这个是Flutter的颜色选择器，基于Google Docs颜色选择器。这个用于选择颜色，你想用哪一个颜色，可以弹窗自由选择。 |
+| material_pickers      | 0.0.2  | https://pub.dartlang.org/packages/material_pickers（这个是新版本） | 这个是Flutter的颜色选择器，基于Google Docs颜色选择器。这个用于选择颜色，你想用哪一个颜色，可以弹窗自由选择。 |
+| flutter_colorpicker   | 0.0.5  | https://pub.dartlang.org/packages/flutter_colorpicker        | 这是一个HSV的颜色选择器                                      |
 
 **轮播图有关的库(以及Tab PagerView有关的库) ↓**
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_swiper |1.0.4|https://pub.dartlang.org/packages/flutter_swiper 对应的github地址https://github.com/best-flutter/flutter_swiper |Flutter最强大的siwiper, 多种布局方式，无限轮播，Android和IOS双端适配.
-infinity_page_view |1.0.0|https://pub.dartlang.org/packages/infinity_page_view|Flutter无限页面视图。
-carousel|0.1.0|https://pub.dartlang.org/packages/carousel|一个简单的轮播组件(待完善)。
-page_transformer |0.0.1|https://pub.dartlang.org/packages/page_transformer|用于在Flutter中创建漂亮的PageView视差效果的示例项目。
+| 库名               | 版本号 | 链接                                                         | 描述                                                         |
+| ------------------ | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| flutter_swiper     | 1.0.4  | https://pub.dartlang.org/packages/flutter_swiper 对应的github地址https://github.com/best-flutter/flutter_swiper | Flutter最强大的siwiper, 多种布局方式，无限轮播，Android和IOS双端适配. |
+| infinity_page_view | 1.0.0  | https://pub.dartlang.org/packages/infinity_page_view         | Flutter无限页面视图。                                        |
+| carousel           | 0.1.0  | https://pub.dartlang.org/packages/carousel                   | 一个简单的轮播组件(待完善)。                                 |
+| page_transformer   | 0.0.1  | https://pub.dartlang.org/packages/page_transformer           | 用于在Flutter中创建漂亮的PageView视差效果的示例项目。        |
 
 
 **导航栏有关的库(库) ↓**
 
-库名|版本号|链接|描述
--|-|-|-
-navigation_bar| 0.0.1|https://pub.dartlang.org/packages/navigation_bar|一个简易的底部导航栏。
+| 库名           | 版本号 | 链接                                             | 描述                   |
+| -------------- | ------ | ------------------------------------------------ | ---------------------- |
+| navigation_bar | 0.0.1  | https://pub.dartlang.org/packages/navigation_bar | 一个简易的底部导航栏。 |
 
 
 
 
 **列表有关的库 ↓**
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_pagewise |0.2.0|https://pub.dartlang.org/packages/flutter_pagewise|一次加载一页（或批处理）内容（也称为延迟加载）
-lazy_load_scrollview |0.0.2|https://pub.dartlang.org/packages/lazy_load_scrollview|ScrollView的包装器，可以启用延迟加载，当到达页面底部时将触发回调。
+| 库名                 | 版本号 | 链接                                                   | 描述                                                         |
+| -------------------- | ------ | ------------------------------------------------------ | ------------------------------------------------------------ |
+| flutter_pagewise     | 0.2.0  | https://pub.dartlang.org/packages/flutter_pagewise     | 一次加载一页（或批处理）内容（也称为延迟加载）               |
+| lazy_load_scrollview | 0.0.2  | https://pub.dartlang.org/packages/lazy_load_scrollview | ScrollView的包装器，可以启用延迟加载，当到达页面底部时将触发回调。 |
 
 ----
 
 > 路由：
 
-库名|版本号|链接|描述
--|-|-|-
-fluro|1.3.1|https://pub.dartlang.org/packages/fluro|最好用的路由导航框架。功能：简单的路线导航；函数处理程序（映射到函数而不是路径）；通配符参数匹配；查询字符串参数解析；内置常用转换；简单的定制转换创建。
-
+| 库名  | 版本号 | 链接                                    | 描述                                                         |
+| ----- | ------ | --------------------------------------- | ------------------------------------------------------------ |
+| fluro | 1.3.1  | https://pub.dartlang.org/packages/fluro | 最好用的路由导航框架。功能：简单的路线导航；函数处理程序（映射到函数而不是路径）；通配符参数匹配；查询字符串参数解析；内置常用转换；简单的定制转换创建。 |
 
 ----
 
 > 消息传递通信有关：
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_local_notifications|0.3.0|https://pub.dartlang.org/packages/flutter_local_notifications|一个跨平台的显示本地notifications的插件。
-local_notifications|0.0.6|https://pub.dartlang.org/packages/local_notifications|这个库能让你在Android和iOS上创建Notifications很简单。
-url_launcher|3.0.2|https://pub.dartlang.org/packages/url_launcher|用于在Android和iOS上启动URL。支持网络，电话，短信和电子邮件方案。
-firebase_messaging|1.0.2|https://pub.dartlang.org/packages/firebase_messaging|一款跨平台的消息传递解决方案，可让您在Android和iOS上可靠地传递消息。
-event_bus|0.4.1|https://pub.dartlang.org/packages/event_bus|一个使用Dart流进行解耦应用程序的简单事件总线的库。
+| 库名                        | 版本号 | 链接                                                         | 描述                                                         |
+| --------------------------- | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| flutter_local_notifications | 0.3.0  | https://pub.dartlang.org/packages/flutter_local_notifications | 一个跨平台的显示本地notifications的插件。                    |
+| local_notifications         | 0.0.6  | https://pub.dartlang.org/packages/local_notifications        | 这个库能让你在Android和iOS上创建Notifications很简单。        |
+| url_launcher                | 3.0.2  | https://pub.dartlang.org/packages/url_launcher               | 用于在Android和iOS上启动URL。支持网络，电话，短信和电子邮件方案。 |
+| firebase_messaging          | 1.0.2  | https://pub.dartlang.org/packages/firebase_messaging         | 一款跨平台的消息传递解决方案，可让您在Android和iOS上可靠地传递消息。 |
+| event_bus                   | 0.4.1  | https://pub.dartlang.org/packages/event_bus                  | 一个使用Dart流进行解耦应用程序的简单事件总线的库。           |
 
 ----
 
 > 视频 & 音频：
 
-库名|版本号|链接|描述
--|-|-|-
-video_player|0.6.5|https://pub.dartlang.org/packages/video_player|Flutter官方的视频库（也可以用于直播），用于在Android和iOS上与其他Flutter窗口小部件一起显示内嵌视频。**支持主流直播流**。该库底层使用的ExoPlayer播放器。更多关于ExoPlayer播放器支持的视频格式资料请看官方文档[ExoPlayer播放器支持的视频格式](https://google.github.io/ExoPlayer/supported-formats.html)
-video_launcher|0.3.0|https://pub.dartlang.org/packages/video_launcher|视频播放器
-flute_music_player|0.0.6|https://pub.dartlang.org/packages/flute_music_player|基于Flutter的材料设计音乐播放器与音频插件播放本地音乐文件.
-audioplayer|0.5.0|https://pub.dartlang.org/packages/audioplayer|一个播放远程或本地音频文件Flutter音频插件
-audioplayers|0.5.2|https://pub.dartlang.org/packages/audioplayers|这是rxlabz的audioplayer的一个分支，不同之处在于它支持同时播放多个音频并显示音量控制。
-
+| 库名               | 版本号 | 链接                                                 | 描述                                                         |
+| ------------------ | ------ | ---------------------------------------------------- | ------------------------------------------------------------ |
+| video_player       | 0.6.5  | https://pub.dartlang.org/packages/video_player       | Flutter官方的视频库（也可以用于直播），用于在Android和iOS上与其他Flutter窗口小部件一起显示内嵌视频。**支持主流直播流**。该库底层使用的ExoPlayer播放器。更多关于ExoPlayer播放器支持的视频格式资料请看官方文档[ExoPlayer播放器支持的视频格式](https://google.github.io/ExoPlayer/supported-formats.html) |
+| video_launcher     | 0.3.0  | https://pub.dartlang.org/packages/video_launcher     | 视频播放器                                                   |
+| flute_music_player | 0.0.6  | https://pub.dartlang.org/packages/flute_music_player | 基于Flutter的材料设计音乐播放器与音频插件播放本地音乐文件.   |
+| audioplayer        | 0.5.0  | https://pub.dartlang.org/packages/audioplayer        | 一个播放远程或本地音频文件Flutter音频插件                    |
+| audioplayers       | 0.5.2  | https://pub.dartlang.org/packages/audioplayers       | 这是rxlabz的audioplayer的一个分支，不同之处在于它支持同时播放多个音频并显示音量控制。 |
 
 ----
 
 > rx系列：
 
-库名|版本号|链接|描述
--|-|-|-
-rxdart|0.17.0|https://pub.dartlang.org/packages/rxdart|RxDart是一种基于ReactiveX的谷歌Dart反应性函数编程库。谷歌Dart自带了一个非常不错的流API;RxDart没有尝试提供这个API的替代方案，而是在它上面添加了一些功能。
-rx_widgets|1.0.3|https://pub.dartlang.org/packages/rx_widgets|rx_widgets是一个包含基于流的Flutter Widgets和Widget帮助程序/便利类的程序包，它们有助于反应式编程风格，特别是与RxDart和RxCommands结合使用。
-rx_command|2.0.0|https://pub.dartlang.org/packages/rx_command|RxCommand是针对事件处理程序的基于Reactive Extensions（Rx）的抽象。它基于ReactiveUI框架的ReactiveCommand。它大量使用了RxDart包。
-
+| 库名       | 版本号 | 链接                                         | 描述                                                         |
+| ---------- | ------ | -------------------------------------------- | ------------------------------------------------------------ |
+| rxdart     | 0.17.0 | https://pub.dartlang.org/packages/rxdart     | RxDart是一种基于ReactiveX的谷歌Dart反应性函数编程库。谷歌Dart自带了一个非常不错的流API;RxDart没有尝试提供这个API的替代方案，而是在它上面添加了一些功能。 |
+| rx_widgets | 1.0.3  | https://pub.dartlang.org/packages/rx_widgets | rx_widgets是一个包含基于流的Flutter Widgets和Widget帮助程序/便利类的程序包，它们有助于反应式编程风格，特别是与RxDart和RxCommands结合使用。 |
+| rx_command | 2.0.0  | https://pub.dartlang.org/packages/rx_command | RxCommand是针对事件处理程序的基于Reactive Extensions（Rx）的抽象。它基于ReactiveUI框架的ReactiveCommand。它大量使用了RxDart包。 |
 
 ----
 
@@ -337,85 +328,100 @@ rx_command|2.0.0|https://pub.dartlang.org/packages/rx_command|RxCommand是针对
 
 > 地图（地图显示、定位、经纬度等）
 
-库名|版本号|链接|描述
--|-|-|-
-map_view|0.0.12|https://pub.dartlang.org/packages/map_view|一个用于在iOS和Android上显示谷歌地图的Flutter插件
-flutter_map|0.0.10|https://pub.dartlang.org/packages/flutter_map|基于leaflet的Flutter地图包 
-location|1.3.4|https://pub.dartlang.org/packages/location|这个插件 处理Android和iOS上的位置。它还提供位置更改时的回调。 
-latlong|0.5.3|https://pub.dartlang.org/packages/latlong|LatLong是一个计算通用的纬度和经度的轻量级库。
-
+| 库名        | 版本号 | 链接                                          | 描述                                                         |
+| ----------- | ------ | --------------------------------------------- | ------------------------------------------------------------ |
+| map_view    | 0.0.12 | https://pub.dartlang.org/packages/map_view    | 一个用于在iOS和Android上显示谷歌地图的Flutter插件            |
+| flutter_map | 0.0.10 | https://pub.dartlang.org/packages/flutter_map | 基于leaflet的Flutter地图包                                   |
+| location    | 1.3.4  | https://pub.dartlang.org/packages/location    | 这个插件 处理Android和iOS上的位置。它还提供位置更改时的回调。 |
+| latlong     | 0.5.3  | https://pub.dartlang.org/packages/latlong     | LatLong是一个计算通用的纬度和经度的轻量级库。                |
 
 ----
 
 > 二维码
 
-库名|版本号|链接|描述
--|-|-|-
-qr_flutter|1.1.5|https://pub.dartlang.org/packages/qr_flutter|QR.Flutter是一个Flutter库，基于QR-Dart,可通过Widget或自定义Paint进行简单快速的QR码渲染。可配置的输出大小、填充、背景和前景颜色。可以导出图像数据。不需要Internet连接。
-barcode_scan|0.0.8|https://pub.dartlang.org/packages/barcode_scan|用于扫描2D条形码和QRCodes的Flutter插件。
-qrcode_reader|0.4.4|https://pub.dartlang.org/packages/qrcode_reader|使用相机读取二维码的Flutter插件。
+| 库名          | 版本号 | 链接                                            | 描述                                                         |
+| ------------- | ------ | ----------------------------------------------- | ------------------------------------------------------------ |
+| qr_flutter    | 1.1.5  | https://pub.dartlang.org/packages/qr_flutter    | QR.Flutter是一个Flutter库，基于QR-Dart,可通过Widget或自定义Paint进行简单快速的QR码渲染。可配置的输出大小、填充、背景和前景颜色。可以导出图像数据。不需要Internet连接。 |
+| barcode_scan  | 0.0.8  | https://pub.dartlang.org/packages/barcode_scan  | 用于扫描2D条形码和QRCodes的Flutter插件。                     |
+| qrcode_reader | 0.4.4  | https://pub.dartlang.org/packages/qrcode_reader | 使用相机读取二维码的Flutter插件。                            |
 
 ----
 
 > WebView
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_webview_plugin|0.1.6|https://pub.dartlang.org/packages/flutter_webview_plugin|允许Flutter与原生Webview进行通信的插件。 
+| 库名                   | 版本号 | 链接                                                     | 描述                                     |
+| ---------------------- | ------ | -------------------------------------------------------- | ---------------------------------------- |
+| flutter_webview_plugin | 0.1.6  | https://pub.dartlang.org/packages/flutter_webview_plugin | 允许Flutter与原生Webview进行通信的插件。 |
 
 ----
 
 > 图表库
 
-库名|版本号|链接|描述
--|-|-|-
-charts-common|0.3.0|https://pub.dartlang.org/packages/charts_flutter|Material Design风格的图表库
-charts-flutter|0.3.0|https://pub.dartlang.org/packages/charts_common|通用的图表库组件
-flutter_circular_chart|0.0.3|https://pub.dartlang.org/packages/flutter_circular_chart|一个让你使用flutter轻松创建的动画圆形图控件的库。
-
+| 库名                   | 版本号 | 链接                                                     | 描述                                              |
+| ---------------------- | ------ | -------------------------------------------------------- | ------------------------------------------------- |
+| charts-common          | 0.3.0  | https://pub.dartlang.org/packages/charts_flutter         | Material Design风格的图表库                       |
+| charts-flutter         | 0.3.0  | https://pub.dartlang.org/packages/charts_common          | 通用的图表库组件                                  |
+| flutter_circular_chart | 0.0.3  | https://pub.dartlang.org/packages/flutter_circular_chart | 一个让你使用flutter轻松创建的动画圆形图控件的库。 |
 
 ----
 
 > 权限库
 
-库名|版本号|链接|描述
--|-|-|-
-simple_permissions|0.1.5|https://pub.dartlang.org/packages/simple_permissions|用于android和ios的请求权限的库
-flutter_simple_permissions|0.0.1|https://pub.dartlang.org/packages/flutter_simple_permissions|权限申请的库
-
-
-----
-
-> 分享
-
-库名|版本号|链接|描述
--|-|-|-
-share|0.5.1|https://pub.dartlang.org/packages/share|支持分享的flutter插件
-
+| 库名                       | 版本号 | 链接                                                         | 描述                           |
+| -------------------------- | ------ | ------------------------------------------------------------ | ------------------------------ |
+| simple_permissions         | 0.1.5  | https://pub.dartlang.org/packages/simple_permissions         | 用于android和ios的请求权限的库 |
+| flutter_simple_permissions | 0.0.1  | https://pub.dartlang.org/packages/flutter_simple_permissions | 权限申请的库                   |
 
 ----
 
 > 统计
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_umeng_analytics|0.0.1|https://pub.dartlang.org/packages/flutter_umeng_analytics|这个库集成了友盟统计sdk
+| 库名                    | 版本号 | 链接                                                      | 描述                    |
+| ----------------------- | ------ | --------------------------------------------------------- | ----------------------- |
+| flutter_umeng_analytics | 0.0.1  | https://pub.dartlang.org/packages/flutter_umeng_analytics | 这个库集成了友盟统计sdk(网友写的，并非官方的。) |
+|-|-|-|极光针对Android和iOS各自都有SDK，只是目前极光还没有把统计集成到Flutter里。|
 
 ----
 
-> 登陆
+> 分享和登陆
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_qq|0.0.1|https://pub.dartlang.org/packages/flutter_qq|这个库集成了QQ登录、QQ分享、QQ空间分享。
-flutter_wechat|0.1.2|https://pub.dartlang.org/packages/flutter_wechat|这个库集成了微信，支持微信登录、分享、支付。
+| 库名           | 版本号 | 链接                                             | 描述                                                         |
+| -------------- | ------ | ------------------------------------------------ | ------------------------------------------------------------ |
+| sharesdk       | 1.0.9  | https://pub.dartlang.org/packages/sharesdk       | ShareSDK官方推出的功能的Flutter插件，用于分享、登陆等社交功能。 |
+| share          | 0.5.1  | https://pub.dartlang.org/packages/share          | 支持分享的flutter插件                                        |
+| flutter_qq     | 0.0.1  | https://pub.dartlang.org/packages/flutter_qq     | 这个库集成了QQ登录、QQ分享、QQ空间分享。                     |
+| flutter_wechat | 0.1.2  | https://pub.dartlang.org/packages/flutter_wechat | 这个库集成了微信，支持微信登录、分享、支付。                 |
+|-|-|-|极光针对Android和iOS各自都有SDK，只是目前极光还没有把分享和登陆集成到Flutter里。|
+|-|-|-|目前友盟的U-Share社会化分享还没有推出Flutter版本的插件库。|
 
-> 支付
+----
 
-库名|版本号|链接|描述
--|-|-|-
-flutter_alipay|0.1.0|https://pub.dartlang.org/packages/flutter_alipay|这个库继承了支付宝，兼容android和ios
+> 推送
 
+| 库名                 | 版本号 | 链接                                          | 描述                 |
+| -------------------- | ------ | --------------------------------------------- | -------------------- |
+| jpush-flutter-plugin | 0.0.11 | https://github.com/jpush/jpush-flutter-plugin | 极光推送官方的插件库 |
+|-|-|-|目前Mob的推送还没有推出Flutter版本的插件库。（Mob针对Android和iOS各自都有推送的SDK，只是目前Mob还没有把推送集成到Flutter里面）。|
+|-|-|-|目前友盟的U-push推送还没有推出Flutter版本的插件库。|
+
+----
+
+> IM(即时通讯等使用场景)
+
+| 库名                    | 版本号 | 链接                                             | 描述                                   |
+| ----------------------- | ------ | ------------------------------------------------ | -------------------------------------- |
+| jmessage-flutter-plugin | 0.0.15 | https://github.com/jpush/jmessage-flutter-plugin | 极光官方推出的IM聊天、社交功能的插件。 |
+
+----
+
+> RTC(音视频会议通话等使用场景)
+
+| 库名                    | 版本号 | 链接                                             | 描述                                   |
+| ----------------------- | ------ | ------------------------------------------------ | -------------------------------------- |
+|-|-|-|1.目前极光的JMRTC还没有推出Flutter版本的插件库。（极光针对Android和iOS各自都有SDK，只是目前极光还没有把JMRTC集成到Flutter里面）。|
+|Agora-Flutter-Quickstart|-|https://github.com/AgoraIO-Community/Agora-Flutter-Quickstart|声网官方集成的RTC SDK示例|
+
+----
 
 > 视频播放（本地视频、网上视频、或者rtmp源格式）
 
@@ -423,16 +429,26 @@ https://github.com/hyz1992/my_aliplayer    集成了阿里云播放器，可以�
 
 ----
 
-**以下几个暂未找到相关的三方库**
+> 支付
 
-* 推送
+| 库名           | 版本号 | 链接                                             | 描述                                 |
+| -------------- | ------ | ------------------------------------------------ | ------------------------------------ |
+||||目前的做法是：自己去把支付宝和微信分别集成。|
+| flutter_alipay | 0.1.0  | https://pub.dartlang.org/packages/flutter_alipay | 这个库继承了支付宝，兼容android和ios |
 
+----
+
+> SMS（短信验证码）
+
+库名|版本号|链接|描述
+-|-|-|-
+|mobsms|1.0.0|https://pub.dartlang.org/packages/mobsms
+|-|-|-|极光针对Android和iOS各自都有SDK，只是目前极光还没有把短信验证码集成到Flutter里。|
 
 ----
 
 ## 一个好玩的库：
 
-库名|版本号|链接|描述
--|-|-|-
-pwa|0.1.10|https://pub.dartlang.org/packages/pwa|基于Dart的PWA应用程序的库
-
+| 库名 | 版本号 | 链接                                  | 描述                      |
+| ---- | ------ | ------------------------------------- | ------------------------- |
+| pwa  | 0.1.10 | https://pub.dartlang.org/packages/pwa | 基于Dart的PWA应用程序的库 |
