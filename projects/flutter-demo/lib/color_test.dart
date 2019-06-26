@@ -125,4 +125,40 @@ void test() {
   color6.withBlue(100);
   // 替换掉原来颜色中的 opacity 值
   color6.withOpacity(0.8);
+  
+  
+  // 测试 fromRGBA 的用法
+  Color rgbaColor = fromRGBA(255, 181, 181, 255);
+  int red7 = rgbaColor.red;
+  int green7 = rgbaColor.green;
+  int blue7 = rgbaColor.blue;
+  int alpha7 = rgbaColor.alpha;
+  print("rgbaColor: " +
+      "    red: " +
+      red7.toString() +
+      "    green: " +
+      green7.toString() +
+      "    blue: " +
+      blue7.toString() +
+       "   alpha: " +
+      alpha7.toString()); // red: 255    green: 181    blue: 181  alpha: 255
+}
+
+// 设置把原有的ARGB方式转换成 RGBA，更符合某一些人的使用习惯
+Color fromRGBA(int red, int green, int blue, int alpha){
+  // 方式2：  参数4为：不透明度（0是完全透明，255是完全不透明）
+  Color color2 = Color.fromARGB(255, 255, 181, 181);
+  int alpha2 = color2.alpha;
+  int red2 = color2.red;
+  int green2 = color2.green;
+  int blue2 = color2.blue;
+  print("color2: " +
+      "    alpha: " +
+      alpha1.toString() +
+      "    red: " +
+      red2.toString() +
+      "    green: " +
+      green2.toString() +
+      "    blue: " +
+      blue2.toString()); // alpha: 255    red: 255    green: 181    blue: 181
 }
