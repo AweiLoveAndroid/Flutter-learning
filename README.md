@@ -76,6 +76,10 @@
 ##### :arrow_right: [Flutter中文官网  https://flutter-io.cn/](https://flutter-io.cn/)  
 官方的中文网，最新出来的，资料齐全，视频、博客、文档、最新咨询都有。
 
+
+##### :arrow_right: [Flutter教程]http://www.flutterj.com/)  
+
+
 ##### :arrow_right: [Flutter中文版 https://www.flutter123.com/](https://www.flutter123.com/) 
 本人自制的中文网，翻译更新的比较快，基本跟官网同步。
 
