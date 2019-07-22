@@ -401,7 +401,7 @@ github地址： https://github.com/flutter-dev/asset_generator
 | 库名                 | 版本号 | 链接                                          | 描述                 |
 | -------------------- | ------ | --------------------------------------------- | -------------------- |
 | jpush-flutter-plugin | 0.0.11 | https://github.com/jpush/jpush-flutter-plugin | 极光推送官方的插件库 |
-|-|-|-|目前Mob的推送还没有推出Flutter版本的插件库。（Mob针对Android和iOS各自都有推送的SDK，只是目前Mob还没有把推送集成到Flutter里面）。|
+|mobpush|0.0.5|https://pub.dartlang.org/packages/mobpush|Mob官方的推送插件。使用此插件能够帮助您在使用 Flutter 开发应用时，快速地实现推送功能。Demo例子：https://github.com/MobClub/MobPush-for-Flutter|
 |-|-|-|目前友盟的U-push推送还没有推出Flutter版本的插件库。|
 
 ----
@@ -442,8 +442,16 @@ https://github.com/hyz1992/my_aliplayer    集成了阿里云播放器，可以�
 
 库名|版本号|链接|描述
 -|-|-|-
-|mobsms|1.0.0|https://pub.dartlang.org/packages/mobsms
+|mobsms|1.0.1|https://pub.dartlang.org/packages/mobsms|为开发者提供全球通用的短信验证码工具。使用此插件能够帮助您在使用Flutter开发应用时,快速地实现获取验证码功能。|
 |-|-|-|极光针对Android和iOS各自都有SDK，只是目前极光还没有把短信验证码集成到Flutter里。|
+
+----
+
+> 网页页面跳转到App具体页面（APP的链接化）
+
+|库名|版本号|链接|描述|
+|-|-|-|-|
+|moblink|3.1.0|https://pub.dartlang.org/packages/moblink|MobLink提供Web与APP直接跳转的完全免费产品服务，实现网页间直接跳转升级为APP间直接跳转。|
 
 ----
 
