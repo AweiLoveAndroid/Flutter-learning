@@ -11,7 +11,6 @@
 * 1.Do not make any changes to the settings.jar file, otherwise please re-download the settings.jar flie.
 * 2.After importing, if the shortcut is not working, please check whether the code completions are correct in Android Studio or Intellij IDEA.
 
-
 ---
 
 ### 2.Set the fuzzy match:
@@ -34,7 +33,7 @@ Click menu bar `File → Settings → Editor → General → Code Completion →
 > Import into Android Studio or Intellij IDEA
 
 First open github [https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/code_plugins/settings.jar](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/code_plugins/settings.jar) and download the settings.jar file. The jar flie can be placed in any English file path.
-Then, click the menu bar `File → Import Settings`, then find the `Settings.jar` that you had downloaded and import it.
+Then, click the menu bar `File → Import Settings`, then find the `settings.jar` that you had downloaded and import it.
 
 ![](https://upload-images.jianshu.io/upload_images/6098829-450d5f8e17341ba7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/270/format/webp)
 
@@ -42,9 +41,13 @@ Then select the `live template` and `live template (schemes)` and click the `OK`
 
 ![](https://upload-images.jianshu.io/upload_images/6098829-5a16c2468a36d9d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/541/format/webp)
 
+**Tips: If you don't want to use  the keywords `new`, you should download the [](no_new_keywords/settings.jar) file, otherwise you should download the [](have_new_keywords/settings.jar) file.**
+
 > Import into VSCode
 
-For VSCode users, download the [https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/code_plugins/dart.json](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/code_plugins/dart.json) file and copy it to `C:\ Users\ Administrator \ AppData \ Roaming \ Code \ User \ Snippets \ directory (user is the username in the computer)`. If the file `dart.json` already exists, please replace it.
+For VSCode users, download the `dart.json` file and copy it to `C:\ Users\ Administrator \ AppData \ Roaming \ Code \ User \ Snippets \ directory (user is the username in the computer)`. If the file `dart.json` already exists, please replace it.
+
+**Tips: If you don't want to use  the keywords `new`, you should download the [](no_new_keywords/dart.json) file, otherwise you should download the [](have_new_keywords/dart.json) file.**
 
 ---
 
