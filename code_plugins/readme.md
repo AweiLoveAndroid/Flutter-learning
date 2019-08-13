@@ -41,13 +41,13 @@ Then select the `live template` and `live template (schemes)` and click the `OK`
 
 ![](https://upload-images.jianshu.io/upload_images/6098829-5a16c2468a36d9d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/541/format/webp)
 
-**Tips: If you don't want to use  the keywords `new`, you should download the [](no_new_keywords/settings.jar) file, otherwise you should download the [](have_new_keywords/settings.jar) file.**
+* **Tips: If you don't want to use  the keywords `new`, you should download the [no_new_keywords/settings.jar](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/code_plugins/no_new_keywords/settings.jar) file, otherwise you should download the [have_new_keywords/settings.jar](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/code_plugins/have_new_keywords/settings.jar) file.**
 
 > Import into VSCode
 
 For VSCode users, download the `dart.json` file and copy it to `C:\ Users\ Administrator \ AppData \ Roaming \ Code \ User \ Snippets \ directory (user is the username in the computer)`. If the file `dart.json` already exists, please replace it.
 
-**Tips: If you don't want to use  the keywords `new`, you should download the [](no_new_keywords/dart.json) file, otherwise you should download the [](have_new_keywords/dart.json) file.**
+* **Tips: If you don't want to use  the keywords `new`, you should download the [no_new_keywords/dart.json](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/code_plugins/no_new_keywords/dart.json) file, otherwise you should download the [have_new_keywords/dart.json](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/code_plugins/have_new_keywords/dart.json) file.**
 
 ---
 
