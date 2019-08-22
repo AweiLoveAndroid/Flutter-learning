@@ -80,12 +80,6 @@
 ##### :arrow_right: [Flutter教程]http://www.flutterj.com/)  
 
 
-##### :arrow_right: [Flutter中文版 https://www.flutter123.com/](https://www.flutter123.com/) 
-本人自制的中文网，翻译更新的比较快，基本跟官网同步。
-
-##### :arrow_right: [Flutter中文版 https://www.flutter123.cn](https://www.flutter123.cn/) 
-本人自制的中文网，翻译更新的比较快，基本跟官网同步。
-
 ##### :arrow_right: [Flutter Github地址 https://github.com/flutter/flutter](https://github.com/flutter/flutter)  
 Flutter开源库，上面有源码和示例项目。
 
