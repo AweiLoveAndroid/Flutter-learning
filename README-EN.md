@@ -19,7 +19,7 @@
 
 ## 1、Flutter Resources
 
-* #### :fire:   [Common libraries for Flutter(Everything you want is here)](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E7%9A%84%E9%9C%80%E8%A6%81%E4%B8%8E%E5%8E%9F%E7%94%9F%E4%BA%A4%E4%BA%92%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%BA%93.md)
+* #### :fire:   [Common libraries for Flutter(Everything you want is here)](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E7%9A%84%E9%9C%80%E8%A6%81%E4%B8%8E%E5%8E%9F%E7%94%9F%E4%BA%A4%E4%BA%92%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%BA%93/English_docs/Common libraries for Flutter.md)
 
 * #### [Flutter basis](https://www.jianshu.com/p/2c9867e737a1)
 
@@ -125,7 +125,6 @@
 Search `Flutter那些事` and follow me. For further information, please scan the QR code below to follow us.
 
 ![Wechat public account](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg?raw=true)
-
 
 ----
 
