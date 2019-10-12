@@ -19,7 +19,7 @@
 
 ## 1、Flutter Resources
 
-* #### :fire:   [Common libraries for Flutter(Everything you want is here)](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E7%9A%84%E9%9C%80%E8%A6%81%E4%B8%8E%E5%8E%9F%E7%94%9F%E4%BA%A4%E4%BA%92%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%BA%93/English_docs/Common libraries for Flutter.md)
+* #### :fire:   [Common libraries for Flutter(Everything you want is here)](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E7%9A%84%E9%9C%80%E8%A6%81%E4%B8%8E%E5%8E%9F%E7%94%9F%E4%BA%A4%E4%BA%92%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%BA%93/English_docs/Common%20libraries%20for%20Flutter.md)
 
 * #### [Flutter basis](https://www.jianshu.com/p/2c9867e737a1)
 
