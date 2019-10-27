@@ -53,7 +53,7 @@
 
 ## 三、自己写的轻量级路由框架 FRouter
 
-* :+1: 轻量级路由框架，让路由使用和书写更容易，更好处理和维护。值得关注一下。
+* :+1: [轻量级路由框架，让路由使用和书写更容易，更好处理和维护。值得关注一下。](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/FRouter)
 
 ----
 
