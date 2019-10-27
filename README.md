@@ -48,9 +48,16 @@
 
 * #### [自己封装的一个线性渐变工具类FractionalOffsetUtil.dart](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/projects/flutter-demo/util/FractionalOffsetUtil.dart)
 
+
 ----
 
-## 三、Flutter相关学习文档
+## 三、自己写的轻量级路由框架 FRouter
+
+* :+1: 轻量级路由框架，让路由使用和书写更容易，更好处理和维护。值得关注一下。
+
+----
+
+## 四、Flutter相关学习文档
 
 * #### [Flutter相关译文](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E8%AF%91%E6%96%87/Android%E5%BC%80%E5%8F%91%E8%80%85%E5%8F%82%E8%80%83.md)
 
@@ -66,7 +73,7 @@
 
 ----
 
-## 四、Flutter、Dart有关网站
+## 五、Flutter、Dart有关网站
 
 ###  ★   Flutter有关网站
 
