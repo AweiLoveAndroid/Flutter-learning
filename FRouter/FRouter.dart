@@ -176,14 +176,6 @@ class FRouter extends StatefulWidget {
   @override
   FRouterState createState() => FRouterState();
 
-  Map<String, WidgetBuilder> datas = {
-    '/pageone': (builder) {
-      return PageOne('数据1');
-    },
-    '/pagetwo': (builder) => PageTwo('数据2'),
-    '/pagethree': (builder) => PageThree('数据3'),
-  };
-
   /// 发送路由到新页面
   static sendRouterPage(BuildContext context, Widget page) {
     Navigator.of(context)
