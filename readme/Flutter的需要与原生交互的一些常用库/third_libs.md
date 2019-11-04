@@ -56,7 +56,8 @@
 | 库名                    | 版本号 | 链接                                                      | 描述                    |
 | ----------------------- | ------ | --------------------------------------------------------- | ----------------------- |
 | flutter_umeng_analytics | 0.0.1  | https://pub.dartlang.org/packages/flutter_umeng_analytics | 这个库集成了友盟统计sdk(网友写的，并非官方的。) |
-|-|-|-|极光针对Android和iOS各自都有SDK，只是目前极光还没有把统计集成到Flutter里。|
+|janalytics|0.0.3|https://github.com/jpush/janalytics-flutter-plugin|极光统计SDK的Flutter官方版本。|
+|-|-|-|目前友盟的U-App移动统计还没有推出Flutter版本的插件库。|
 
 ----
 
@@ -77,7 +78,7 @@
 
 | 库名                 | 版本号 | 链接                                          | 描述                 |
 | -------------------- | ------ | --------------------------------------------- | -------------------- |
-| jpush-flutter-plugin | 0.0.11 | https://github.com/jpush/jpush-flutter-plugin | 极光推送官方的插件库 |
+| jpush-flutter | 0.2.0 | https://github.com/jpush/jpush-flutter-plugin | 极光推送官方的插件库 |
 |mobpush|0.0.5|https://pub.dartlang.org/packages/mobpush|Mob官方的推送插件。使用此插件能够帮助您在使用 Flutter 开发应用时，快速地实现推送功能。Demo例子：https://github.com/MobClub/MobPush-for-Flutter|
 |-|-|-|目前友盟的U-push推送还没有推出Flutter版本的插件库。|
 
@@ -87,7 +88,8 @@
 
 | 库名                    | 版本号 | 链接                                             | 描述                                   |
 | ----------------------- | ------ | ------------------------------------------------ | -------------------------------------- |
-| jmessage-flutter-plugin | 0.0.15 | https://github.com/jpush/jmessage-flutter-plugin | 极光官方推出的IM聊天、社交功能的插件。 |
+|rongcloud_im_plugin|0.9.9|https://github.com/rongcloud/rongcloud-im-flutter-sdk|基于融云 iOS/Android 平台的 IMLib SDK。配套的示例项目请点击：https://github.com/rongcloud/imkit-flutter-quickstart|
+| jmessage-flutter | 0.4.0 | https://github.com/jpush/jmessage-flutter-plugin | 极光官方推出的IM聊天、社交功能的插件。 |
 
 ----
 
@@ -95,7 +97,8 @@
 
 | 库名                    | 版本号 | 链接                                             | 描述                                   |
 | ----------------------- | ------ | ------------------------------------------------ | -------------------------------------- |
-|-|-|-|1.目前极光的JMRTC还没有推出Flutter版本的插件库。（极光针对Android和iOS各自都有SDK，只是目前极光还没有把JMRTC集成到Flutter里面）。|
+|-|-|-|目前极光的JMRTC还没有推出Flutter版本的插件库。（极光针对Android和iOS各自都有SDK，只是目前极光还没有把JMRTC集成到Flutter里面）。|
+|rongcloud_rtc_plugin|0.9.9|https://github.com/rongcloud/rongcloud-rtc-flutter-sdk|基于 融云 iOS/Android 平台的 RTCLib SDK|
 |Agora-Flutter-Quickstart|-|https://github.com/AgoraIO-Community/Agora-Flutter-Quickstart|声网官方集成的RTC SDK示例|
 
 ----
@@ -120,7 +123,7 @@ https://github.com/hyz1992/my_aliplayer    集成了阿里云播放器，可以�
 库名|版本号|链接|描述
 -|-|-|-
 |mobsms|1.0.1|https://pub.dartlang.org/packages/mobsms|为开发者提供全球通用的短信验证码工具。使用此插件能够帮助您在使用Flutter开发应用时,快速地实现获取验证码功能。|
-|-|-|-|极光针对Android和iOS各自都有SDK，只是目前极光还没有把短信验证码集成到Flutter里。|
+|jverify|0.5.2|https://github.com/jpush/jverify-flutter-plugin|极光认证整合了三大运营商的网关认证能力，为开发者提供了一键登录和号码认证功能，目前极光把这些集成到Flutter里。|
 
 ----
 
@@ -129,6 +132,7 @@ https://github.com/hyz1992/my_aliplayer    集成了阿里云播放器，可以�
 |库名|版本号|链接|描述|
 |-|-|-|-|
 |moblink|3.1.0|https://pub.dartlang.org/packages/moblink|MobLink提供Web与APP直接跳转的完全免费产品服务，实现网页间直接跳转升级为APP间直接跳转。|
+|-|-|-|极光有一个JMLink SDK，目前有Android和iOS版，还没有Flutter版本，坐等完善。|
 
 ----
 
