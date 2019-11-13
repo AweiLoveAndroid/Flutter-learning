@@ -36,10 +36,17 @@
 * #### [我模仿Flutter中文官网写的一个本地的html页面，同时将官网的一些**未翻译的英文**页面**翻译**成了中文。](https://github.com/AweiLoveAndroid/FlutterWebsiteCN_Mine)
 
 
+----
+
+
+## 二、Flutter原创干货视频
+
+####  :fire: [Flutter基础快速入门全攻略](https://edu.csdn.net/course/detail/26227)  
+从开发实践中得来的经验和教训，全部免费赠送给大家。示例都是开发中用到的，结合具体案例做基础知识讲解，作者讲解的细致好懂，思路清晰，作者课后答疑解惑耐心仔细，帮助了很多开发者，难得一遇的良心讲师。
 
 ----
 
-## 二、相关示例代码和项目实战
+## 三、相关示例代码和项目实战
 
 * #### :fire:  [Flutter相关demo示例代码](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/projects/flutter-demo)
 
@@ -51,13 +58,13 @@
 
 ----
 
-## 三、自己写的轻量级路由框架 FRouter
+## 四、自己写的轻量级路由框架 FRouter
 
 * :+1: [轻量级路由框架，让路由使用和书写更容易，更好处理和维护。值得关注一下。](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/FRouter)
 
 ----
 
-## 四、Flutter相关学习文档
+## 五、Flutter相关学习文档
 
 * #### [Flutter相关译文](https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/flutter-learning-doc-resources/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E8%AF%91%E6%96%87/Android%E5%BC%80%E5%8F%91%E8%80%85%E5%8F%82%E8%80%83.md)
 
@@ -73,7 +80,7 @@
 
 ----
 
-## 五、Flutter、Dart有关网站
+## 六、Flutter、Dart有关网站
 
 ###  ★   Flutter有关网站
 
