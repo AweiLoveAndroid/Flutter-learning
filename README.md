@@ -41,7 +41,7 @@
 
 ## 二、Flutter原创干货视频
 
-####  :fire: [Flutter基础快速入门全攻略](https://edu.csdn.net/course/detail/26227)  
+####  :fire: :movie_camera: [Flutter基础快速入门全攻略](https://edu.csdn.net/course/detail/26227)  
 从开发实践中得来的经验和教训，全部免费赠送给大家。示例都是开发中用到的，结合具体案例做基础知识讲解，作者讲解的细致好懂，思路清晰，作者课后答疑解惑耐心仔细，帮助了很多开发者，难得一遇的良心讲师。
 
 ----
