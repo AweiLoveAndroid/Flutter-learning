@@ -3,11 +3,13 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter自定义及自由切换Logo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: MyApp(),
+      // 直接使用自定义Logo 使用这个
+      // home: MyHomePage(),
     ),
   );
 }
@@ -38,7 +40,7 @@ class MyAppState extends State<MyApp> {
         isChange = !isChange;
       } else {
         showWidgetContents = Contents().youtube;
-//        showWidgetContents = Contents().suning;
+        //        showWidgetContents = Contents().suning;
         texts = '切换至 PornHub Logo';
         isChange = !isChange;
       }
@@ -74,11 +76,98 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[400],
       appBar: AppBar(
-        title: Text('Flutter创建自定义Logo'),
+        title: Text('Flutter自定义及自由切换Logo'),
       ),
       body: ListView(
         children: <Widget>[
+          // 仿制更多自定义的Logo
+          //          Contents(
+          //            bgColor: Color.fromARGB(255, 4, 141, 87),
+          //            bgWidth: 150,
+          //            bgHeight: 150,
+          //            leftText: 'OPPO',
+          //            leftTextSize: 60,
+          //            leftTextColor: Colors.white,
+          //            rightBgColor: Color.fromARGB(255, 1, 159, 222),
+          //            rightBgBorderRadius: 5,
+          //            rightText: 'vivo',
+          //            rightTextColor: Colors.white,
+          //          ),
+          //          Contents(
+          //            bgColor: Colors.white,
+          //            bgWidth: 150,
+          //            bgHeight: 150,
+          //            leftText: '小米',
+          //            leftTextSize: 80,
+          //            leftTextColor: Colors.black,
+          //            rightBgColor: Color.fromARGB(255, 246, 123, 43),
+          //            rightBgBorderRadius: 5,
+          //            rightText: 'mi',
+          //            rightTextColor: Colors.white,
+          //          ),
+          //          Contents(
+          //            bgColor: Color.fromARGB(255, 2, 104, 188),
+          //            bgWidth: 150,
+          //            bgHeight: 150,
+          //            leftText: 'Suning',
+          //            leftTextSize: 60,
+          //            leftTextColor: Colors.white,
+          //            rightBgColor: Color.fromARGB(255, 2, 104, 188),
+          //            rightBgBorderRadius: 5,
+          //            rightText: '苏宁',
+          //            rightTextColor: Colors.white,
+          //          ),
+          //          Contents(
+          //            bgColor: Color.fromARGB(255, 236, 29, 23),
+          //            bgWidth: 150,
+          //            bgHeight: 150,
+          //            leftText: '高露潔',
+          //            leftTextSize: 40,
+          //            leftTextColor: Colors.white,
+          //            rightBgColor: Color.fromARGB(255, 236, 29, 23),
+          //            rightBgBorderRadius: 5,
+          //            rightText: 'Colgate®',
+          //            rightTextColor: Colors.white,
+          //          ),
+          //          Contents(
+          //            bgColor: Colors.white,
+          //            bgWidth: 150,
+          //            bgHeight: 150,
+          //            leftText: 'Tencent',
+          //            leftTextSize: 50,
+          //            leftTextColor: Color.fromARGB(255, 0, 82, 217),
+          //            rightBgColor: Colors.white,
+          //            rightBgBorderRadius: 5,
+          //            rightText: '腾讯',
+          //            rightTextColor: Color.fromARGB(255, 0, 82, 217),
+          //          ),
+          //          Contents(
+          //            bgColor: Color.fromARGB(255, 199, 21, 33),
+          //            bgWidth: 150,
+          //            bgHeight: 150,
+          //            leftText: 'JD.COM',
+          //            leftTextSize: 50,
+          //            leftTextColor: Color.fromARGB(255, 249, 253, 252),
+          //            rightBgColor: Color.fromARGB(255, 199, 21, 33),
+          //            rightBgBorderRadius: 5,
+          //            rightText: '京东',
+          //            rightTextColor: Color.fromARGB(255, 249, 253, 252),
+          //          ),
+          //          Contents(
+          //            bgColor: Color.fromARGB(255, 255, 69, 18),
+          //            bgWidth: 150,
+          //            bgHeight: 150,
+          //            leftText: 'mobike',
+          //            leftTextSize: 40,
+          //            leftTextColor: Colors.white,
+          //            rightBgColor: Color.fromARGB(255, 255, 69, 18),
+          //            rightBgBorderRadius: 5,
+          //            rightText: '摩拜单车',
+          //            rightTextColor: Colors.white,
+          //          ),
+
           MyInheritedWidget.of(context).showWidgetContents,
           RaisedButton(
             onPressed: () {
