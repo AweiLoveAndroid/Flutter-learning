@@ -10,14 +10,26 @@
 
 #### `hub_demo`: Flutter仅用100行轻松实现自定义P站和油管的Logo及自由切换Logo功能。
 
-代码戳这里：[](hub_demo/hub_demo.dart)
+> `hub_demo`自由切换Logo功能效果图：
 
-配套视频请戳这里：[Flutter仅用100行轻松实现自定义P站和油管的Logo及自由切换Logo功能](https://www.bilibili.com/video/av75564707/)
+![](hub_demo/sample.gif)
+
+> `hub_demo`自定义各种风格的Logo效果图：
+
+![](hub_demo/sample2.gif)
+
+> 代码戳这里：[](hub_demo/hub_demo.dart)
+
+> 配套视频请戳这里：[Flutter仅用100行轻松实现自定义P站和油管的Logo及自由切换Logo功能](https://www.bilibili.com/video/av75564707/)
 
 
 
 #### `flutter_adobe_logo`: Flutter轻松实现Adobe全家桶Logo列表功能。
 
-代码戳这里：[](flutter_adobe_logo/flutter_adobe_logo.dart)
+> `flutter_adobe_logo`效果图：
 
-配套视频请戳这里：[Flutter轻松实现Adobe全家桶Logo列表功能](https://www.bilibili.com/video/av75750858/)
+![](flutter_adobe_logo/sample.gif)
+
+> 代码戳这里：[](flutter_adobe_logo/flutter_adobe_logo.dart)
+
+> 配套视频请戳这里：[Flutter轻松实现Adobe全家桶Logo列表功能](https://www.bilibili.com/video/av75750858/)
