@@ -11,6 +11,7 @@
 | flutter_map | 0.0.10 | https://pub.dartlang.org/packages/flutter_map | 基于leaflet的Flutter地图包                                   |
 | location    | 1.3.4  | https://pub.dartlang.org/packages/location    | 这个插件 处理Android和iOS上的位置。它还提供位置更改时的回调。 |
 | latlong     | 0.5.3  | https://pub.dartlang.org/packages/latlong     | LatLong是一个计算通用的纬度和经度的轻量级库。                |
+|amap_core_fluttify|-|https://github.com/fluttify-project|一组库，[amap_base](https://pub.dartlang.org/packages/amap_base)作者新起的项目|
 
 ----
 
@@ -68,6 +69,7 @@
 | sharesdk       | 1.0.9  | https://pub.dartlang.org/packages/sharesdk       | ShareSDK官方推出的功能的Flutter插件，用于分享、登陆等社交功能。 |
 | share          | 0.5.1  | https://pub.dartlang.org/packages/share          | 支持分享的flutter插件                                        |
 | flutter_qq     | 0.0.1  | https://pub.dartlang.org/packages/flutter_qq     | 这个库集成了QQ登录、QQ分享、QQ空间分享。                     |
+| fluwx     | 1.1.3  | https://pub.dartlang.org/packages/fluwx  https://github.com/OpenFlutter/fluwx   | 适用于Flutter的微信SDK，方便快捷。文本分享。网站分享。图片分享。音乐分享。视频分享。小程序分享。发送Auth认证（登录）。支付。打开小程序。一次性订阅消息。二维码登录。签约免密支付。打开微信。 |
 | flutter_wechat | 0.1.2  | https://pub.dartlang.org/packages/flutter_wechat | 这个库集成了微信，支持微信登录、分享、支付。                 |
 |-|-|-|极光针对Android和iOS各自都有SDK，只是目前极光还没有把分享和登陆集成到Flutter里。|
 |-|-|-|目前友盟的U-Share社会化分享还没有推出Flutter版本的插件库。|
@@ -115,6 +117,7 @@ https://github.com/hyz1992/my_aliplayer    集成了阿里云播放器，可以�
 | -------------- | ------ | ------------------------------------------------ | ------------------------------------ |
 ||||目前的做法是：自己去把支付宝和微信分别集成。|
 | flutter_alipay | 0.1.0  | https://pub.dartlang.org/packages/flutter_alipay | 这个库继承了支付宝，兼容android和ios |
+| fluwx     | 1.1.3  | https://pub.dartlang.org/packages/fluwx  https://github.com/OpenFlutter/fluwx   | 适用于Flutter的微信SDK，方便快捷。文本分享。网站分享。图片分享。音乐分享。视频分享。小程序分享。发送Auth认证（登录）。支付。打开小程序。一次性订阅消息。二维码登录。签约免密支付。打开微信。 |
 
 ----
 

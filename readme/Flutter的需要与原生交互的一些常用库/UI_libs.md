@@ -4,9 +4,9 @@
 
 | 库名  | 版本号  | 链接  | 描述  |
 | --------- | ------- | ---------- | ---------- |
-| font_awesome_flutter | 7.0.0 | https://pub.dev/packages/font_awesome_flutter | 图标字体的一个库   |
 | fluttertoast | 2.0.3 | https://pub.dev/packages/fluttertoast   | 用于Android和ios的toast库。 | |
 | camera  | 0.2.9+1 | https://pub.dev/packages/camera   | 谷歌官方的相机库。用于在Android和iOS上获取有关和控制相机的信息。支持预览相机馈送和捕捉图像，可以用来视频录制，新增对拍照的方向的处理。 |
+|bot_toast|2.1.1|https://pub.dev/packages/bot_toast  https://github.com/MMMzq/bot_toast | 真正意义上的Toast,可以在任何你需要的时候调用,不会有任何限制!|
 
 **图标有关的开源库 ↓**
 
@@ -14,6 +14,9 @@
 | -------- | ------ | ------- | ------- |
 | cupertino_icons | 0.1.2  | https://pub.dev/packages/cupertino_icons | Cupertino的图标组件库  |
 | flutter_launcher_icons | 0.6.0  | https://pub.dev/packages/flutter_launcher_icons  或者github地址https://github.com/fluttercommunity/flutter_launcher_icons | 一个命令行工具，简化了更新Flutter应用程序启动图标的任务。 完全灵活，您可以选择要更新启动图标的平台，如果需要，可以选择保留旧的启动图标，以防将来某个时候还原旧图标。 |
+| font_awesome_flutter | 7.0.0 | https://pub.dev/packages/font_awesome_flutter | 图标字体的一个库   |
+| iconfont_dart  | 0.3.3 | https://pub.dev/packages/iconfont_dart | 导入 iconfont，只需要编译一次，就可以帮你快速生成 icon |
+|flutter_custom_clippers | 1.1.0| https://pub.dev/packages/flutter_custom_clippers | 提供了自定义剪切器，可帮助您实现各种自定义形状。|
 
 **富文本 ↓**
 
