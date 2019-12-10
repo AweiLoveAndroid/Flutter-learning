@@ -43,8 +43,7 @@
 | 库名    | 版本号       | 链接                                      | 描述                                                   |
 | ------- | ------------ | ----------------------------------------- | ------------------------------------------------------ |
 | codable | 1.0.0-beta.2 | https://pub.dartlang.org/packages/codable | 用于将动态结构化数据（JSON，YAML）转换为Dart类型的库。 |
-|Dson|0.16.0|https://pub.dartlang.org/packages/dson|描述：Dson的github地址 https://github.com/drails-dart/dson
-  DSON是一个将Dart对象转换为JSON的库。(用于web)这个库是Dartson的一个分支，但又有不同。|
+|Dson|0.16.0|https://pub.dartlang.org/packages/dson|描述：Dson的github地址 https://github.com/drails-dart/dson，DSON是一个将Dart对象转换为JSON的库。(用于web)这个库是Dartson的一个分支，但又有不同。|
 
 > Github上面的库或者IDE插件：
 
