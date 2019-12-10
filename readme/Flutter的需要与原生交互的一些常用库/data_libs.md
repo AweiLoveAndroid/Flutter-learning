@@ -43,17 +43,15 @@
 | 库名    | 版本号       | 链接                                      | 描述                                                   |
 | ------- | ------------ | ----------------------------------------- | ------------------------------------------------------ |
 | codable | 1.0.0-beta.2 | https://pub.dartlang.org/packages/codable | 用于将动态结构化数据（JSON，YAML）转换为Dart类型的库。 |
+|Dson|0.16.0|https://pub.dartlang.org/packages/dson|描述：Dson的github地址 https://github.com/drails-dart/dson
+  DSON是一个将Dart对象转换为JSON的库。(用于web)这个库是Dartson的一个分支，但又有不同。|
+
+> Github上面的库或者IDE插件：
 
 * https://github.com/javiercbk/json_to_dart  根据json生成Dart实体类
 * https://github.com/debuggerx01/JSONFormat4Flutter   这是一个AS的辅助插件，将JSONObject格式的String解析成Dart的实体类
 
-
-
-* Dson 0.13.2 下载地址 https://pub.dartlang.org/packages/dson  
-  描述：Dson的github地址 https://github.com/drails-dart/dson
-  DSON是一个将Dart对象转换为JSON的库。(用于web)这个库是Dartson的一个分支，但又有不同。
-* Dartson是一个Dart库，可用于将Dart对象转换为JSON字符串。
-  https://github.com/eredo/dartson  （用于web）
+* JsonToDartWeb是一个全平台的json转Dart的工具，支持包括：Windows，Mac，Web以及Linux(linux待测试）。Github地址：https://github.com/fluttercandies/JsonToDartWeb
 
 > **几个Json库的比较：[https://github.com/drails-dart/dart-serialise](https://github.com/drails-dart/dart-serialise)**
 
@@ -67,6 +65,10 @@
 | Interop           | 70 KB     | 61.55 ms      | 14.96 ms        | 2.49 ms     | 2.93 ms       |
 | Jaguar_serializer | 88 KB     | 8.57 ms       | 6.58 ms         | 10.31 ms    | 8.59 ms       |
 | Jackson (Groovy)  |           | 496 ms        | 252 ms          | n/a         | n/a           |
+
+> 反序列化（将Dart文件转换成json字符串）
+
+* Dartson是一个Dart库，可用于将Dart对象转换为JSON字符串。github地址：https://github.com/eredo/dartson  （用于web）
 
 ----
 
