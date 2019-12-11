@@ -72,7 +72,7 @@
 >  让Json在手机上可视化的插件（可以体验一下）
 | 库名    | 版本号       | 链接                                      | 描述                                                   |
 | ------- | ------------ | ----------------------------------------- | ------------------------------------------------------ |
-|json_table|1.3.2|https://pub.dev/packages/json_table|这个Flutter软件包提供了一个Json Table小部件，用于直接显示json（Map）中的表。还支持列切换。|
+|json_table|1.3.2|[https://pub.dev/packages/json_table](https://pub.dev/packages/json_table)|这个Flutter软件包提供了一个Json Table小部件，用于直接显示json（Map）中的表。还支持列切换。|
 
 ----
 
