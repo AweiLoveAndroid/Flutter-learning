@@ -74,6 +74,8 @@
 |库名|版本号|链接|描述|
 |----|----|----|----|
 |json_table|1.3.2|[https://pub.dev/packages/json_table](https://pub.dev/packages/json_table)|这个Flutter软件包提供了一个Json Table小部件，用于直接显示json（Map）中的表。还支持列切换。|
+|flutter_json_widget|1.0.2|[https://pub.dev/packages/flutter_json_widget](https://pub.dev/packages/flutter_json_widget)|这是一个用于显示Json对象的组件，可以查看Json的内容（相当于Flutter版的JsonViewer的工具）|
+
 
 ----
 
