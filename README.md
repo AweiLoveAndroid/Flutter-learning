@@ -58,9 +58,17 @@
 
 ----
 
-## 四、自己写的轻量级路由框架 FRouter
+## 四、本人的开源框架和插件库
 
-* :+1: [轻量级路由框架，让路由使用和书写更容易，更好处理和维护。值得关注一下。](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/FRouter)
+* #### :fire: [自己写的轻量级路由框架 FRouter，让路由使用和书写更容易，更好处理和维护。值得关注一下。](https://github.com/AweiLoveAndroid/Flutter-learning/tree/master/FRouter)
+
+* #### :+1: [友盟统计Flutter插件](https://github.com/AweiLoveAndroid/umeng_analytics_flutter)
+
+* #### :+1: [Flutter调用Android的电量和判断是否充电插件](https://github.com/AweiLoveAndroid/flutter_os)
+
+* #### :+1: [Flutter获取Android设备信息插件](https://github.com/AweiLoveAndroid/flutter_device_information)
+
+* #### :+1: [Flutter常用的工具类](https://github.com/AweiLoveAndroid/FlutterUtil)
 
 ----
 
