@@ -129,23 +129,23 @@ npm install yarn -g
 
 > 1、使用以下命令：
 
-    npm config set registry=http://registry.npm.taobao.org/
+    npm config set registry=https://registry.npmmirror.com/
 
 
 > 2、或者使用全局设置的命令：
 
-    npm config set registry https://registry.npm.taobao.org --global
-    npm config set disturl https://npm.taobao.org/dist --global
+    npm config set registry https://registry.npmmirror.com --global
+    npm config set disturl https://npmmirror.com/dist --global
 
 
 > 3、找到node.js的安装目录，进入nodejs\node_modules\npm找到文件npmrc，打开后在该文件末尾加上
 
-    registry = https://registry.npm.taobao.org
+    registry = https://registry.npmmirror.com
 
 然后保存退出即可。
 
 
 > 4、给yarn设置镜像：
 
-    yarn config set registry https://registry.npm.taobao.org --global
-    yarn config set disturl https://npm.taobao.org/dist --global
+    yarn config set registry https://registry.npmmirror.com --global
+    yarn config set disturl https://npmmirror.com/dist --global
